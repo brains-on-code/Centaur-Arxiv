@@ -1,0 +1,4 @@
+participant,answer,correct,likelihoods
+Gopstein17a_no_order_no_desc_task_30_1.csv_0,1,"[24, None]","[[17, 0.05973851680755615], [24, 0.8246647715568542], [220, 0.030038412660360336]]"
+Gopstein17a_no_order_no_desc_task_30_1.csv_1,1,"[13, None]","[[13, 0.9853036403656006]]"
+Gopstein17a_no_order_no_desc_task_30_1.csv_2,1,"[15, None]","[[15, 0.23719918727874756], [410, 0.028329402208328247], [931, 0.7306249141693115]]"

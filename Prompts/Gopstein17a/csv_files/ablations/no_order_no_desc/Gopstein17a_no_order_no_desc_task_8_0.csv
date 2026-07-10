@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() { 
+   int V1;
+   V1 = 3 + (9 / 3);
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 6 >>.
+",task_8,Gopstein17a

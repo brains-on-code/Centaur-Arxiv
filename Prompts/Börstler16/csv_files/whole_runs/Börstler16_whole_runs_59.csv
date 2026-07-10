@@ -1,0 +1,451 @@
+text,participant,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Create trouble ticket with context reference. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest); 
+    
+    /* Log message to file. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+
+    /* Log message to output. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    log(troubleTicket.toString()); 
+    
+    /* Remember most recent ticket and inform webmaster. */ 
+    HttpSession session = aRequest.getSession(); 
+    ServletContext context = session.getServletContext(); 
+    context.setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Create trouble ticket with context reference. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest); 
+    
+    /* Log message to file. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message to output. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    A:_____________________________; 
+    
+    /* Remember most recent ticket and inform webmaster. */ 
+    HttpSession session = aRequest.getSession(); 
+    B:_____________________ = session.C:_________________; 
+    context.setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << log(troubleTicket.toString()) >>.
+Your answer for B: << context >>.
+Your answer for C: << getContext >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+
+You are shown the Snippet:
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+
+    /* If projectSpace is not null */ 
+    if (projectSpace != null) {  
+
+        /* Define local variables. */ 
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+
+        if (property != null) { 
+            Value value = property.getValue();
+
+            /* If value is not null and if nstore is acknowledged,   */ 
+            /* then remove nstore-notifications from notifications.  */ 
+            /* Otherwise, add nstore-notifications to notifications. */ 
+            if (value != null && value instanceof NotificationComposite) { 
+                NotificationComposite nComposite = value; 
+
+                if (nStore.isAcknowledged()) { 
+                    nComposite.getNotifications().removeAll( 
+                        nStore.getNotifications()); 
+                } else { 
+                    nComposite.getNotifications().addAll( 
+                        nStore.getNotifications()); 
+                } 
+            }  
+        } else { 
+
+            /* If property is not null                  */ 
+            /* and if nStore is not acknowledged,       */ 
+            /* then add nStore-notifications,           */ 
+            /* and set NOTIFICATION_COMPOSITE property. */ 
+            if (!nStore.isAcknowledged()) { 
+
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+
+                nComposite.getNotifications().addAll( 
+                    nStore.getNotifications()); 
+                    
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+
+    /* If projectSpace is not null */ 
+    if (projectSpace != null) {  
+
+        /* Define local variables. */ 
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+
+        if (A:_______________) { 
+            Value value = property.getValue();
+
+            /* If value is not null and if nstore is acknowledged,   */ 
+            /* then remove nstore-notifications from notifications.  */ 
+            /* Otherwise, add nstore-notifications to notifications. */ 
+            if (value != null && value instanceof NotificationComposite) { 
+                NotificationComposite nComposite = value; 
+
+                if (nStore.isAcknowledged()) { 
+                    nComposite.getNotifications().removeAll( 
+                        nStore.getNotifications()); 
+                } else { 
+                    B:____________________________________
+                      ___________________________________;
+                } 
+            }  
+        } else { 
+
+            /* If property is not null                  */ 
+            /* and if nStore is not acknowledged,       */ 
+            /* then add nStore-notifications,           */ 
+            /* and set NOTIFICATION_COMPOSITE property. */ 
+            if (!nStore.isAcknowledged()) { 
+
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+
+                nComposite.getNotifications().addAll( 
+                    nStore.getNotifications()); 
+                    
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << property != null >>.
+Your answer for B: << nComposite.addNotifications(nStore.getNotifications()) >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+
+You are shown the Snippet:
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table. 
+ */ 
+protected Table writeUTable(UTable uTable) 
+{ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    BoxModelOption option = uTable.getBoxModel(); 
+    UColor color = option.getBorderColor(); 
+    table.setBorderColor(new Color     
+        (color.getRed(),color.getGreen(),color.getBlue())); 
+    
+    Cell cell;                 
+    for (UTableCell uCell : uTable.getEntries()) { 
+        UParagraph paragraph = uCell.getContent(); 
+        UChildren children = paragraph.getChildren(); 
+        
+        if (children.size() > 0 && children.get(0) instanceof UImage) { 
+        
+            UImage image = children.get(0); 
+            Path path = image.getPath(); 
+            USegment segment = path.lastSegment(); 
+            
+            if (segment.startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            } else { 
+                if (segment.startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(segment); 
+                } 
+            }
+
+            option = uCell.getBoxModel(); 
+            color = option.getBackgroundColor(); 
+            if (color != null) { 
+                cell.setBackgroundColor(color); 
+            } 
+        } 
+        table.addCell(cell); 
+    } 
+    return table; 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 3.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table. 
+ */ 
+protected Table writeUTable(UTable uTable) 
+{ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    BoxModelOption option = uTable.getBoxModel(); 
+    UColor color = option.getBorderColor(); 
+    table.setBorderColor(new Color     
+        (color.getRed(),color.getGreen(),color.getBlue())); 
+    
+    Cell cell;                 
+    for (UTableCell uCell : uTable.getEntries()) { 
+        UParagraph paragraph = uCell.getContent(); 
+        UChildren children = paragraph.getChildren(); 
+        
+        if (children.size() > 0 && children.get(0) instanceof UImage) { 
+        
+            UImage image = children.get(0); 
+            Path path = image.getPath(); 
+            USegment segment = path.lastSegment(); 
+            
+            if (segment.startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            } else { 
+                if (segment.startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(segment); 
+                } 
+            }
+
+            option = A:__________________; 
+            B:____ = C:___________________________; 
+            if (D:____ != null) { 
+                cell.setBackgroundColor(E:_____); 
+            } 
+        } 
+        F:____________________; 
+    } 
+    return table; 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << cell >>.
+Your answer for E: << ? >>.
+Your answer for F: << table.add(cell) >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 2.0 >>.
+
+You are shown the Snippet:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+
+    /* Add move data. */ 
+    builder.append(moveNumber); 
+    builder.append(move.isWhitesMove() ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+
+    /* Add sublines. */ 
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+
+    /* Add comments. */ 
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    /* Add NAGs. */ 
+    for (Nag nag : move.getNags()) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+    
+    /* Add time. */  
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    return result; 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+
+    /* Add move data. */ 
+    builder.append(moveNumber); 
+    builder.append(A:_________________________ ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+
+    /* Add sublines. */ 
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+
+    /* Add comments. */ 
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    /* Add NAGs. */ 
+    for (B:_______________________) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+    
+    /* Add time. */  
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    return result; 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << append( >>.
+Your answer for B: << NAG nag : move.getNAGs() >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+
+You are shown the Snippet:
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    int maxExtent = gc.textExtent(textValue).x; 
+    int maxWidth = control.getBounds().width - 5; 
+
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    while (start >= 0 && end < length) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        int l = gc.textExtent(s).x; 
+        
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+} 
+You are asked to rate this snippets readability.
+Your Answer: << 3.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    int maxExtent = gc.textExtent(textValue).x; 
+    int maxWidth = A:____________________________;
+
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    while (B:_________________________) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        int l = gc.textExtent(s).x; 
+        
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+} 
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << width()-5 >>.
+Your answer for B: << true >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 3.0 >>.
+",59,Börstler16

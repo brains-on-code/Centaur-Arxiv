@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+            // ----------------------------------------------------------------
+            // required
+            // ----------------------------------------------------------------
+            addColumn(t, ""PROCEDURE_CAT"", Types.VARCHAR);
+            addColumn(t, ""PROCEDURE_SCHEM"", Types.VARCHAR);
+            addColumn(t, ""PROCEDURE_NAME"", Types.VARCHAR, false);    // not null
+
+Your answer: << 2 >>. 
+",54,Buse10

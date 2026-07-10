@@ -1,0 +1,672 @@
+text,participant,experiment
+"You will be shown a series of C code snippets, which you should try to comprehend. 
+For each snippet please type the standard output of the program, emitted by the printf function. 
+If you are unsure about an answer or part of an answer you can instead respond with ?.
+If you believe that a snippet produces no output or that its full output cannot be sensibly determined respond with _.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 0 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 126 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 5 3 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true  >> << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 13 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << abcdef >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << e >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 7 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 7 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 3 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 126 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << h >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true  >> << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 8 3 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+Your answer: << 10 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 6 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 7 7 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true  >> << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << c >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << d >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 9 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 0 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true  >> << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+Your answer: << abcdefabcdef >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << g >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << v >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+Your answer: << 21 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 8 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 7 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 -1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << d >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 3 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << b >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 0 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 9 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 4 10 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 23 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 3 5 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 10 >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+",1,Gopstein17a

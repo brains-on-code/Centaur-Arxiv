@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+        classNames = classNameSet.iterator();
+
+        while (classNames.hasNext()) {
+            className = (String) classNames.next();
+            methods   = iterateRoutineMethods(className, andAliases);
+
+Your answer: << 5 >>. 
+",74,Buse10

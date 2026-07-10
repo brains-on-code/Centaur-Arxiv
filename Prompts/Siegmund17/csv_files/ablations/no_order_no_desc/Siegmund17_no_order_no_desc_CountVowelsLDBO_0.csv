@@ -1,0 +1,46 @@
+text,snippet,experiment
+"
+
+
+
+
+    public int countVowels(String word) {
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+        int numberOfVowels = 0;
+
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = 0; j < vowels.length; j++) {
+                if (word.charAt(i) == vowels[j]) {
+                    numberOfVowels++;
+                }
+            }
+        }
+
+        return numberOfVowels;
+    }
+
+
+
+    public int countVowels(String gsuc) {
+        char[] vowels
+        = {'a', 'e',
+        'i', 'o', 'u'};
+        int
+        numberOfVowels = 0;
+
+                    for (int i = 0; i < gsuc.length();
+                    i++) {
+                    for (int j = 0; j <
+                    vowels.length; j++) {
+                if (gsuc.charAt(i)
+            == vowels[j]) {
+                numberOfVowels++;
+                }
+            }
+        }
+
+        return numberOfVowels;
+    }
+
+Your Answer: << X >>.
+",CountVowelsLDBO,Siegmund17

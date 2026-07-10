@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 1.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << troubleticket.tostring >>.
+Your answer for B: << servletcontext context >>.
+Your answer for C: << getserveletcontext >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << property != null >>.
+Your answer for B: << ? >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << background.color >>.
+Your answer for B: << red >>.
+Your answer for C: << background.color >>.
+Your answer for D: << red >>.
+Your answer for E: << else >>.
+Your answer for F: << table.retun >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << append(move.int) >>.
+Your answer for B: << builder.append >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << gc.textWidth(text.Value).x >>.
+Your answer for B: << string s >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

@@ -1,0 +1,10 @@
+public int pink(int gaicy) {
+    int result = 1;
+
+    while (gaicy > 1) {
+        result = result * gaicy;
+        gaicy--;
+    }
+
+    return result;
+}

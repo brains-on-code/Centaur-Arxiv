@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 1.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << getboxmodel? >>.
+Your answer for B: << color >>.
+Your answer for C: << getbackgroundcolor >>.
+Your answer for D: << color >>.
+Your answer for E: << color >>.
+Your answer for F: << table.addcell(cell) >>.
+Your Answer: << 1.0 >>.
+",1,Börstler16

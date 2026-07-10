@@ -1,0 +1,94 @@
+text,participant,experiment
+" 
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 4 >>.
+
+
+
+You see a pair of code snippets.
+
+Your answer: << 4 >>.
+
+
+
+You see a pair of code snippets.
+
+Your answer: << 5 >>.
+
+
+
+You see a pair of code snippets.
+
+Your answer: << 1 >>.
+
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 4 >>.
+
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a pair of code snippets.
+
+Your answer: << 3 >>.
+
+
+
+You see a pair of code snippets.
+
+
+Your answer: << 3 >>.
+
+
+
+
+variable1 = variable2++;
+
+
+variable1 = variable2;
+variable2 = variable2  + 1
+
+
+
+Your answer: << 5 >>.
+
+
+
+ 
+variable1 = --variable2;
+
+
+variable2 = variable2 - 1;
+variable1 = variable2;
+
+
+
+Your answer: << 4 >>.
+",1,Medeiros19

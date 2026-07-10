@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char *V1 = &(""abcdef""[2]);
+   printf(""%s\n"", V1);
+}
+
+Your answer: << ab >>.
+",task_44,Gopstein17a

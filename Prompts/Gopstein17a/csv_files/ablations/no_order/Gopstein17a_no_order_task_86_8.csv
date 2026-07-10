@@ -1,0 +1,22 @@
+text,snippet,experiment
+"You will be shown a series of C code snippets, which you should try to comprehend. 
+For each snippet please type the standard output of the program, emitted by the printf function. 
+If you are unsure about an answer or part of an answer you can instead respond with ?.
+If you believe that a snippet produces no output or that its full output cannot be sensibly determined respond with _.
+
+You see the snippet:
+
+void main() {
+   int V1[6];
+   int V2 = 5;
+
+   while (V2) {
+      V1[5 - V2] = V2;
+      V2 = V2 - 1;
+   }
+
+   printf(""%d %d\n"", V1[1], V2);
+}
+
+Your answer: << 1 >>.
+",task_86,Gopstein17a

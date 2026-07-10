@@ -1,0 +1,17 @@
+text,snippet,experiment
+"
+ 
+
+
+int[] a;
+…
+printf(""%d"", 1[a]);
+
+
+int[] a;
+…
+printf(""%d"", a[1]);
+
+
+Your answer: << 3 >>.
+",task_p7,Medeiros19

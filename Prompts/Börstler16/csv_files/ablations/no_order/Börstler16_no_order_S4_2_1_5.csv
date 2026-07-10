@@ -1,0 +1,108 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    /* Add move number and move details. */  
+    builder.append(moveNumber); 
+    builder.append(move.isWhitesMove() ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+    
+    /* Add all available analysis data (sublines). */ 
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    /* Add all text comments of the move. */ 
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    /* Add all Numeric Annotations Glyphs (NAGs) of the move. */ 
+    for (Nag nag : move.getNags()) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+
+    /* Add time taken for the move. */  
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    
+    return result; 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    /* Add move number and move details. */  
+    builder.append(moveNumber); 
+    builder.A:_________________________ ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+    
+    /* Add all available analysis data (sublines). */ 
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    /* Add all text comments of the move. */ 
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    /* Add all Numeric Annotations Glyphs (NAGs) of the move. */ 
+    for (B:_______________________) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+
+    /* Add time taken for the move. */  
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    
+    return result; 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << append((moveColor==White) >>.
+Your answer for B: << NumericAnnotations nag : move.getNag() >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+",S4_2_1,Börstler16

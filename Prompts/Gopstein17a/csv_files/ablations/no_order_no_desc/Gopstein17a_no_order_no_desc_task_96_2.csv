@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char V1 = 4;
+   char* V2 = ""abcdef"";
+   char V3 = V2[V1];
+
+   printf(""%c\n"", V3);
+}
+
+Your answer: << 4 >>.
+",task_96,Gopstein17a

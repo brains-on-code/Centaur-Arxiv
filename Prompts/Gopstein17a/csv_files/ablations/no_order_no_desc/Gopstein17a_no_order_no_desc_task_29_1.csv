@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 2;
+   printf(""%f\n"", 2.5 * V1);
+}
+
+Your answer: << 5.00000000 >>.
+",task_29,Gopstein17a

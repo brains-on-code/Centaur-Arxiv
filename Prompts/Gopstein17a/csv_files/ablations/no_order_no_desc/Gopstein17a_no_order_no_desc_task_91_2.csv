@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char V1 = 2[""qwert""];
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << e >>.
+",task_91,Gopstein17a

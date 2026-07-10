@@ -1,0 +1,257 @@
+text,participant,experiment
+"You participate in a game as part of research in software engineering with the aim to measure the comprehension of different code snippets. 
+Note that the goal is to characterize the different code snippets, not to evaluate the programmers!
+During the game you will be given code snippets of varying difficulty drawn randomly from a pool. 
+There is a time limit for each question.
+Try to answer every question as quickly as possible (and of course correctly, but please think it out and do not guess!).
+Remember that your score depends on how fast and how correctly you answered. 
+The total time is expected to be about 15 minutes. 
+To answer a question type out the output of the code. 
+Assume that print() prints the output without spaces or new line.
+
+
+You see the code snippet:
+
+var x = 19;
+if (x>40) {
+	if (x<50) {
+		print (""1"");
+	}
+	else {
+		print (""2"");
+	}
+}
+else if (x<30) {
+	if (x>20) {
+		print (""3"");
+	}
+	else if (x<10) {
+		if (x>0) {
+			print (""4"");
+		}
+		else {
+			print (""5"");
+		}
+	}
+	else {
+		print (""6"");
+	}
+}
+else {
+	print (""7"");
+}
+
+Your answer: << 6 >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=1; i<arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << a >> << b >> << c >> << d >>.
+
+
+You see the code snippet:
+
+var x = 3;
+if (x>40 && x<50 || x<30 && (x>20 || x<10 && x>0)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 63;
+if (x>0 && x<70 && (x<10 || x>20 && x<30 || x>40 && x<50 || x>60)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var x = 25;
+if (x>0 && x<10 || x>20 && x<30) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 41;
+if (x>0 && x<50 && (x<10 || (x>20 && (x<30 || x>40)))) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 51;
+if (x>0 && x<10 || x>20 && x<30 || x>40 && x<50) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var x = 45;
+if (x>0 && x<50 && (x<10 || x>20 && x<30 || x>40)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 49;
+if (x>0) {
+	if (x<50) {
+		if (x<10) {
+			print (""1"");
+		}
+		else if (x>20) {
+			if (x<30) {
+				print (""2"");
+			}
+			else if (x>40) {
+				print (""3"");
+			}
+			else {
+				print (""4"");
+			}
+		}
+		else {
+			print (""5"");
+		}
+	}
+	else {
+		print (""6"");
+	}
+}
+else {
+	print (""7"");
+}
+
+Your answer: << 3 >>.
+
+
+You see the code snippet:
+
+var x = 26;
+if (x>0 && x<30 && (x<10 || x>20)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 36;
+if (x>40) {
+	if (x<50) {
+		print (""1"");
+	}
+	else {
+		print (""2"");	
+	}
+}
+else if (x>20) {
+	if (x<30) {
+		print (""3"");
+	}
+	else {
+		print (""4"");	
+	}
+}
+else if (x>0) {
+	if (x<10) {
+		print (""5"");
+	}
+	else {
+		print (""6"");	
+	}
+}
+else {
+	print (""7"");
+}
+
+Your answer: << 4 >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=0; i<=arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << a >> << b >> << c >> << d >> << e >>.
+
+
+You see the code snippet:
+
+var x = 52;
+if (x>0 && x<10 || x>20 && x<30 || x>40 && x<50 || x>60 && x<70) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var x = 51;
+if (x>0 && x<70 && (x<10 || (x>20 && (x<30 || (x>40 && (x<50 || x>60)))))) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=arr.length-1; i>0; i--){
+	print(arr[i]);
+}
+
+Your answer: << e >> << d >> << c >> << b >>.
+",82,Ajami18

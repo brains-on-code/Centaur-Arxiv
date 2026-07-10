@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+	@Override
+	public void run(RunNotifier notifier) {
+		TestResult result= new TestResult();
+		result.addListener(createAdaptingListener(notifier));
+		fTest.run(result);
+
+Your answer: << 4 >>. 
+",68,Buse10

@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+ 
+
+
+variable1 = variable2++;
+
+
+variable1 = variable2;
+variable2 = variable2  + 1
+
+
+Your answer: << 1 >>.
+",task_p11,Medeiros19

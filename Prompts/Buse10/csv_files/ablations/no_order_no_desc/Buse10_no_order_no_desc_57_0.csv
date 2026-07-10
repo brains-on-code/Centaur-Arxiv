@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+      
+      String classname = (String) in.readObject();
+      String devname = (String)in.readObject();
+      
+      DeviceIf dev = DriverFactory.getInstance().createDevice(classname, devname);
+
+Your answer: << 4 >>. 
+",57,Buse10

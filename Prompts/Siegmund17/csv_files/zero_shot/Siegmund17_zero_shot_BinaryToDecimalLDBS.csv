@@ -1,0 +1,70 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, for which you should determine the output. 
+At the beginning of the study, you will be presented with six code snippets which you should read and memorize.
+Afterwards you will be shown code snippets in one of three tasks.
+You will have 30 seconds for each task.
+In one type of tasks you will have to determine whether the code correctly implements the same functionality as one of the code snippets you memorized initially.
+You should respond by pressing X if you believe the code does so and by pressing Y if you believe that it does not. 
+In the second task type you will have to determine the output of a code snippet. 
+Once you have determined the output of the code snippet respond by pressing X. 
+If you are unable to determine the output respond by pressing Y.
+In the third type of task you will be asked to find three syntax errors in a code snippet.
+Once you have located all three errors you should respond by pressing X. 
+If you are unable to locate all three errors you should respond by pressing Y.
+If you run out of time on any task respond with Z.
+
+
+Now the Training begins:
+
+You are shown a Snippet:
+
+    public int binaryToDecimal(int binaryNumber) {
+        if (binaryNumber < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int tempNumber = binaryNumber;
+        int multiplikator = 0;
+
+        for (int i = 0; tempNumber > 0; i++) {
+            multiplikator = tempNumber % 10;
+            decimalNumber = decimalNumber + multiplikator * (int) Math.pow(2, i);
+            tempNumber = tempNumber / 10;
+        }
+
+        return decimalNumber;
+    }
+
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int fonahqRsPukoiad(int fonahqNwifuh) {
+        if (fonahqNwifuh
+                < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int ruixNwifuh
+                = fonahqNwifuh;
+        int
+                iwdroxdoyarsh
+                = 0;
+
+        for (int i = 0;
+             ruixNwifuh > 0; i++) {
+            iwdroxdoyarsh
+                    = ruixNwifuh
+                    % 10;
+
+            decimalNumber = decimalNumber
+                    + iwdroxdoyarsh
+                    * (int)
+                    Math.pow(2, i);
+            ruixNwifuh = ruixNwifuh
+                    / 10;
+        }
+        return decimalNumber;
+    }
+
+Your Answer: <<Answer>>.
+",BinaryToDecimalLDBS,Siegmund17

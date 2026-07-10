@@ -1,0 +1,413 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Do {
+public static void main(String[] args) {
+int[] array = { 5, 6, 11, 0, 2 };
+int integer = 0;
+int number1 = 0;
+int numberA = 0;
+while (integer < array.length) {
+if (array[integer] % 2 == 0) {
+number1 += array[integer];
+} else {
+numberA += array[integer];
+}
+integer++;
+}
+System.out.print(numberA - number1);
+}
+}
+
+
+Your answer: <<Answer>>.
+",Do_indent0,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Do {
+  public static void main(String[] args) {
+    int[] array = { 5, 6, 11, 0, 2 };
+    int integer = 0;
+    int number1 = 0;
+    int numberA = 0;
+    while (integer < array.length) {
+      if (array[integer] % 2 == 0) {
+        number1 += array[integer];
+      } else {
+        numberA += array[integer];
+      }
+      integer++;
+    }
+    System.out.print(numberA - number1);
+  }
+}
+
+
+Your answer: <<Answer>>.
+",Do_indent2,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Do {
+    public static void main(String[] args) {
+        int[] array = { 5, 6, 11, 0, 2 };
+        int integer = 0;
+        int number1 = 0;
+        int numberA = 0;
+        while (integer < array.length) {
+            if (array[integer] % 2 == 0) {
+                number1 += array[integer];
+            } else {
+                numberA += array[integer];
+            }
+            integer++;
+        }
+        System.out.print(numberA - number1);
+    }
+}
+
+
+Your answer: <<Answer>>.
+",Do_indent4,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Do {
+        public static void main(String[] args) {
+                int[] array = { 5, 6, 11, 0, 2 };
+                int integer = 0;
+                int number1 = 0;
+                int numberA = 0;
+                while (integer < array.length) {
+                        if (array[integer] % 2 == 0) {
+                                number1 += array[integer];
+                        } else {
+                                numberA += array[integer];
+                        }
+                        integer++;
+                }
+                System.out.print(numberA - number1);
+        }
+}
+
+
+Your answer: <<Answer>>.
+",Do_indent8,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Main {
+public static void main(String[] args) {
+int[] values = { 3, 0, 1, 0, 2 };
+StringBuilder result = new StringBuilder();
+int variable = 3;
+for (int value : values) {
+if (value == variable) {
+result.append(""x"");
+} else if (value < variable) {
+result.append(""m"");
+}
+result.append(""o"");
+variable--;
+}
+System.out.print(result);
+}
+}
+
+
+Your answer: <<Answer>>.
+",Main_indent0,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Main {
+  public static void main(String[] args) {
+    int[] values = { 3, 0, 1, 0, 2 };
+    StringBuilder result = new StringBuilder();
+    int variable = 3;
+    for (int value : values) {
+      if (value == variable) {
+        result.append(""x"");
+      } else if (value < variable) {
+        result.append(""m"");
+      }
+      result.append(""o"");
+      variable--;
+    }
+    System.out.print(result);
+  }
+}
+
+
+Your answer: <<Answer>>.
+",Main_indent2,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Main {
+    public static void main(String[] args) {
+        int[] values = { 3, 0, 1, 0, 2 };
+        StringBuilder result = new StringBuilder();
+        int variable = 3;
+        for (int value : values) {
+            if (value == variable) {
+                result.append(""x"");
+            } else if (value < variable) {
+                result.append(""m"");
+            }
+            result.append(""o"");
+            variable--;
+        }
+        System.out.print(result);
+    }
+}
+
+
+Your answer: <<Answer>>.
+",Main_indent4,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Main {
+        public static void main(String[] args) {
+                int[] values = { 3, 0, 1, 0, 2 };
+                StringBuilder result = new StringBuilder();
+                int variable = 3;
+                for (int value : values) {
+                        if (value == variable) {
+                                result.append(""x"");
+                        } else if (value < variable) {
+                                result.append(""m"");
+                        }
+                        result.append(""o"");
+                        variable--;
+                }
+                System.out.print(result);
+        }
+}
+
+
+Your answer: <<Answer>>.
+",Main_indent8,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Program {
+public static void main(String[] args) {
+String input = ""1-3,10-11"";
+int output = 0;
+for (String part : input.split("","")) {
+String[] numbers = part.split(""-"");
+int left = Integer.parseInt(numbers[0]);
+int right = Integer.parseInt(numbers[1]);
+int number = left;
+while (number <= right) {
+output += number;
+number++;
+}
+}
+System.out.println(output);
+}
+}
+
+
+Your answer: <<Answer>>.
+",Program_indent0,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Program {
+  public static void main(String[] args) {
+    String input = ""1-3,10-11"";
+    int output = 0;
+    for (String part : input.split("","")) {
+      String[] numbers = part.split(""-"");
+      int left = Integer.parseInt(numbers[0]);
+      int right = Integer.parseInt(numbers[1]);
+      int number = left;
+      while (number <= right) {
+        output += number;
+        number++;
+      }
+    }
+    System.out.println(output);
+  }
+}
+
+
+Your answer: <<Answer>>.
+",Program_indent2,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Program {
+    public static void main(String[] args) {
+        String input = ""1-3,10-11"";
+        int output = 0;
+        for (String part : input.split("","")) {
+            String[] numbers = part.split(""-"");
+            int left = Integer.parseInt(numbers[0]);
+            int right = Integer.parseInt(numbers[1]);
+            int number = left;
+            while (number <= right) {
+                output += number;
+                number++;
+            }
+        }
+        System.out.println(output);
+    }
+}
+
+
+Your answer: <<Answer>>.
+",Program_indent4,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Program {
+        public static void main(String[] args) {
+                String input = ""1-3,10-11"";
+                int output = 0;
+                for (String part : input.split("","")) {
+                        String[] numbers = part.split(""-"");
+                        int left = Integer.parseInt(numbers[0]);
+                        int right = Integer.parseInt(numbers[1]);
+                        int number = left;
+                        while (number <= right) {
+                                output += number;
+                                number++;
+                        }
+                }
+                System.out.println(output);
+        }
+}
+
+
+Your answer: <<Answer>>.
+",Program_indent8,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Test {
+public static void main(String[] args) {
+int variable = 0;
+String string = ""3 21 4 2 55 0 13"";
+int start = 2;
+int end = 18;
+String[] keys = string.split("" "");
+for (int i = 0; i < keys.length; i++) {
+int key = Integer.parseInt(keys[i]);
+boolean check = (key >= start && key <= end);
+if (check) {
+variable += 1;
+}
+}
+System.out.print(variable);
+}
+}
+
+Your answer: <<Answer>>.
+",Test_indent0,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Test {
+  public static void main(String[] args) {
+    int variable = 0;
+    String string = ""3 21 4 2 55 0 13"";
+    int start = 2;
+    int end = 18;
+    String[] keys = string.split("" "");
+    for (int i = 0; i < keys.length; i++) {
+      int key = Integer.parseInt(keys[i]);
+      boolean check = (key >= start && key <= end);
+      if (check) {
+        variable += 1;
+      }
+    }
+    System.out.print(variable);
+  }
+}
+
+Your answer: <<Answer>>.
+",Test_indent2,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Test {
+    public static void main(String[] args) {
+        int variable = 0;
+        String string = ""3 21 4 2 55 0 13"";
+        int start = 2;
+        int end = 18;
+        String[] keys = string.split("" "");
+        for (int i = 0; i < keys.length; i++) {
+            int key = Integer.parseInt(keys[i]);
+            boolean check = (key >= start && key <= end);
+            if (check) {
+                variable += 1;
+            }
+        }
+        System.out.print(variable);
+    }
+}
+
+Your answer: <<Answer>>.
+",Test_indent4,Bauer19
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+You are presented the code snippet:
+
+public class Test {
+        public static void main(String[] args) {
+                int variable = 0;
+                String string = ""3 21 4 2 55 0 13"";
+                int start = 2;
+                int end = 18;
+                String[] keys = string.split("" "");
+                for (int i = 0; i < keys.length; i++) {
+                        int key = Integer.parseInt(keys[i]);
+                        boolean check = (key >= start && key <= end);
+                        if (check) {
+                                variable += 1;
+                        }
+                }
+                System.out.print(variable);
+        }
+}
+
+Your answer: <<Answer>>.
+",Test_indent8,Bauer19

@@ -1,0 +1,13 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your answer: 
+ << a: 0 ? 1 >>.
+ << b: 0 ? 1 >>.
+ << c >>.
+ << _ >>.
+
+",1,Gopstein17b

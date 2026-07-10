@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << background.color >>.
+Your answer for B: << red >>.
+Your answer for C: << background.color >>.
+Your answer for D: << red >>.
+Your answer for E: << else >>.
+Your answer for F: << table.retun >>.
+Your Answer: << 1.0 >>.
+",1,Börstler16

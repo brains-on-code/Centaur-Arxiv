@@ -1,0 +1,25 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, for which you should determine the output. 
+At the beginning of the study, you will be presented with five code snippets which you should read and memorize.
+Afterwards you will be shown code snippets in one of two tasks.
+You will have 30 seconds for each task.
+In the first type of tasks you will have to determine the output of the code for specific inputs.
+Once you have determined the output of the code snippet respond by pressing X. 
+If you are unable to determine the output respond by pressing Y.
+In the second type of task you will be asked to find three syntax errors in a code snippet.
+Every time you locate a syntax error, you should respond with X. 
+Repeat this until you find all three syntax errors or run out of time. 
+If you are unable to find any syntax errors press Y instead.
+If you run out of time on any task respond with Z.
+
+Find three syntax errors!
+
+public int[] doubleArray(int[] numbersArray) {
+    for (int i = 0, i < array.lenght(), i++) {
+        array[i] = array(i) * 2;
+    }
+
+    return array
+}
+Your Answer: << X >> << X >> << X >>.
+",doubleArraySY,Peitek18

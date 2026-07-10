@@ -1,0 +1,29 @@
+text,participant,experiment
+"You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.
+
+
+You are presented the code snippet:
+
+You see a code snippet.
+
+Your answer: << 8 >>.
+
+You are presented the code snippet:
+
+You see a code snippet.
+
+Your answer: << 30 >>.
+
+You are presented the code snippet:
+
+You see a code snippet.
+
+Your answer: << 4 >>.
+
+You are presented the code snippet:
+
+You see a code snippet.
+
+Your answer: << x >> << o >> << m >> << o >> << x >> << o >> << x >> << o >> << o >>.
+",1,Bauer19

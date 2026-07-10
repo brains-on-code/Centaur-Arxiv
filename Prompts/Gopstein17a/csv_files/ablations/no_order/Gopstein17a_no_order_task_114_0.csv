@@ -1,0 +1,18 @@
+text,snippet,experiment
+"You will be shown a series of C code snippets, which you should try to comprehend. 
+For each snippet please type the standard output of the program, emitted by the printf function. 
+If you are unsure about an answer or part of an answer you can instead respond with ?.
+If you believe that a snippet produces no output or that its full output cannot be sensibly determined respond with _.
+
+You see the snippet:
+
+void main() {
+   int V1 = 4;
+
+   for (int V2 = 0; V2 < 3; V2++) { V1++; } V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 8 >>.
+",task_114,Gopstein17a

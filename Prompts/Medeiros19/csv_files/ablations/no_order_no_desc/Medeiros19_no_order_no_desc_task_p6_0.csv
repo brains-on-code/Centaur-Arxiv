@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+ 
+
+
+x = (y += 1, y);
+
+
+y += 1;
+x = y;
+
+
+Your answer: << 5 >>.
+",task_p6,Medeiros19

@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   if (""V1"" != '\0')
+      printf(""true\n"");
+   else
+      printf(""false\n"");
+}
+
+Your answer: << _ >>.
+",task_6,Gopstein17a

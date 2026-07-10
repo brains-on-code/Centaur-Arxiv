@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << log(""Error in request: "", aRequest) >>.
+Your answer for B: << Context context >>.
+Your answer for C: << getContext() >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << projectSpace.hasNotifications() >>.
+Your answer for B: << projectSpace.addNotifications(nComposite.getNotifications()) >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << paragraph.getBoxModel() >>.
+Your answer for B: << color >>.
+Your answer for C: << option.getBorderColor() >>.
+Your answer for D: << color >>.
+Your answer for E: << color >>.
+Your answer for F: << ? >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << append(move.isWhite() >>.
+Your answer for B: << NAG nag : move.getNags() >>.
+Your Answer: << 5.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << gc.getGraphicsSomething().width - 5 >>.
+Your answer for B: << ? >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

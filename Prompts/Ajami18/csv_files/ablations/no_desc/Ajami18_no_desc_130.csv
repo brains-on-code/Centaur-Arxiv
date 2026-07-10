@@ -1,0 +1,43 @@
+text,participant,experiment
+"
+
+
+
+var x = 51;
+if (x>0 && x<10 || x>20 && x<30 || x>40 && x<50) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+
+var x = 14;
+if (x>0 && x<30 && !(x>10 && x<20)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=1; i<arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << b >> << c >> << d >>.
+
+
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=0; i<=arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << b >> << c >> << d >>.
+",130,Ajami18

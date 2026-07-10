@@ -1,0 +1,23 @@
+text,snippet,experiment
+"
+
+
+
+
+    public int red(String input) {
+        char[] chars = {'a', 'e', 'i', 'o', 'u'};
+        int variable = 0;
+
+        for (int i = 0; i < input.length(); i++) {
+            for (int j = 0; j < chars.length; j++) {
+                if (input.charAt(i) == chars[j]) {
+                    variable++;
+                }
+            }
+        }
+
+        return variable;
+    }
+
+Your Answer: << X >>.
+",CountVowels,Peitek18

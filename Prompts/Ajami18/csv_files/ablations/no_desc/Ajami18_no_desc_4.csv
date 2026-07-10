@@ -1,0 +1,124 @@
+text,participant,experiment
+"
+
+
+
+var x = 48;
+if (x>0 && x<70 && !(x>10 && x<20) && !(x>30 && x<40) && !(x>50 && x<60)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+
+var x = 25;
+if (x>0 && x<10 || x>20 && x<30) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+
+var x = 27;
+if ( !(x<0 || (x>10 && x<20) || x>30) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+
+var x = 27;
+if ( !(x<0 || (x>10 && x<20) || (x>30 && x<40)|| x>50) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+
+var x = 63;
+if ( !(x<0 || (x>10 && x<20) || (x>30 && x<40)|| (x>50 && x<60)|| x>70) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+
+var x = 48;
+var tmp = ""1"";
+for (var i=0 ; i<4 ; i++) {
+	if (x>10*2*i && x<10*(2*i+1)) {
+		tmp = ""2"";
+		break;
+	}
+}
+print(tmp);
+
+Your answer: << 2 >>.
+
+
+
+var x = 51;
+if (x>0 && x<70 && (x<10 || (x>20 && (x<30 || (x>40 && (x<50 || x>60)))))) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+
+var x = 3;
+if (x>40 && x<50 || x<30 && (x>20 || x<10 && x>0)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+
+var x = 35;
+var tmp = ""1"";
+for (var i=0 ; i<3 ; i++) {
+	if (x>10*2*i && x<10*(2*i+1)) {
+		tmp = ""2"";
+		break;
+	}
+}
+print(tmp);
+
+Your answer: << 1 >>.
+
+
+
+var x = 27;
+var tmp = ""1"";
+for (var i=0 ; i<2 ; i++) {
+	if (x>10*2*i && x<10*(2*i+1)) {
+		tmp = ""2"";
+		break;
+	}
+}
+print(tmp);
+
+Your answer: << 2 >>.
+",4,Ajami18

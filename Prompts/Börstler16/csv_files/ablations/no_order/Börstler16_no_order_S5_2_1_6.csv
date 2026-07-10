@@ -1,0 +1,102 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds bounds = control.getBounds(); 
+    int maxWidth = bounds.width - 5; 
+
+    /* Set start and end points for the center of the text. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* Take away more and more characters in the center of textValue */ 
+    /* and replace them by a single ellipsis character until it is   */ 
+    /* short enough.                                                 */ 
+    while (start >= 0 && end < length) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When the text fits, we stop and return the shortened string. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds A:_____ = B:__________________; 
+    int maxWidth = C:_______________; 
+
+    /* Set start and end points for the center of the text. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* Take away more and more characters in the center of textValue */ 
+    /* and replace them by a single ellipsis character until it is   */ 
+    /* short enough.                                                 */ 
+    while (D:_________________________) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When the text fits, we stop and return the shortened string. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << bounds >>.
+Your answer for B: << control.bounds() >>.
+Your answer for C: << bounds.width - 5 >>.
+Your answer for D: << start <= 0 && end <= length >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 3.0 >>.
+",S5_2_1,Börstler16

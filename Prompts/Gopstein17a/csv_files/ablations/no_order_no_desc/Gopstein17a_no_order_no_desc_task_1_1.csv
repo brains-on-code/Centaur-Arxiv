@@ -1,0 +1,16 @@
+text,snippet,experiment
+"
+
+
+void main(){
+   int V1 = 10, V2 = 3;
+   if (! (V1 % V2)){
+      printf(""%s\n"", ""true"");
+   }
+   else{
+      printf(""%s\n"", ""false"");
+   }
+}
+
+Your answer: << false >>.
+",task_1,Gopstein17a

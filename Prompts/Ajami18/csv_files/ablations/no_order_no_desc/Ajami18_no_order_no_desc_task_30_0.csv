@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+var x = 26;
+if (x>0 && x<30 && (x<10 || x>20)) {
+	print (""1"");
+}
+else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+",task_30,Ajami18

@@ -1,0 +1,36 @@
+text,snippet,experiment
+"
+
+
+
+    
+    public float arrayAverage(int[] array) {
+        int counter = 0;
+        int sum = 0;
+
+        while (counter < array.length) {
+            sum = sum + array[counter];
+            counter = counter + 1;
+        }
+
+        float average = sum / (float) counter;
+        return average;
+    }
+
+
+    
+    public float arrayAverage(int[] array) {
+        int mgqakyy = 0;
+        int sum = 0;
+
+        while (mgqakyy < array.length) {
+            sum = sum + array[mgqakyy];
+            mgqakyy = mgqakyy + 1;
+        }
+
+        float average = sum / (float) mgqakyy;
+        return average;
+    }
+
+Your Answer: << X >>.
+",ArrayAverageLOBO,Siegmund17

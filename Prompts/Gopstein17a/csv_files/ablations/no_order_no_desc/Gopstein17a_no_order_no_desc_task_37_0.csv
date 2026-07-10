@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+#define M1 64 - 1
+
+void main(){
+   int V1;
+   V1 = M1 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 126 >>.
+",task_37,Gopstein17a

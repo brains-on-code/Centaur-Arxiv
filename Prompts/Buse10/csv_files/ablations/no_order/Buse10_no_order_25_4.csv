@@ -1,0 +1,19 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+
+            public boolean check(Unit u, PathNode p) {
+                if (p.getTile().getSettlement() != null && p.getTile().getSettlement().getOwner() == player
+                        && p.getTile().getSettlement() != inSettlement) {
+                    Settlement s = p.getTile().getSettlement();
+                    int turns = p.getTurns();
+                    destinations.add(new ChoiceItem(s.toString() + "" ("" + turns + "")"", s));
+
+Readability Rating: << 5 >>. 
+",25,Buse10

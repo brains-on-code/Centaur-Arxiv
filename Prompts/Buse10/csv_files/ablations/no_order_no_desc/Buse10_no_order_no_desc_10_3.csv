@@ -1,0 +1,18 @@
+text,snippet,experiment
+"
+
+    private void moveUnit(KeyEvent e) {
+        if (!parent.isMapboardActionsEnabled()) {
+            return;
+        }
+        
+        switch (e.getKeyCode()) {
+        case KeyEvent.VK_ESCAPE:
+            // main menu
+            break;
+        case KeyEvent.VK_NUMPAD1:
+        case KeyEvent.VK_END:
+            inGameController.moveActiveUnit(Map.SW);
+
+Your answer: << 2 >>. 
+",10,Buse10

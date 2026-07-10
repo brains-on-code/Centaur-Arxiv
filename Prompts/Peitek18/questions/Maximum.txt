@@ -1,0 +1,1 @@
+What is the output of lightgreen([13,12,15,12])?

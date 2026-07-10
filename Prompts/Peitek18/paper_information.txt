@@ -1,0 +1,3 @@
+Simultaneous Measurement of Program Comprehension with fMRI and Eye Tracking: A Case Study
+Beyond Gaze: Preliminary Analysis of Pupil Dilation and Blink Rates in an fMRI Study of Program Comprehension
+https://github.com/brains-on-code/simultaneous-fmri-and-eyetracking/tree/master

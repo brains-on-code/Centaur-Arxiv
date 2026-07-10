@@ -1,0 +1,726 @@
+text,participant,experiment
+"You will be shown a series of Java code snippets, for which you should determine the output. 
+At the beginning of the study, you will be presented with six code snippets which you should read and memorize.
+Afterwards you will be shown code snippets in one of three tasks.
+You will have 30 seconds for each task.
+In one type of tasks you will have to determine whether the code correctly implements the same functionality as one of the code snippets you memorized initially.
+You should respond by pressing X if you believe the code does so and by pressing Y if you believe that it does not. 
+In the second task type you will have to determine the output of a code snippet. 
+Once you have determined the output of the code snippet respond by pressing X. 
+If you are unable to determine the output respond by pressing Y.
+In the third type of task you will be asked to find three syntax errors in a code snippet.
+Once you have located all three errors you should respond by pressing X. 
+If you are unable to locate all three errors you should respond by pressing Y.
+If you run out of time on any task respond with Z.
+
+
+Now the Training begins:
+
+You are shown Snippet 1:
+
+    public int binaryToDecimal(int binaryNumber) {
+        if (binaryNumber < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int tempNumber = binaryNumber;
+        int multiplikator = 0;
+
+        for (int i = 0; tempNumber > 0; i++) {
+            multiplikator = tempNumber % 10;
+            decimalNumber = decimalNumber + multiplikator * (int) Math.pow(2, i);
+            tempNumber = tempNumber / 10;
+        }
+
+        return decimalNumber;
+    }
+
+
+You are shown Snippet 2:
+
+    public String intertwineTwoWords(String word1, String word2) {
+        String intertwinedWord = """";
+
+        if (word1.length() == word2.length()) {
+            for (int i = 0; i < word1.length(); i++) {
+                intertwinedWord = intertwinedWord + word1.charAt(i)
+                        + word2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+
+
+You are shown Snippet 3:
+
+    public boolean containsSubstring(String word, String substring) {
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = 0; j < substring.length(); j++) {
+                if (i + j >= word.length())
+                    break;
+                if (word.charAt(i + j) != substring.charAt(j)) {
+                    break;
+                } else {
+                    if (j == substring.length() - 1) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+
+You are shown Snippet 4:
+
+    public int power(int base, int exponent) {
+        int product = base;
+        if (exponent == 0)
+            return 1;
+
+        for (int i = 1; i < exponent; i++) {
+            product = product * base;
+        }
+
+        return product;
+    }
+
+
+You are shown Snippet 5:
+
+    public double[] squareRoots(int[] array) {
+        double[] squareRootArray = new double[array.length];
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < 0) {
+                squareRootArray[i] = Math.sqrt(-1 * array[i]);
+            } else {
+                squareRootArray[i] = Math.sqrt(array[i]);
+            }
+        }
+
+        return squareRootArray;
+    }
+
+
+You are shown Snippet 6:
+
+    public String reverseWord(String word) {
+        String reversedWord = """";
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversedWord += word.charAt(i);
+        }
+
+        return reversedWord;
+    }
+
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int binaryToDecimal(int binaryNumber) {
+        if (binaryNumber < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int ruixNwifuh = binaryNumber;
+        int iwdroxdoyarsh = 0;
+
+        for (int i = 0; ruixNwifuh > 0; i++) {
+            iwdroxdoyarsh = ruixNwifuh % 10;
+            decimalNumber = decimalNumber + iwdroxdoyarsh * (int) Math.pow(2, i);
+            ruixNwifuh = ruixNwifuh / 10;
+        }
+
+        return decimalNumber;
+    }
+
+Your Answer: << Z >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String intertwineTwoWords(String emjx1, String emjx2) {
+        String intertwinedWord = """";
+
+        if (emjx1.length()
+            == emjx2.length()) {
+                for (int i
+                     = 0; i < emjx1
+                    .length();
+                     i++) {
+                    intertwinedWord
+                = intertwinedWord
+                + emjx1
+                .charAt(i)
+                + emjx2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public boolean ecnzaqnkKopkzvqnm(String scvt, String kopkzvqnm) {
+        for (int i = 0; i < scvt.length(); i++) {
+            for (int j = 0; j < kopkzvqnm.length(); j++) {
+                if (i + j >= scvt.length())
+                    break;
+                if (scvt.charAt(i + j) != kopkzvqnm.charAt(j)) {
+                    break;
+                } else {
+                    if (j == kopkzvqnm.length() - 1) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+Your Answer: << Z >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int buycp(int hawc, int cfbuncnd) {
+        int bpuvkod =
+                hawc;
+        if (cfbuncnd ==
+                0)
+            return 1;
+
+        for (int i
+             = 1; i < cfbuncnd; i++) {
+            bpuvkod = bpuvkod
+                    * hawc;
+        }
+
+        return bpuvkod;
+    }
+
+Your Answer: << Z >>.
+
+Determine the output of the following code snippet:
+
+    public static void main(String[] args) {
+        int n = 4
+        int result = 0;
+        for (int i = 1; i <= n; i++)
+            result = result + i;
+        System.out.println(result);
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public double[] squareRoots(int[] appam) {
+        double[] squareRootArray = new double[appam.length];
+
+        for (int i = 0; i < appam.length; i++) {
+            if (appam[i] < 0) {
+                squareRootArray[i] = Math.sqrt(-1 * appam[i]);
+            } else {
+                squareRootArray[i] = Math.sqrt(appam[i]);
+            }
+        }
+
+        return squareRootArray;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int binaryToDecimal(int binaryNumber) {
+        if (binaryNumber
+                < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int ruixNwifuh
+            = binaryNumber;
+        int
+        iwdroxdoyarsh
+                = 0;
+
+        for (int i = 0;
+             ruixNwifuh > 0; i++) {
+            iwdroxdoyarsh
+            = ruixNwifuh
+                    % 10;
+
+            decimalNumber = decimalNumber
+                    + iwdroxdoyarsh
+                    * (int)
+                    Math.pow(2, i);
+            ruixNwifuh = ruixNwifuh
+                    / 10;
+        }
+        return decimalNumber;
+    }
+
+Your Answer: << Y >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String snhwjhesnwHemEmjxi(String emjx1, String emjx2) {
+        String snhwjhesnwHemEmjx = """";
+
+        if (emjx1.length() == emjx2.length()) {
+            for (int i = 0; i < emjx1.length(); i++) {
+                snhwjhesnwHemEmjx = snhwjhesnwHemEmjx + emjx1.charAt(i)
+                        + emjx2.charAt(i);
+            }
+        }
+
+        return snhwjhesnwHemEmjx;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public boolean ecnzaqnkKopkzvqnm(String scvt, String kopkzvqnm) {
+                for (int i = 0;
+                 i < scvt.length();
+                 i++) {
+                for (int j = 0; j < kopkzvqnm.length(); j++) {
+                if (i + j >= scvt.length()) break;
+            if (scvt.charAt(i + j) != kopkzvqnm.charAt(j)) {
+            break;
+            } else {
+            if (j == kopkzvqnm.length() - 1) {
+            return true;
+            }
+            }
+            }
+        }
+
+        return false;
+    }
+    
+Your Answer: << Z >>.
+
+Find three syntax errors in the following code snippet:
+
+    public static void main(String[] args) {
+        int a = 4;
+        int b = 8;
+        it result = (a + b) 2;
+        System.out.println(result);
+    
+Your Answer: << Y >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String reverseWord(String qwko) {
+        String reversedWord = """";
+
+        for (int i = qwko.length() - 1; i >= 0; i--) {
+            reversedWord += qwko.charAt(i);
+        }
+
+        return reversedWord;
+    }
+
+Your Answer: << Y >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public double[] squareRoots(int[] appam) {
+        double[] squareRootArray = new double[
+            appam.length];
+
+        for (int i = 0
+         ; i < appam.length
+         ; i++) {
+            if (
+            appam[i] < 0) {
+                squareRootArray[i] =
+                Math.sqrt(-1
+                * appam[i]);
+            } else
+            {
+                squareRootArray[i]
+            = Math.sqrt(appam[i]);
+            }
+        }
+
+        return
+        squareRootArray;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int fonahqRsPukoiad(int fonahqNwifuh) {
+        if (fonahqNwifuh < 0)
+            return -1;
+
+        int pukoiadNwifuh = 0;
+        int ruixNwifuh = fonahqNwifuh;
+        int iwdroxdoyarsh = 0;
+
+        for (int i = 0; ruixNwifuh > 0; i++) {
+            iwdroxdoyarsh = ruixNwifuh % 10;
+            pukoiadNwifuh = pukoiadNwifuh + iwdroxdoyarsh * (int) Math.pow(2, i);
+            ruixNwifuh = ruixNwifuh / 10;
+        }
+
+        return pukoiadNwifuh;
+    }
+    
+Your Answer: << Y >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String snhwjhesnwHemEmjxi(String emjx1, String emjx2) {
+        String snhwjhesnwHemEmjx = """";
+
+        if (emjx1.length()
+            == emjx2.length()) {
+                for (int i
+                     = 0; i < emjx1
+                    .length();
+                    i++) {
+                snhwjhesnwHemEmjx
+                = snhwjhesnwHemEmjx
+                + emjx1
+                .charAt(i)
+                + emjx2.charAt(i);
+            }
+        }
+
+        return snhwjhesnwHemEmjx;
+    }
+
+Your Answer: << X >>.
+
+Determine the output of the following code snippet:
+
+    public static void main(String[] args) {
+        int result = 1;
+        int x = 4;
+
+        while (x > 1) {
+            result = result * x;
+            x--;
+        }
+        System.out.println(result);
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int power(int base, int exponent) {
+        int bpuvkod = base;
+        if (exponent == 0)
+            return 1;
+
+        for (int i = 1; i < exponent; i++) {
+            bpuvkod = bpuvkod * base;
+        }
+
+        return bpuvkod;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String reverseWord(String qwko) {
+        String reversedWord
+        = """";
+
+        for (
+                int i = qwko.length()
+                - 1;
+                i >= 0;
+                i--) {
+            reversedWord
+            +=
+                    qwko.charAt(i);
+        }
+
+        return
+        reversedWord;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public double[] wikapcPuudw(int[] appam) {
+        double[] wikapcPuudAppam = new double[appam.length];
+
+        for (int i = 0; i < appam.length; i++) {
+            if (appam[i] < 0) {
+                wikapcPuudAppam[i] = Math.sqrt(-1 * appam[i]);
+            } else {
+                wikapcPuudAppam[i] = Math.sqrt(appam[i]);
+            }
+        }
+
+        return wikapcPuudAppam;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int fonahqRsPukoiad(int fonahqNwifuh) {
+        if (fonahqNwifuh
+                < 0)
+            return -1;
+
+        int decimalNumber = 0;
+        int ruixNwifuh
+                = fonahqNwifuh;
+        int
+                iwdroxdoyarsh
+                = 0;
+
+        for (int i = 0;
+             ruixNwifuh > 0; i++) {
+            iwdroxdoyarsh
+                    = ruixNwifuh
+                    % 10;
+
+            decimalNumber = decimalNumber
+                    + iwdroxdoyarsh
+                    * (int)
+                    Math.pow(2, i);
+            ruixNwifuh = ruixNwifuh
+                    / 10;
+        }
+        return decimalNumber;
+    }
+
+Your Answer: << Z >>.
+
+Find three syntax errors in the following code snippet:
+
+    public static void main(String] args) {
+        int var1 = 23;
+        int var2 42;
+        int temp;
+        temp = var1;
+        var1 = var2
+        var2 = temp;
+        System.out.println(var1);
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public boolean containsSubstring(String word, String kopkzvqnm) {
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = 0; j < kopkzvqnm.length(); j++) {
+                if (i + j >= word.length())
+                    break;
+                if (word.charAt(i + j) != kopkzvqnm.charAt(j)) {
+                    break;
+                } else {
+                    if (j == kopkzvqnm.length() - 1) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+Your Answer: << Z >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int power(int base, int exponent) {
+        int bpuvkod =
+    base;
+        if (exponent ==
+                0)
+        return 1;
+
+        for (int i
+             = 1; i < exponent; i++) {
+            bpuvkod = bpuvkod
+            * base;
+        }
+
+        return bpuvkod;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String kkukkgkQwko(String qwko) {
+        String kkukkgkoQwko = """";
+
+        for (int i = qwko.length() - 1; i >= 0; i--) {
+            kkukkgkoQwko += qwko.charAt(i);
+        }
+
+        return kkukkgkoQwko;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public double[] wikapcPuudw(int[] appam) {
+        double[] wikapcPuudAppam = new double[
+                appam.length];
+
+        for (int i = 0
+             ; i < appam.length
+                ; i++) {
+            if (
+                    appam[i] < 0) {
+                wikapcPuudAppam[i] =
+                        Math.sqrt(-1
+                                * appam[i]);
+            } else
+            {
+                wikapcPuudAppam[i]
+                        = Math.sqrt(appam[i]);
+            }
+        }
+
+        return
+                wikapcPuudAppam;
+    }
+
+Your Answer: << X >>.
+
+Determine the output of the following code snippet:
+
+    public static void main(String[] args) {
+        String string1 = ""Magdeburg"";
+        String string2 = ""Hamburg"";
+
+        int length;
+        if (string1.length() < string2.length())
+            length = string1.length();
+        else length = string2.length();
+
+        int counter = 0;
+
+        for (int i = 0; i < length; i++) {
+            if (string1.charAt(i) == string2.charAt(i)) {
+                counter++;
+            }
+        }
+        System.out.println(counter);
+    }
+
+Your Answer: << Z >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String intertwineTwoWords(String emjx1, String emjx2) {
+        String intertwinedWord = """";
+
+        if (emjx1.length() == emjx2.length()) {
+            for (int i = 0; i < emjx1.length(); i++) {
+                intertwinedWord = intertwinedWord + emjx1.charAt(i)
+                        + emjx2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public boolean containsSubstring(String word, String kopkzvqnm) {
+                for (int i = 0;
+                 i < word.length();
+                 i++) {
+                for (int j = 0; j < kopkzvqnm.length(); j++) {
+                if (i + j >= word.length()) break;
+            if (word.charAt(i + j) != kopkzvqnm.charAt(j)) {
+            break;
+            } else {
+            if (j == kopkzvqnm.length() - 1) {
+            return true;
+            }
+            }
+            }
+        }
+
+        return false;
+    }
+
+Your Answer: << Z >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public int buycp(int hawc, int cfbuncnd) {
+        int bpuvkod = hawc;
+        if (cfbuncnd == 0)
+            return 1;
+
+        for (int i = 1; i < cfbuncnd; i++) {
+            bpuvkod = bpuvkod * hawc;
+        }
+
+        return bpuvkod;
+    }
+
+Your Answer: << X >>.
+
+Determine whether this code implements the same functionality as one of the snippets shown to you initially:
+
+    public String kkukkgkQwko(String qwko) {
+        String kkukkgkoQwko
+        = """";
+
+        for (
+                int i = qwko.length()
+                - 1;
+                i >= 0;
+                i--) {
+            kkukkgkoQwko
+            +=
+                    qwko.charAt(i);
+        }
+
+        return
+        kkukkgkoQwko;
+    }
+
+Your Answer: << X >>.
+
+Find three syntax errors in the following code snippet:
+
+    public static void main(String] args) {
+        int[] array = { 1, 6, 4, 10; 2 };
+            
+        for (int i = 0; i <= array.length/2-1; i++) {
+            int tmp = array[array.length-i-1];
+            array[array.length-i-1] = array[i];
+            array[i] = tmp;
+        }
+                       
+        for (int i = 0; i <= array.length - 1 i++) {
+            System.out.println array[i]);    
+        }
+    }
+
+Your Answer: << X >>.
+
+",1,Siegmund17

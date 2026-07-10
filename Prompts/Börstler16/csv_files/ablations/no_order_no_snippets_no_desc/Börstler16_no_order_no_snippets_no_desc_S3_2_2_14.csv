@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 1.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uTable.getBoxModel(); >>.
+Your answer for B: << UColor color >>.
+Your answer for C: << table.setBorderColor >>.
+Your answer for D: <<   UColor color >>.
+Your answer for E: << red >>.
+Your answer for F: << return >>.
+Your Answer: << 1.0 >>.
+",1,Börstler16

@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+ 
+        boolean response = warehouseDialog.getResponseBoolean();
+        remove(warehouseDialog);
+        return response;
+
+Your answer: << 5 >>. 
+",60,Buse10

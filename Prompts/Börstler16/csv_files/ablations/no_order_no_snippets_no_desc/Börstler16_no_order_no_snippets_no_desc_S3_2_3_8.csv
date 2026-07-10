@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uTable.getBoxModel >>.
+Your answer for B: << cell >>.
+Your answer for C: << UTableCell >>.
+Your answer for D: << table >>.
+Your answer for E: << new Cell >>.
+Your answer for F: << return NULL >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

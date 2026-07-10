@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << log(?); >>.
+Your answer for B: << HttpSession session >>.
+Your answer for C: << exit(); >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << projectspace.getNotifications() >>.
+Your answer for B: << NotificationComposite nComposite = Factory.changeNotificationComposite() >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 1.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uTable >>.
+Your answer for B: << BoxModelOption option >>.
+Your answer for C: << uTable.getBoxModel() >>.
+Your answer for D: << table.getsColoumnCount() >>.
+Your answer for E: << uTable >>.
+Your answer for F: << delete uTable >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << append((moveColor==White) >>.
+Your answer for B: << NumericAnnotations nag : move.getNag() >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << gc.textWidth(textValue).x >>.
+Your answer for B: << start >0 && end < length >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

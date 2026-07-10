@@ -1,0 +1,732 @@
+task,participant,answer,original_subject,program_letter,order,type,pair,pair_task,qpos,mins,correct,points
+task_f,1,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+a: -1 0 0 0.0
+b: c
+d",1118,F,1,Non-confusing,E,task_e,0,8,17,18
+task_g,1,"a: 1 0
+b: 32
+c: 1 1
+d",1118,G,2,Confusing,H,task_h,1,15,5,10
+task_a,1,"a: 0 0zy 1
+b: 1 0zx 1
+c",1118,A,3,Confusing,B,task_b,2,10,6,9
+task_d,1,"a: 2 2 0 0
+c: 2 0 2 1
+c: 3 3 2 2
+e",1118,D,4,Non-confusing,C,task_c,3,10,10,12
+task_b,2,"a: 0 z 1
+b: 1 ? 1
+a: 0 y 1
+b: 1 z 1",1155,B,1,Non-confusing,A,task_a,0,0,13,17
+task_e,2,"a: -1 -2 0 0
+b:
+_",1155,E,2,Confusing,F,task_f,1,4,5,7
+task_d,2,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+e",1155,D,3,Non-confusing,C,task_c,2,5,12,13
+task_g,2,"a: 1 0
+_",1155,G,4,Confusing,H,task_h,3,3,3,4
+task_c,3,"a: 2 2 0 0
+a: 3 3 0 2
+c",1236,C,1,Confusing,D,task_d,0,13,6,11
+task_f,3,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+b: ?
+b: c
+d",1236,F,2,Non-confusing,E,task_e,1,16,10,13
+task_a,3,"a: 0 bczy 1
+b: 0 abyz 1
+c",1236,A,3,Confusing,B,task_b,2,4,5,9
+task_h,3,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+X",1236,H,4,Non-confusing,G,task_g,3,14,12,14
+task_c,4,"a: 2 2 0 0
+a: 3 3 2 0
+c",1243,C,1,Confusing,D,task_d,0,15,7,11
+task_h,4,"a: 1 0
+a: 1 1
+a: 0 0
+a: 1 0
+a: 1 1
+a: 0 0
+a: 1 0
+a: 1 1
+a: 0 0
+a: 1 0",1243,H,2,Non-confusing,G,task_g,1,14,3,13
+task_a,4,c,1243,A,3,Confusing,B,task_b,2,3,0,1
+task_f,4,"a: -1 -2 0 0.0
+b: c
+d",1243,F,4,Non-confusing,E,task_e,3,3,5,7
+task_a,5,"a: 0 bzy 1
+b: 1 abzy 1
+c",2024,A,1,Confusing,B,task_b,0,3,6,9
+task_c,5,"a: 2 2 0 0
+a: 3 3 0 1
+c",2024,C,2,Confusing,D,task_d,1,10,7,11
+task_f,5,"a: -1 -2 0 0
+b: c
+d",2024,F,3,Non-confusing,E,task_e,2,3,5,7
+task_h,5,"a: 1 0
+b: 1 1
+a: 0 0
+2: 0
+4: 0
+d
+",2024,H,4,Non-confusing,G,task_g,3,14,13,14
+task_b,6,c,2250,B,1,Non-confusing,A,task_a,0,2,0,1
+task_f,6,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+a: -1 0 0 0.0
+b: c
+c: -2 0 0 1.0 1
+b: b
+c: -2 -1 0 0.0 0
+b: a
+d",2250,F,2,Non-confusing,E,task_e,1,13,34,34
+task_c,6,"a: 2 2 0 0
+a: 3 3 0 1
+c",2250,C,3,Confusing,D,task_d,2,19,7,11
+task_g,6,"a: 1 0
+c: 1 1
+a: 0 0
+b: 1 0
+b: 0
+d",2250,G,4,Confusing,H,task_h,3,17,10,12
+task_c,7,"a: 1 2 0 0
+b: 1
+a: 2 3 0 1
+b: 2
+c",2360,C,1,Confusing,D,task_d,0,28,8,13
+task_g,7,"a: 1 0
+a: 0 0
+b: 16
+c: 1 1
+d",2360,G,2,Confusing,H,task_h,1,10,4,7
+task_b,7,"a: 0 zy 1
+b: 1 zy 1
+a: 0 zz 1
+b: 1 zz 1
+c",2360,B,3,Non-confusing,A,task_a,2,10,16,17
+task_f,7,"a: -1 -2 0 0.0
+a: -2 -1 -2 0.0
+_",2360,F,4,Non-confusing,E,task_e,3,9,8,11
+task_b,8,_,2413,B,1,Non-confusing,A,task_a,0,10,0,1
+task_h,8,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+_",2413,H,2,Non-confusing,G,task_g,1,30,12,14
+task_e,8,"a: -1 -2 0 0.0
+a:
+_",2413,E,3,Confusing,F,task_f,2,10,6,11
+task_c,8,"a: 2 2 0 0
+a: 3 3 0 1
+c",2413,C,4,Confusing,D,task_d,3,17,7,11
+task_b,9,"a: 0 azy 1
+b: 1 azy 1
+a: 0 bzy 1
+b: 1 bzy 1
+c",2982,B,1,Non-confusing,A,task_a,0,9,15,17
+task_g,9,"a: 1 0
+a: 0 0
+c: 1 0
+d",2982,G,2,Confusing,H,task_h,1,13,4,7
+task_c,9,"a: 2 2 0 0
+a: 2 0 2 2
+b: 2
+c",2982,C,3,Confusing,D,task_d,2,6,9,12
+task_f,9,"a: -1 -2 0 0
+b: c
+d",2982,F,4,Non-confusing,E,task_e,3,1,5,7
+task_a,10,"a: 0 ? 1
+b: 1 ? 1
+c",3339,A,1,Confusing,B,task_b,0,7,7,9
+task_h,10,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0",3339,H,2,Non-confusing,G,task_g,1,20,21,25
+task_d,10,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+e",3339,D,3,Non-confusing,C,task_c,2,3,12,13
+task_e,10,X,3339,E,4,Confusing,F,task_f,3,3,0,1
+task_f,11,"a: -1 -2 0 0.0
+b: c
+d",3483,F,1,Non-confusing,E,task_e,0,3,5,7
+task_c,11,"a: 2 2 0 0
+c",3483,C,2,Confusing,D,task_d,1,7,5,6
+task_g,11,"a: 1 0
+b: 32
+c: 0 1
+d",3483,G,3,Confusing,H,task_h,2,24,5,10
+task_b,11,"a: 0 0zy 1
+b: 1 0zy 1
+a: 0 1zy 1
+b: 1 1zy 1
+c",3483,B,4,Non-confusing,A,task_a,3,7,15,17
+task_a,12,"a: 0 ? 1
+b: 0 ? 1
+c
+_",3487,A,1,Confusing,B,task_b,0,14,6,9
+task_d,12,"a: 2 2 0 0
+c: 1 0 4 1
+d: 2
+a: 3 3 0 2
+e",3487,D,2,Non-confusing,C,task_c,1,28,13,17
+task_h,12,"a: 1 0 
+b: 1 1
+a: 0 0
+4: 32 0
+d",3487,H,3,Non-confusing,G,task_g,2,11,9,11
+task_e,12,"a: -1 -2 0 ?
+b: c
+d",3487,E,4,Confusing,F,task_f,3,4,5,8
+task_h,13,"a: 1 0
+b: 1 1
+a: 0 0
+2: 64
+4: 32
+d",3878,H,1,Non-confusing,G,task_g,2,36,14,14
+task_a,13,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b: 1 y 1
+c",3878,A,2,Confusing,B,task_b,3,45,17,17
+task_c,13,"a: 2 2 0 0
+a: 2 0 1 1
+b: 2
+a: 3 3 0 2
+a: 3 0 1 1
+b: 3
+a: 3 0 1 2
+b: 3
+c
+",3878,C,3,Confusing,D,task_d,0,30,28,31
+task_f,13,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+a: -1 0 0 0.0
+b: c
+c: -2 0 0 1 1
+b: b
+b: a
+d",3878,F,4,Non-confusing,E,task_e,1,25,26,27
+task_h,14,"a: 1 0
+b: 1 1
+4: ?",3889,H,1,Non-confusing,G,task_g,0,12,6,8
+task_a,14,"a: 0 abzy 1
+b: 0 zy 1
+c
+a: 0 0 1
+b: 0 0 1
+c",3889,A,2,Confusing,B,task_b,1,6,5,9
+task_d,14,"a: 2 2 0 0 
+c: 2 0 2 1
+a: 3 3 0 1
+c: 3 0 3 1",3889,D,3,Non-confusing,C,task_c,2,13,15,17
+task_e,14,"a: -2 -2 0 ?
+b: 0
+c: -3 -2 0 ? ab",3889,E,4,Confusing,F,task_f,3,7,3,8
+task_g,15,"a: 1 0
+c: 1 0
+a: 0 0",4073,G,1,Confusing,H,task_h,0,15,8,10
+task_f,15,"a: -1 -2 0 ?
+a: -1 -1 0 ?
+a: -1 0 0 ?
+c: -2 0 0 0 0
+b: a
+c: -2 -1 0 0 0
+b: a
+d",4073,F,2,Non-confusing,E,task_e,1,12,4,10
+task_a,15,"c
+_",4073,A,3,Confusing,B,task_b,2,7,0,2
+task_d,15,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+c: 3 0 3 0
+e",4073,D,4,Non-confusing,C,task_c,3,9,22,23
+task_g,16,"a: 1 0
+c: 1 1
+a: 0 0
+b: 64
+d",4246,G,1,Confusing,H,task_h,0,31,11,12
+task_d,16,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+b: 3
+e",4246,D,2,Non-confusing,C,task_c,1,8,18,19
+task_a,16,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b: 1 y 1
+c",4246,A,3,Confusing,B,task_b,2,9,17,17
+task_f,16,"a: -1 -2 0 0.000000
+a: -1 -1 0 0.000000
+a: -1 0 0 0.000000
+b: c
+c: -2 0 0 1.000000 1
+b: b
+c: -2 -1 0 0.000000 0
+b: a
+d",4246,F,4,Non-confusing,E,task_e,3,0,34,34
+task_e,17,"a: -1 -2 0 0
+_",4500,E,1,Confusing,F,task_f,0,28,5,6
+task_b,17,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b 1 y 1
+c",4500,B,2,Non-confusing,A,task_a,1,18,17,17
+task_c,17,"a: 2 2 0 0
+b: 2
+c",4500,C,3,Confusing,D,task_d,2,17,5,7
+task_h,17,"a: 1 0
+b: 1 1
+a: 0 0
+2: 2
+4: 32
+d",4500,H,4,Non-confusing,G,task_g,3,23,13,14
+task_h,18,"a: 1 0
+b: 1 1
+a: 0 0
+b: 0 1
+4: 64
+4: 32
+d",4950,H,1,Non-confusing,G,task_g,0,20,10,13
+task_a,18,_,4950,A,2,Confusing,B,task_b,1,4,0,1
+task_c,18,"a: 1 0 0 0
+_",4950,C,3,Confusing,D,task_d,2,11,3,6
+task_f,18,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+a: -1 0 0 0.0
+b: c
+c: -2 0 0 1.0 1
+b: b
+c: -2 -1 0 0.0 0
+b: a",4950,F,4,Non-confusing,E,task_e,3,24,33,34
+task_f,19,"a: -1 -2 0 0
+a: -1 -1 0 0
+b: c
+c: -1 -1 0 0 0
+b: a
+d",5234,F,1,Non-confusing,E,task_e,0,15,14,20
+task_g,19,"a: 1 0
+b: ?
+c: ? 1
+d",5234,G,2,Confusing,H,task_h,1,15,4,7
+task_c,19,"a: 1 2 0 0
+_",5234,C,3,Confusing,D,task_d,2,10,4,6
+task_b,19,"a: 0 azy 1
+b: 1 ? ?
+a: 0 bzy 1
+b: 1 ? ?
+c",5234,B,4,Non-confusing,A,task_a,3,10,5,9
+task_g,20,"a: 1 0
+a: 0 0
+b: 32
+a:
+a:
+b:
+c:",5263,G,1,Confusing,H,task_h,0,15,4,7
+task_d,20,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 2 2 
+c: 3 0 16 0
+e",5263,D,2,Non-confusing,C,task_c,1,7,21,23
+task_b,20,"a: 0 zy 1
+b: 1 zx 1
+a: 0 zz 1
+b: 1 zy 1
+a: 0 aa 1
+b: 1 zz 1
+c",5263,B,3,Non-confusing,A,task_a,2,9,13,17
+task_e,20,"a: -1 -2 0 0.0
+a: 3 -1 3 0.0
+a: -1 -1 0 0.0
+c: -1 -2 0 0 0
+d",5263,E,4,Confusing,F,task_f,3,9,11,17
+task_c,21,"a: 1 2 0 0 
+b: 2
+a: 2 3 0 1
+b: 2
+a: 2 0 0 1",5278,C,1,Confusing,D,task_d,0,22,11,18
+task_b,21,"a: 0 zy 1
+b: 0 zy 25
+_",5278,B,2,Non-confusing,A,task_a,1,9,6,9
+task_f,21,"a: -1 -2 0 0 
+a: -1 -1 0 0
+a: -1 0 0 0
+c: -1 0 0 0 0
+c: -2 0 0 0 0
+c: -2 -1 0 0 0
+b: 0
+d: 0",5278,F,3,Non-confusing,E,task_e,2,13,16,22
+task_g,21,"a: 1 0 
+b: 0
+c: 1 1
+_",5278,G,4,Confusing,H,task_h,3,6,4,8
+task_f,22,"a: -1 -2 0 0
+b: c
+d",5545,F,1,Non-confusing,E,task_e,0,16,5,7
+task_c,22,"a: 1 2 0 0
+_",5545,C,2,Confusing,D,task_d,1,12,4,6
+task_g,22,"a: 1 0
+c: 1 1
+d",5545,G,3,Confusing,H,task_h,2,15,6,7
+task_b,22,c,5545,B,4,Non-confusing,A,task_a,3,2,0,1
+task_f,23,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+b: c
+c: -2 -1 0 -1 1.0
+b: a
+d",5802,F,1,Non-confusing,E,task_e,0,11,14,19
+task_c,23,"a: 2 2 0 0
+a: 2 0 2 0
+b: 2
+a: 3 3 2 1
+b: 3
+c",5802,C,2,Confusing,D,task_d,1,16,14,18
+task_b,23,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b: 1 y 1
+c",5802,B,3,Non-confusing,A,task_a,2,11,17,17
+task_g,23,"a: 1 0
+c: 1 1
+a: 0 0
+_",5802,G,4,Confusing,H,task_h,3,21,9,10
+task_d,24,"a: 2 2 0 0
+c: 2 2 2 1
+a: 3 3 0 2
+c: 3 0 3 1
+_",5998,D,1,Non-confusing,C,task_c,0,14,14,17
+task_a,24,_,5998,A,2,Confusing,B,task_b,1,3,0,1
+task_e,24,"a: -1 -2 0 ?
+_",5998,E,3,Confusing,F,task_f,2,7,4,7
+task_h,24,"a: 1 1
+b: 1 1
+a: 0 0
+b: 0 1
+4: ?
+d",5998,H,4,Non-confusing,G,task_g,3,15,8,13
+task_d,25,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+c: 3 0 3 1
+e",6371,D,1,Non-confusing,C,task_c,0,11,22,23
+task_h,25,"a: 1 0
+b: 1 1
+a: 0 0
+2: 32
+4: 0
+d",6371,H,2,Non-confusing,G,task_g,1,10,13,14
+task_a,25,"a: 0 bczy 1
+b: 1 abyx 1
+c",6371,A,3,Confusing,B,task_b,2,10,6,9
+task_e,25,"a: -1 -2 0 0
+a: -1 -1 0 0
+a: -1 0 0 0
+b: c
+c: -1 0 0 0 0
+_",6371,E,4,Confusing,F,task_f,3,21,20,24
+task_c,26,"a: 2 2 0 0
+a: 3 3 2 1
+c",6708,C,1,Confusing,D,task_d,0,5,8,11
+task_h,26,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 1
+b: 1 1
+a: 1 0
+b: 1 1
+a: 0 0
+a: 1 1
+b: 1 1
+a: 1 0
+X",6708,H,2,Non-confusing,G,task_g,1,10,27,30
+task_e,26,"a: -1 -2 0 ?
+b: c
+d",6708,E,3,Confusing,F,task_f,2,13,5,8
+task_b,26,"a: 0 0zy 1
+b 1 0zy 1
+a: 0 1zy 1
+b: 1 1zy 1
+c",6708,B,4,Non-confusing,A,task_a,3,5,15,17
+task_d,27,e,6862,D,1,Non-confusing,C,task_c,0,0,0,1
+task_b,27,"a: 0 zy 0
+b: 1 zx 1
+c",6862,B,2,Non-confusing,A,task_a,1,7,5,9
+task_g,27,"a: 1 0
+_",6862,G,3,Confusing,H,task_h,2,4,3,4
+task_e,27,"a: -1 -2 0 0.0
+a: -2 -3 0 0.0
+c: -2 -3 0 0.0 0
+d",6862,E,4,Confusing,F,task_f,3,6,8,12
+task_d,28,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+c: 3 0 3 1
+c: 3 0 3 2
+d: 3
+e",7320,D,1,Non-confusing,C,task_c,0,15,30,30
+task_a,28,c,7320,A,2,Confusing,B,task_b,1,6,0,1
+task_e,28,"a: -1 -2 0 0.0
+b: c
+d",7320,E,3,Confusing,F,task_f,2,8,5,7
+task_h,28,"a: 1 0
+b: 1 1
+a: 0 0
+2: 16
+4: 32
+d",7320,H,4,Non-confusing,G,task_g,3,11,13,14
+task_e,29,"a: -1 -2 0 0.0
+b: c
+d",7475,E,1,Confusing,F,task_f,0,11,5,7
+task_d,29,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+c: 3 0 3 1
+e",7475,D,2,Non-confusing,C,task_c,1,24,22,23
+task_g,29,"a: 1 0 
+_",7475,G,3,Confusing,H,task_h,2,8,3,4
+task_b,29,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b: 1 y 1
+c",7475,B,4,Non-confusing,A,task_a,3,9,17,17
+task_e,30,"a: -1 -2 0 0.0
+b: c
+d",7642,E,1,Confusing,F,task_f,0,12,5,7
+task_d,30,"a: 2 2 0 0
+c: 2 0 2 0
+c: 2 0 2 1
+d: 2
+d: 2 0 0 2
+c: 2 0 0 3
+X",7642,D,2,Non-confusing,C,task_c,1,15,13,19
+task_h,30,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+a: 0 0
+X",7642,H,3,Non-confusing,G,task_g,2,18,15,17
+task_a,30,"a: 0 azy 1
+b: 1 azy 1
+a: 0 bzy 1
+b: 1 bzy 1
+c",7642,A,4,Confusing,B,task_b,3,10,15,17
+task_b,31,_,8223,B,1,Non-confusing,A,task_a,0,6,0,1
+task_h,31,"a: 1 0
+b: 1 1
+a: 0 0
+b: 0 1
+4: 64
+4: 32
+d",8223,H,2,Non-confusing,G,task_g,1,15,10,13
+task_c,31,"a: 2 2 0 0
+_",8223,C,3,Confusing,D,task_d,2,11,5,6
+task_e,31,"a: -1 -2 0 0
+b: 0
+d",8223,E,4,Confusing,F,task_f,3,6,5,7
+task_f,32,"a: -1 -2 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00 
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00
+a: -1 -1 0 0.00",8273,F,1,Non-confusing,E,task_e,0,8,42,51
+task_a,32,_,8273,A,2,Confusing,B,task_b,1,5,0,1
+task_d,32,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 2 2
+c: 3 0 16 0
+e",8273,D,3,Non-confusing,C,task_c,2,6,21,23
+task_g,32,"a: 1 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0",8273,G,4,Confusing,H,task_h,3,18,3,13
+task_a,33,c,8317,A,1,Confusing,B,task_b,0,14,0,1
+task_g,33,"a: 1 0
+c: 1 1
+d",8317,G,2,Confusing,H,task_h,1,23,6,7
+task_d,33,"a: 2 2 0 0
+c: 2 0 2 0
+a: 3 3 0 1
+c: 3 0 3 1
+e",8317,D,3,Non-confusing,C,task_c,2,17,19,21
+task_f,33,"a: -1 -2 0 ?
+a: -2 -1 0 ?
+a: -3 -1 -3 ?
+a: -4 -1 -4 ?
+a: -1 0 -4 ?",8317,F,4,Non-confusing,E,task_e,3,16,4,14
+task_h,34,"a: 1 0
+b: 1 1
+a: 0 0
+a: 32
+_",8755,H,1,Non-confusing,G,task_g,0,24,9,11
+task_d,34,"a: 2 2 0 0
+b: 2
+c: 1 4 1 0
+d: 1",8755,D,2,Non-confusing,C,task_c,1,12,6,13
+task_a,34,_,8755,A,3,Confusing,B,task_b,2,2,0,1
+task_e,34,"a: -1 -2 0 0
+a: -1 -1 -1 0
+_",8755,E,4,Confusing,F,task_f,3,5,9,11
+task_d,35,"a: 2 2 0 0
+c: 2 0 2 0
+a: 3 3 2 1
+c: 3 0 19 0
+e",8782,D,1,Non-confusing,C,task_c,0,18,19,21
+task_f,35,"a: -1 -2 0 ?
+b: ?
+d",8782,F,2,Non-confusing,E,task_e,1,8,5,8
+task_g,35,"a: 1 0
+_",8782,G,3,Confusing,H,task_h,2,15,3,4
+task_a,35,X,8782,A,4,Confusing,B,task_b,3,8,0,1
+task_f,36,"a: -1 -2 0 0
+a: -1 -1 0 0
+a: -1 0 0 0
+b: c
+c: -2 0 0 1 1
+b: b
+c: -2 -1 0 0 0
+b: a
+d",9072,F,1,Non-confusing,E,task_e,0,18,34,34
+task_b,36,"a: 0 zy 1
+b: 1 zx 1
+a: 0 zz 1
+b: 1 zy 1
+c",9072,B,2,Non-confusing,A,task_a,1,12,14,17
+task_g,36,"a: 1 0
+_",9072,G,3,Confusing,H,task_h,2,5,3,4
+task_c,36,"a: 2 2 0 0
+a: 2 0 0 1
+b: 2
+c",9072,C,4,Confusing,D,task_d,3,8,11,13
+task_f,37,"a: -1 -2 0 0.0
+a: -1 -1 0 0.0
+a: -1 0 0 0.0
+b: c
+c: -1 0 0 1.0 1
+b: b
+c: -2 -1 0 0.0 0
+b: a
+d",9336,F,1,Non-confusing,E,task_e,0,20,33,34
+task_g,37,"a: 1 0
+b: 64
+a: 0 0
+b: 64
+_",9336,G,2,Confusing,H,task_h,1,19,6,10
+task_a,37,c,9336,A,3,Confusing,B,task_b,2,5,0,1
+task_d,37,"a: 2 2 0 0
+c: 2 0 0 0
+a: 3 3 0 1
+c: 3 0 0 1
+c: 3 0 0 2
+d: 3
+e",9336,D,4,Non-confusing,C,task_c,3,9,25,28
+task_e,38,"a: -1 -2 0 0
+a: -2 -1 -2 0
+b: -1 -1
+_",9432,E,1,Confusing,F,task_f,0,10,8,13
+task_h,38,"a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0
+b: 1 1
+a: 0 0
+a: 1 0",9432,H,2,Non-confusing,G,task_g,1,15,21,25
+task_d,38,"a: 2 2 0 0
+c: 2 0 2 1
+d: 2
+a: 3 3 0 2
+c: 3 0 3 1
+b: 3
+c: 3 0 0 3
+a: 3 0 0 4",9432,D,3,Non-confusing,C,task_c,2,15,30,34
+task_a,38,"a: 0 zy 1
+b: 1 zy 1",9432,A,4,Confusing,B,task_b,3,5,8,9
+task_b,39,"a: 0 azy 1
+b: 0",9492,B,1,Non-confusing,A,task_a,0,9,4,9
+task_c,39,"a: 1 1 0 0
+a: 1 0 0 1",9492,C,2,Confusing,D,task_d,1,8,7,11
+task_h,39,"a: 1 0
+b: 1 1
+a: 0 0
+2: 0
+d",9492,H,3,Non-confusing,G,task_g,2,8,10,12
+task_e,39,a: -1 -2 0 0.0,9492,E,4,Confusing,F,task_f,3,2,5,6
+task_h,40,"a: 1 0
+b: 1 1
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0
+a: 0 0",9582,H,1,Non-confusing,G,task_g,0,11,9,17
+task_b,40,X,9582,B,2,Non-confusing,A,task_a,1,3,0,1
+task_e,40,"a: -1 -2 0 ?
+_",9582,E,3,Confusing,F,task_f,2,4,4,7
+task_c,40,"a: 2 2 0 0
+_",9582,C,4,Confusing,D,task_d,3,3,5,6
+task_b,41,"a: 0 zy 1
+b: 1 zy 1
+a: 0 y 1
+b: 1 y 1
+c",9733,B,1,Non-confusing,A,task_a,0,12,17,17
+task_e,41,"a: -1 -2 0 0.0
+c
+d",9733,E,2,Confusing,F,task_f,1,6,5,7
+task_c,41,"a: 2 2 0 0
+a: 3 3 0 1
+c",9733,C,3,Confusing,D,task_d,2,17,7,11
+task_h,41,"a: 1 0
+b: 1 1
+a: 0 0
+2: 510
+4: 32
+d",9733,H,4,Non-confusing,G,task_g,3,23,14,14
+task_h,42,"a: 1 0
+a: 0 0
+b: 0 1
+4: 64
+_",9998,H,1,Non-confusing,G,task_g,0,20,4,7
+task_f,42,"a: -1 -2 0 0
+b: c
+d",9998,F,2,Non-confusing,E,task_e,1,12,5,7
+task_a,42,_,9998,A,3,Confusing,B,task_b,2,6,0,1
+task_c,42,"a: 2 0 0 0
+b: 1
+c",9998,C,4,Confusing,D,task_d,3,9,4,7

@@ -1,0 +1,40 @@
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table.  
+ */ 
+protected Table copyUTable(UTable uTable) 
+{ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    table.setBorderColor(new Color ( 
+        uTable.getBoxModel().getBorderColor().getRed(), 
+        uTable.getBoxModel().getBorderColor().getGreen(), 
+        uTable.getBoxModel().getBorderColor().getBlue())); 
+
+    Cell cell; 
+    for (UTableCell uCell : uTable.getEntries()) { 
+
+        UParagraph paragraph = uCell.getContent(); 
+
+        if (paragraph.getChildren().size() > 0 && 
+            paragraph.getChildren().get(0) instanceof UImage) { 
+            
+            UImage image = paragraph.getChildren().get(0); 
+            
+            if (image.getPath().lastSegment().startsWith("false")) { 
+                cell = new Cell("no"); 
+            
+            } else { 
+                if (image.getPath().lastSegment().startsWith("true")) { 
+                    cell = new Cell("yes"); 
+                } else { 
+                    cell = new Cell(image.getPath().lastSegment()); 
+                } 
+            } 
+            
+            if (A:_______________________________________ != null) { 
+                cell.setBackgroundColor(B:_____________________________________); 
+            } 
+        } 
+        C:__________________; 
+    } 
+    return table; 
+}

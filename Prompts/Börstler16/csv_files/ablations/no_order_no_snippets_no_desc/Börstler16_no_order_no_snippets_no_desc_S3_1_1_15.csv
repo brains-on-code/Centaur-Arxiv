@@ -1,0 +1,16 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << cell.getBackgroundColor >>.
+Your answer for B: << uTable.getBoxModel().getBorderColor(). ? >>.
+Your answer for C: << ? >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

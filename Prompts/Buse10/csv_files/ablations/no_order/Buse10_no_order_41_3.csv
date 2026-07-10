@@ -1,0 +1,18 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+      switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
+      case EQ:
+        t = jj_consume_token(EQ);
+        break;
+      case NE:
+        t = jj_consume_token(NE);
+
+Readability Rating: << 5 >>. 
+",41,Buse10

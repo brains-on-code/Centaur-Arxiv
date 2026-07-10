@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+void main() { 
+   int V1 =  2, V2;
+   V2 = V1 + 3;
+   V1++;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 3 4 >>.
+",task_14,Gopstein17a

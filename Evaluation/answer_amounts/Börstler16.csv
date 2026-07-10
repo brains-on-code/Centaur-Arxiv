@@ -1,0 +1,500 @@
+task,answer,amount,answer_num
+S1_1_1,"3.0#3.0#log(troubleTicket.toString())#?",1,0
+S1_1_1,"5.0#4.0#log(troubleTicket.toString())#mostRecentErrors",1,1
+S1_1_1,"4.0#2.0#?#?",1,2
+S1_1_1,"2.0#2.0#log(troubleTicket.toString())#?",1,3
+S1_1_1,"1.0#1.0#?#?",1,4
+S1_1_1,"1.0#1.0#TroubleTicket#Log",1,5
+S1_1_1,"3.0#3.0#log(troubleTicket)#?",1,6
+S1_1_1,"3.0#1.0#?#?",1,7
+S1_1_1,"3.0#2.0#log(troubleTicket.toString());#troubleTicket(ex, aRequest);",1,8
+S1_1_1,"3.0#3.0#log(troubleTicket.toString())#getS()",1,9
+S1_1_1,"3.0#3.0#log(troubleTicket.to String());#?",1,10
+S1_1_1,"3.0#4.0#log(troubleTicket.toString())#getServletContext()",1,11
+S1_1_1,"3.0#2.0#log(troubleTicket.toString() )#latest",1,12
+S1_1_1,"3.0#3.0#log(troubleTicket.toString());#getServletContext()).",1,13
+S1_1_1,"3.0#2.0#log(?)#?",1,14
+S1_1_1,"2.0#2.0#webmaster unexpected problem#?",1,15
+S1_1_2,"5.0#5.0#?#?",1,0
+S1_1_2,"4.0#4.0#log(troubleTicket.toString());#update",1,1
+S1_1_2,"4.0#4.0#log(?)#?",1,2
+S1_1_2,"2.0#2.0#?#?",2,3
+S1_1_2,"4.0#3.0#log (troubleTicket#troubleTicket",1,4
+S1_1_2,"2.0#2.0#log(troubleTicket.toString())#getContent()",1,5
+S1_1_2,"2.0#2.0#log(""MOST_RECENT_TROUBLE_TICKET"")#getmessage",1,6
+S1_1_2,"1.0#1.0#?#troubleTicket",1,7
+S1_1_2,"2.0#2.0#log(?);#?",1,8
+S1_1_2,"1.0#1.0#log(send.string)#?",1,9
+S1_1_2,"2.0#2.0#log(troubleTicket.toString())#troubleTicket",1,10
+S1_1_2,"3.0#2.0#log(troubleTicket?);#getServlet?",1,11
+S1_1_2,"3.0#3.0#log(troubleTicker.toString())#getContext()",1,12
+S1_1_2,"3.0#3.0#log(troubleTicket.toString())#getInternet()",1,13
+S1_1_2,"3.0#2.0#log(?);#troubleTicket?",1,14
+S1_1_2,"2.0#1.0#log(troubleTicket.toString());#?",1,15
+S1_1_2,"3.0#3.0#log(troubleTicket.toString());#troubleTicket;",1,16
+S1_1_2,"3.0#4.0#log(?)#Httpservletrequest.",1,17
+S1_1_2,"2.0#3.0#log(?);#log;",1,18
+S1_1_2,"3.0#4.0#(troubleTicket.toString())#getServletContext()",1,19
+S1_1_2,"3.0#3.0#flogger.sever(troubleTicket.toString());#?",1,20
+S1_1_2,"4.0#4.0#log(troubleTicket.toString())#getServletContext()",1,21
+S1_1_3,"2.0#2.0#log(?)#get.(?)",1,0
+S1_1_3,"3.0#3.0#log(troubleTicket.toString())#?()",2,1
+S1_1_3,"3.0#2.0#log(?);#?",1,2
+S1_1_3,"2.0#2.0#log(troubleTicket)#get?",1,3
+S1_1_3,"2.0#2.0#log(troubleTicket.toString())#?",1,4
+S1_1_3,"3.0#3.0#aRequest.getTroubleTicket();#aRequest.GetServContext(?)",1,5
+S1_1_3,"2.0#3.0#log(troubleTicket.toString())#troubleTicket",1,6
+S1_1_3,"3.0#3.0#log(?)#?",1,7
+S1_1_3,"1.0#2.0#log(?)#aRequest",1,8
+S1_1_3,"3.0#2.0#log(troubleTicket.toString());#?",1,9
+S1_1_3,"2.0#1.0#log(?)#?",1,10
+S1_1_3,"5.0#5.0#log(troubleTicket.toString());#get?()",1,11
+S1_1_3,"4.0#3.0#log(?)#?",1,12
+S1_2_1,"3.0#3.0#log(troubleTicket.toString())#?#?",2,0
+S1_2_1,"1.0#1.0#?#?#?",2,1
+S1_2_1,"2.0#2.0#?#?context#?",1,2
+S1_2_1,"2.0#2.0#troubleticket#troubleticket#conent",1,3
+S1_2_1,"1.0#1.0#log(troubleticket)#?#getServelet",1,4
+S1_2_1,"4.0#4.0#log(troubleTicket.toString())#context#getContext",1,5
+S1_2_1,"5.0#3.0#aRequest.info = ?#troubleTicket.info#info",1,6
+S1_2_1,"2.0#2.0#log(troubleTicket.toString());#new TroubleTicket#aRequest",1,7
+S1_2_1,"4.0#3.0#log(troubleTicket.toString())#?#?",1,8
+S1_2_1,"3.0#3.0#log(aRequest.errorString());#ServerContext context#getServerContext();",1,9
+S1_2_1,"3.0#1.0#?#?#?",1,10
+S1_2_1,"2.0#2.0#log(?)#HttpContext context#getContext()",1,11
+S1_2_1,"3.0#3.0#?#?#?",1,12
+S1_2_2,"2.0#3.0#fLogger.severe(troubleTicket.toString());#'Contextfile' context#getContext()",1,0
+S1_2_2,"2.0#2.0#log(troubleTicket.toString())#?#?",1,1
+S1_2_2,"3.0#3.0#?#HttpSession context#getAttribute",1,2
+S1_2_2,"3.0#2.0#log(troubleTicket)#troubleTicket#?",1,3
+S1_2_2,"4.0#3.0#log(troubleTicket.toString())#?#get?",1,4
+S1_2_2,"2.0#1.0#log(troubleTicket.toString())#?#getRequest()",1,5
+S1_2_2,"3.0#3.0#log(troubleTicket.toString())#?#?",1,6
+S1_2_2,"4.0#4.0#log(troubleTicket.toString());#newContext context#getContext()",1,7
+S1_2_2,"4.0#4.0#log(?)#HttpSession#?",1,8
+S1_2_2,"3.0#3.0#log(troubleTicket.toString());#ServletContext context#getContext();",1,9
+S1_2_2,"3.0#1.0#?#?#?",1,10
+S1_2_2,"3.0#3.0#log(troubleTicket.toString());#?#?",1,11
+S1_2_2,"4.0#3.0#log(?)#Ticket troubleTicket#getSession()",1,12
+S1_2_2,"2.0#2.0#log(troubleTicket.toString());#ServletContext context#getServletContext();",1,13
+S1_2_2,"4.0#3.0#log(?);#?#?",1,14
+S1_2_2,"2.0#2.0#?#?#?",2,15
+S1_2_2,"4.0#4.0#log(troubleTicket.toString#servletContext context#getServletContext",1,16
+S1_2_2,"4.0#4.0#log(troubleTicket.toString());#context#getContext()",1,17
+S1_2_2,"3.0#3.0#log(troubleTicket.toString());#HttpContext context#aRequest.getcontext();",1,18
+S1_2_2,"2.0#2.0#fLogger.severe#void#httsession",1,19
+S1_2_3,"3.0#2.0#log(troubleTicket.toString())",1,0
+S1_2_3,"1.0#2.0#?#?#?",1,1
+S1_2_3,"2.0#2.0#log(?)#? context#?",1,2
+S1_2_3,"2.0#1.0#log(troubleTicket.toString())#? context?#?",1,3
+S1_2_3,"2.0#2.0#log(troubleTicket.toString())#? context#troubleTicket",1,4
+S1_2_3,"3.0#2.0#log(?);#HttpSession session#exit();",1,5
+S1_2_3,"2.0#2.0#log(?)#HttpSession?#?",1,6
+S1_2_3,"4.0#3.0#log(?#?#?",1,7
+S1_2_3,"4.0#4.0#log(""Error in request: "", aRequest)#Context context#getContext()",1,8
+S1_2_3,"4.0#3.0#log(troubleTicket.toString());#ServletContext context #getServletContext();",1,9
+S1_2_3,"3.0#3.0#?#?#?",1,10
+S1_2_3,"3.0#2.0#log(whateverTheExeptionMessageWas)#?#?",1,11
+S1_2_3,"1.0#2.0#troubleticket.tostring#servletcontext context#getserveletcontext",1,12
+S1_2_3,"2.0#2.0#?#?#gettroubleTicket()",1,13
+S1_2_3,"1.0#1.0#log troubleticket.tostring#?#?",1,14
+S2_1_1,"3.0#3.0#notification != null#nComposite.getNotifications().getAllnStore.getNotifications());",1,0
+S2_1_1,"2.0#1.0#?#?",1,1
+S2_1_1,"3.0#3.0#property != null#nComposite.getNotifications().add(?)",1,2
+S2_1_1,"2.0#4.0#properity != NULL#nComposite.getNotifications().addAll(nStore.getNotifications())",1,3
+S2_1_1,"2.0#2.0#value!= 0 &&?#n.Composite.getNotification().add(n.store.getNotifications())",1,4
+S2_1_1,"4.0#3.0#projectspace.getNotifications()#NotificationComposite nComposite = Factory.changeNotificationComposite()",1,5
+S2_1_1,"2.0#2.0#notifications#nComposite.getNotifications().addAll(nStore.getNotifications())",1,6
+S2_1_1,"3.0#3.0#!project.getNotifications() == null#nStore.getNotifications()",1,7
+S2_1_1,"3.0#3.0#projectSpace.hasNotifications()#projectSpace.addNotifications(nComposite.getNotifications())",1,8
+S2_1_1,"3.0#3.0#if (property != null)#nComposite.getNotifications().addAll(nStore.getNotifications());",1,9
+S2_1_1,"3.0#3.0#?#?",1,10
+S2_1_1,"2.0#2.0#property != null#?.addAll(?)",1,11
+S2_1_1,"2.0#2.0#property != null#?",1,12
+S2_1_1,"4.0#3.0#property != null#nComposite.getNotifications().addAll(nStore.getNotifications());",1,13
+S2_1_1,"1.0#1.0#projectspace = null#nstore.getnotifications",1,14
+S2_1_2,"3.0#3.0#property != NULL#nComposite.getNotifications().removeall(nStore.getNotifications()",1,0
+S2_1_2,"3.0#3.0#property !=0#?",1,1
+S2_1_2,"3.0#3.0#property != null#nComposite.getNotifications().addAll(nStore.getNotifications())",1,2
+S2_1_2,"3.0#1.0#?#?",2,3
+S2_1_2,"1.0#2.0#?#?",1,4
+S2_1_2,"4.0#4.0#property != null#nComposite.addNotifications(nStore.getNotifications())",1,5
+S2_1_2,"3.0#3.0#property.getValue()!=null#nComposite.getNotification().addAll(nStore.getNotification())",1,6
+S2_1_2,"4.0#4.0#property != null#nComposite.getNotifications().addAll(nStore.getNotifications())",1,7
+S2_1_2,"1.0#2.0#property != NULL#nComosite.getNotification().addALL(nStore.getNotifications())",1,8
+S2_1_2,"2.0#2.0#!value==NULL#nComposite.getNotifications().addAll(nStore.getNotifications());",1,9
+S2_1_2,"1.0#1.0#property != null#?",1,10
+S2_1_2,"4.0#2.0#manager.contains(nStore)#nComposite.getNotifications().append(nStore);",1,11
+S2_1_2,"1.0#3.0#property != NULL#nComposite.getNotifications().addAll(nStore.getNotifications)",1,12
+S2_1_2,"3.0#3.0#property != null#n.composite()?getnotification",1,13
+S2_1_3,"3.0#3.0#property != null#nComposite.getNotifications().AddAll(nStore.getNotifications());",1,0
+S2_1_3,"1.0#1.0#proprities != NULL#nComposite.getNotification(). getAll(nStore.getNotification))",1,1
+S2_1_3,"2.0#2.0#property != null#?",1,2
+S2_1_3,"2.0#2.0#projctSpace!= null#?",1,3
+S2_1_3,"3.0#3.0#property != null#nComposite.getNotifications().addAll(nStore.getNotifications())",3,4
+S2_1_3,"2.0#2.0#properties =!0#nComposite.getNotifications().addAll(nStore.getNotifications())",1,5
+S2_1_3,"2.0#2.0#property != null#nComposite.getNotifications().addAll(nStore.getNotifications())",1,6
+S2_1_3,"1.0#1.0#profectspace!=null#nstore.sendagain",1,7
+S2_1_3,"2.0#2.0#property != null#nComposite.getLocalProperty(NOTIFICATION_COMPOSITE).getNotifications().addAll(nStore.getNotifications())",1,8
+S2_1_3,"3.0#3.0#true#nComposite.getNotifications().addAll",1,9
+S2_1_3,"1.0#1.0#property!=null#nComposite.getNotifications().addAll(nStore.getNotifications())",1,10
+S2_1_3,"2.0#1.0#projectSpace == value#?",1,11
+S2_1_3,"4.0#3.0#property!=NULL#nComposite.getNotifications().addAll(nStore.getNotifications());",1,12
+S2_1_3,"3.0#3.0#(property != null) #nComposite.getNotifications()",1,13
+S2_1_3,"2.0#2.0#projekt != null# nComposite.getNotifications().nStore.getNotifications());",1,14
+S2_1_3,"4.0#4.0#property != null#nComposite.getNotifications().sthAll( nStore.getNotifications())",1,15
+S2_1_3,"2.0#2.0#?#?",1,16
+S2_1_3,"2.0#3.0#value#nComposite.getNotifications().removeAll(nStore.getNotifications())",1,17
+S2_1_3,"1.0#1.0#?#?",1,18
+S2_2_1,"3.0#3.0#value != null#nComposite#get.Value#notifications.addAll(nStore.getNotifications())",1,0
+S2_2_1,"1.0#1.0#notification != null && notification instanceof ?#?#??#notifications.addAll(nStore.getNotifications())",1,1
+S2_2_1,"2.0#2.0#?#notifications ?#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications());",1,2
+S2_2_1,"2.0#2.0#property!=NULL#notifications#nComposite.notifications#?",1,3
+S2_2_1,"1.0#1.0#property!=NULL#?#?#?",1,4
+S2_2_1,"2.0#2.0#?#?#?#?",1,5
+S2_2_1,"2.0#3.0#property != null#notification#nComposite.value#notifications.getAll nStore.getNotifications()",1,6
+S2_2_1,"4.0#4.0#properties!=NULL#?#?#notifications.addAll(nStore.getNotifications())",1,7
+S2_2_1,"2.0#3.0#property != null#notifications#?#notifications.add(?)",1,8
+S2_2_1,"3.0#3.0#value!=Null#?#?#notifications.?",1,9
+S2_2_1,"3.0#3.0#property != null#notifications#nComposite#notifications.addAll",1,10
+S2_2_1,"2.0#2.0#(projectSpace !>0)#?#?#(notifications.add)",1,11
+S2_2_1,"4.0#4.0#property!=null#notifications#nComposite.getNotifications();#notifications.addAll(nStore.getNotifications());",1,12
+S2_2_1,"3.0#3.0#property != null#notifications#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications())",1,13
+S2_2_2,"2.0#2.0#property != null#?#?#notifications.addAll(nStore.getNotifications());",1,0
+S2_2_2,"2.0#2.0#property != null#notifications#?#notifications.add(nStore.getNotifications()",1,1
+S2_2_2,"3.0#2.0#property = null#?#?#notifications.addAll(nStore.getNotifications());",1,2
+S2_2_2,"2.0#3.0#property != null#notifications#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications())",1,3
+S2_2_2,"2.0#1.0#!=null#?#?#?",1,4
+S2_2_2,"1.0#1.0#property != Null#notifications #nComposite.getNotifications()#notifications.addAll(nStore.getNotifications())",1,5
+S2_2_2,"3.0#3.0#property !null#?#?#notifications.addAll (nStore.getNotifications())",1,6
+S2_2_2,"1.0#1.0#property != Null#nstore-notifications#notifications#notifications=nstore-notifications + notifications",1,7
+S2_2_2,"2.0#3.0#property != null#value#notifications#?",1,8
+S2_2_2,"3.0#2.0#property != null#notifications#?#?",1,9
+S2_2_2,"2.0#2.0#if property != 0#?#?#notifications.addAll(nStore.getNotifications())",1,10
+S2_2_2,"3.0#3.0#property !=null#notifications#nComposite.getNotifications#notifications.addAll(nStore.getNotifications())",1,11
+S2_2_2,"2.0#2.0#nStore.isAcknowledged()#nStore#?#add(nStore.getNotifications)",1,12
+S2_2_2,"2.0#2.0#property.getValue;#notifications #ncomposite.getNotifications();#notification.addAll(nstore.getNotifications());",1,13
+S2_2_2,"1.0#1.0#?#?#?#?",2,14
+S2_2_3,"5.0#5.0#?#?#?#?",1,0
+S2_2_3,"3.0#3.0#property != null#notifications#?#notifications.addAll(nStore.getNotifications())",1,1
+S2_2_3,"3.0#2.0#?#?#?#?",1,2
+S2_2_3,"2.0#3.0#property != null#?#?#?",1,3
+S2_2_3,"2.0#2.0#?#?#?#?",2,4
+S2_2_3,"3.0#3.0#property!=null#notifications#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications()",1,5
+S2_2_3,"2.0#2.0#property != null#Notification#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications())",1,6
+S2_2_3,"2.0#2.0#property !null#Value property#?#?",1,7
+S2_2_3,"2.0#2.0#property != null#notifications#nComposite.getNotifications();#notifications.addAll(nStore.getNotifications());",1,8
+S2_2_3,"2.0#2.0#propertymanager != null#value #nComposite#notifications.addAll(nStore.getNotifications())",1,9
+S2_2_3,"1.0#1.0#property != NULL#?#?#notifications.?",1,10
+S2_2_3,"1.0#2.0#property != null#Notification?#nComposite.getNotification#?",1,11
+S2_2_3,"2.0#1.0#property != 0#notifications#getNotifications()#Add?",1,12
+S2_2_3,"2.0#2.0#property!=NULL#notifications#nComposite.getNotificationList()#notifications.add(?)",1,13
+S2_2_3,"1.0#1.0#value != ?#?#?#notifications.addAll(nStore.getNotifications())",1,14
+S2_2_3,"2.0#1.0#property != null#?#?#?",1,15
+S2_2_3,"3.0#3.0#property !=null#notifications#compositeNotification#notifications.addAll(nStore.getNotifications())",1,16
+S2_2_3,"3.0#2.0#property!=null#notifications#nComposite.getNotification#notifications.",1,17
+S2_2_3,"2.0#2.0#property != NULL#property#value#notifications.getAll (nStore.getNotifications())",1,18
+S2_2_3,"4.0#4.0#value != null && value instanceof NotificationComposite#notifications#nComposite.getNotifications#notifications.addAll(nStore.getNotifications())",1,19
+S2_2_3,"2.0#2.0#property != null#?#?#?",1,20
+S2_2_3,"3.0#3.0#property != null#notifications#nComposite.getNotifications()#notifications.addAll(nStore.getNotifications())",1,21
+S3_1_1,"5.0#5.0#uCell#new Color()#table.add(paragraph)",1,0
+S3_1_1,"4.0#4.0#uCell.getBoxModel.getBackgroundColor()#uCell.getBoxModel.getBackgroundColor()#table.addCell(cell)",1,1
+S3_1_1,"4.0#3.0#?#?#?",1,2
+S3_1_1,"4.0#4.0#?#?#?",1,3
+S3_1_1,"3.0#3.0#ucell.getBoxmodel().getBackroundColour()#ucell.getBoxmodel().getBackroundColour()#table.addCell(cell)",1,4
+S3_1_1,"4.0#4.0#ucell.getbackgroundcolor()#ucell.getbackgroundcolor()#table.addcell()",1,5
+S3_1_1,"3.0#3.0#uCell.getBoxModel().getBorderColor()#uCell.getBoxModel().getBorderColor()#table.addCell()",1,6
+S3_1_1,"3.0#3.0#borderColor#?#?",1,7
+S3_1_1,"2.0#2.0#?#?#?",1,8
+S3_1_1,"3.0#2.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.addCell(cell);",1,9
+S3_1_1,"3.0#3.0#CellBackgroundColor#CellBackgroundColor.uCell#?",1,10
+S3_1_1,"4.0#2.0#?#?#?",1,11
+S3_1_1,"3.0#3.0#cell.BoxModel.getColor?#cell.BoxModel.getcolor?#table add cell",1,12
+S3_1_1,"2.0#2.0#uTable.getBoxModel().getBorderColor()#getBoxModel().getBackground()?#table.addCell()",1,13
+S3_1_1,"3.0#3.0#?#uCell.getBoxModel().getBackgroundColor()#?",1,14
+S3_1_1,"4.0#4.0#cell.getBackgroundColor#uTable.getBoxModel().getBorderColor(). ?#?",1,15
+S3_1_1,"2.0#1.0#uCell.getBackgroundColor()#?#?",1,16
+S3_1_1,"5.0#4.0#uCel.?.getBackgroundColor()#uCel.?.getBackgroundColor()#table.addCell(cell)",1,17
+S3_1_1,"3.0#2.0#image.getpath().#image.getpath() #Cell= new",1,18
+S3_1_1,"3.0#3.0#uCell#(1.0, 0.9, 0.6)#return uCell",1,19
+S3_1_1,"2.0#2.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.addCell(cell)",1,20
+S3_1_1,"4.0#4.0#(Color backgroundColor = uCell.getBackgroundColor)#backgroundColor#table.addCell(cell)",1,21
+S3_1_1,"4.0#3.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.addCell(cell)",1,22
+S3_1_2,"4.0#2.0#image.getPath().lastSegment()#get.BackroundColor#Cell cell",1,0
+S3_1_2,"3.0#3.0#TheMostUnimportantSnippetOfTheCode#DidYouReallyExpectedMeToRememberThis#table.addCell(cell)",1,1
+S3_1_2,"3.0#3.0#uCell.getBackgroundColor()#uCell.getBackgroundColor()#table.addCell(cell);",1,2
+S3_1_2,"3.0#2.0#uCell.getBackroundcolor()#uCell.get?#table.addCell(cell)",1,3
+S3_1_2,"1.0#1.0#?#?#?",1,4
+S3_1_2,"4.0#4.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.someInputFunction(cell)",1,5
+S3_1_2,"3.0#4.0#uCell.getBackgroundColor#cell.setBackgroundColor#table.add(cell)",1,6
+S3_1_2,"2.0#1.0#cell.getPath.lastSegment()#uTable.getBoxModel().getColor()#?",1,7
+S3_1_2,"2.0#2.0#cell.BrackgroundColorSet()#?BackroundColor#addCell()",1,8
+S3_1_2,"2.0#2.0#?#?#?",1,9
+S3_1_2,"3.0#2.0#cell.getBoxModel()#cell.getBoxModel().getBackground()#table.",1,10
+S3_1_2,"2.0#1.0#?#?#?",1,11
+S3_1_2,"3.0#3.0#uTable.getBoxModel().getBackgroundColor()#uTable.getBoxModel().getBackgroundColor()#table.addCell(cell);",1,12
+S3_1_2,"2.0#2.0#uTable.getBackgroundColor()#uTable.getBackgroundColor()#table.add(cell)",1,13
+S3_1_3,"1.0#2.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.addCell(cell)",1,0
+S3_1_3,"3.0#2.0#?#?#?",1,1
+S3_1_3,"3.0#3.0#?#?#table.addCell(cell)",1,2
+S3_1_3,"3.0#3.0#ucell.getBoxModel().getBackgroundColor()#ucell.getBoxModel().getBackgroundColor()#table.addCell(cell)",1,3
+S3_1_3,"3.0#3.0#cell#?#?",1,4
+S3_1_3,"1.0#1.0#uCell.getBoxModel().getBackgroundColor() #cell.setBackgroundColor(uCell.getBoxModel().getBackgroundColor())#table.addCell(cell)",1,5
+S3_1_3,"2.0#1.0#?#?#?",1,6
+S3_1_3,"1.0#2.0#?#?#return ?",1,7
+S3_1_3,"3.0#2.0#cell.backgroundColor#new Color (uTabel.getBoxModel().getBorderColor()#?",1,8
+S3_1_3,"3.0#3.0#getPath()#?#table.addCell(cell);",1,9
+S3_1_3,"3.0#3.0#uCell.get?().get?()#uCell.get?().get?()#tabel.addCell",1,10
+S3_1_3,"2.0#2.0#uCell.getBoxModel().getBackgroundColor()#uCell.getBoxModel().getBackgroundColor()#table.addCell(cell)",2,11
+S3_1_3,"1.0#1.0#cell.getEntry()#uCell.getBackgroundColor()#?",1,12
+S3_1_3,"4.0#4.0#Ucell.getBackgroundColor()#Ucell.getBackgroundColor()#table.addColumn()",1,13
+S3_1_3,"1.0#2.0#?#?#?",1,14
+S3_2_1,"4.0#4.0#uTable.getBackGroundModel();#color#option.getBackgroundColor()#color#color#add cell to table",1,0
+S3_2_1,"1.0#1.0#?#?#?#?#?#?",3,1
+S3_2_1,"4.0#4.0#?#colour#?#colour#colour#?",1,2
+S3_2_1,"3.0#3.0#?#?#?#color#color#?",1,3
+S3_2_1,"4.0#4.0#uTable.getCellModel#color#option.getCellColor#color#color#table.addCell",1,4
+S3_2_1,"4.0#4.0#?#?#?#?#?#?",2,5
+S3_2_1,"4.0#3.0#uCell.getBoxModel()#color#option.getBackgroundColor()#color#color#table.add(cell)",1,6
+S3_2_1,"3.0#3.0#uCell.getBoxModel()#color#option.getBackgroundColor()#color#color#table.addCell(cell)",1,7
+S3_2_1,"2.0#2.0#?#color#UTable.color#color#UTable.color#table.addCell(cell)",1,8
+S3_2_1,"3.0#3.0#cell.setBackgoundColor(""no"")#?#?#uCell#yes""""#return cell",1,9
+S3_2_1,"3.0#3.0#uCell.getBoxModel();#color#option.getBackgroundColor();#color#color#table.addCell(cell);",1,10
+S3_2_1,"3.0#3.0#uCell.getBoxModel()#color#?#color#color#tabel.",1,11
+S3_2_1,"3.0#3.0#?#?#?#?#?#?",1,12
+S3_2_1,"4.0#4.0#uCell.get?#color#?#color#color#addCell",1,13
+S3_2_1,"3.0#3.0#?#?#?#?#?#it means, that i cant remember",1,14
+S3_2_1,"3.0#3.0#uCell.getBoxModel();#color#option.getBackgroundColor();#color != null#color#table.addCell(cell);",1,15
+S3_2_1,"2.0#1.0#new call#if background color#cell#false#path path#return",1,16
+S3_2_1,"4.0#3.0#?#?#?#?#?#?",1,17
+S3_2_2,"3.0#2.0#?#?#?#color#color#?",1,0
+S3_2_2,"1.0#1.0#getboxmodel?#color#getbackgroundcolor#color#color#table.addcell(cell)",1,1
+S3_2_2,"4.0#4.0#?#?#?#?#?#?",1,2
+S3_2_2,"4.0#2.0#getBoxModel()#color#option.getBorderColor()#color#color#table.setCell(cell)",1,3
+S3_2_2,"3.0#2.0#?#?#?#?#?#table.add(cell)",1,4
+S3_2_2,"1.0#1.0#uTable#BoxModelOption option#uTable.getBoxModel()#table.getsColoumnCount()#uTable#delete uTable",1,5
+S3_2_2,"2.0#2.0#?#segment#get?.#color#red#cell",1,6
+S3_2_2,"2.0#2.0#?#?#?#?#?#?",1,7
+S3_2_2,"2.0#1.0#paragraph.getBoxModel()#color#option.getBorderColor()#color#color#?",1,8
+S3_2_2,"2.0#3.0#uCell.getBoxModel();#color#option.getBackgroundColor();#color #color# table.addCell(cell);",1,9
+S3_2_2,"2.0#3.0#?#?#?#?#?#?",1,10
+S3_2_2,"2.0#1.0#?#color#?#color#color#table.addCell()",1,11
+S3_2_2,"3.0#1.0#background.color#red#background.color#red#else#table.retun",1,12
+S3_2_2,"3.0#2.0#cell.setColors#color#getcolor#cell#?#Utables cells",1,13
+S3_2_2,"1.0#1.0#uTable.getBoxModel();#UColor color#table.setBorderColor#  UColor color#red#return",1,14
+S3_2_3,"4.0#4.0#uCell.getBoxModell()#colour#option.GetBackgroundColour()#colour#colour#?",1,0
+S3_2_3,"1.0#1.0#?#?#?#?#?#?",2,1
+S3_2_3,"3.0#3.0#paragraph.getBoxModel()#color#option.getBackgroundColor()#color#color#table.addCell(cell)",1,2
+S3_2_3,"3.0#3.0#?#?#?#?#?#?",1,3
+S3_2_3,"2.0#2.0#Cell#?#option#?#?#Cell",1,4
+S3_2_3,"3.0#2.0#?#?#?#cell#?#table.add(cell)",1,5
+S3_2_3,"2.0#3.0#uTable.setBoxmodel()#?#?#Color#Color#?",1,6
+S3_2_3,"4.0#4.0#?#color#?#color#color#?",1,7
+S3_2_3,"2.0#2.0#uTable.getBoxModel#cell#UTableCell#table#new Cell#return NULL",1,8
+S3_2_3,"4.0#3.0#?#?#?#?#?#table.add(cell)",1,9
+S3_2_3,"2.0#1.0#?#?#?#Column#BorderColor#?",1,10
+S3_2_3,"4.0#2.0#cell.getBoxModel();#background#?#background#background#?",1,11
+S3_2_3,"3.0#1.0#?#?#?#?#?#?",1,12
+S3_2_3,"3.0#3.0#ucell.getboxmodel()#colour#option.getBackgroundColor();#colour#colour#?",1,13
+S4_1_1,"3.0#3.0#append(move.istWhitesMove)#Nag nag : move.getNags",1,0
+S4_1_1,"3.0#3.0#isWhitesMove()#NAG nag : move.GetNAGs()",1,1
+S4_1_1,"2.0#2.0#?#Nag nag : ___",1,2
+S4_1_1,"2.0#2.0#move.Whitesmove#?",1,3
+S4_1_1,"1.0#1.0#?#?",1,4
+S4_1_1,"2.0#1.0#append()#?Append()",1,5
+S4_1_1,"4.0#4.0#append.MoveOfWhichside#Nag nag : move.getnag()",1,6
+S4_1_1,"2.0#2.0#wasWhitesMove()#?",1,7
+S4_1_1,"4.0#2.0#oneMove()#??",1,8
+S4_1_1,"3.0#1.0#seriously#?.",1,9
+S4_1_1,"3.0#2.0#isWhiteMove#nag",1,10
+S4_1_1,"2.0#1.0#?#?",1,11
+S4_1_1,"4.0#4.0#append(move.isWhiteMove()#NAG nag : move.getNAGs()",1,12
+S4_1_1,"4.0#4.0#movedColorIsWhite()#Nag nag : move.getNags()",1,13
+S4_1_2,"4.0#4.0#append(move.isWhitesMove()#Nag nag : move.getNags()",1,0
+S4_1_2,"3.0#3.0#move.isWhiteMove()#NAG nag : move.getNags()",1,1
+S4_1_2,"4.0#3.0#append(?)#Nag nag ?",1,2
+S4_1_2,"3.0#3.0#append(move.isWhiteMove()#Nag nag : move.getNags()",1,3
+S4_1_2,"3.0#1.0#?#?",1,4
+S4_1_2,"3.0#4.0#append(move.isWhitesMove()#Nag nag : move.getNags()",2,5
+S4_1_2,"2.0#1.0#?#(?:?)",1,6
+S4_1_2,"1.0#1.0#?#?",2,7
+S4_1_2,"4.0#2.0#.getfullmove#builde.append:",1,8
+S4_1_2,"4.0#4.0#append(?)#nag",1,9
+S4_1_2,"3.0#3.0#append(moveData?.#NAG nag : move.getNags()",1,10
+S4_1_2,"4.0#4.0#isWhiteMove()#NAG nag : nag.getNAG()",1,11
+S4_1_2,"4.0#4.0#append(move.)#Nag nag : move.getNags",1,12
+S4_1_2,"1.0#1.0#append(isWhiteMove#?",1,13
+S4_1_3,"4.0#4.0#builder.Whites()#Nag nag : move.getNag()",1,0
+S4_1_3,"4.0#4.0#isWhiteMove#Nag nag : move.getNag",1,1
+S4_1_3,"2.0#1.0#?#?",2,2
+S4_1_3,"2.0#2.0#append.itIsWhitesMove#Nag nag",1,3
+S4_1_3,"2.0#2.0#append(move.isWhitesMove()#Nag nag : move.getNags()",1,4
+S4_1_3,"4.0#4.0#append(move.white)#nag nag : move.getnags()",1,5
+S4_1_3,"3.0#2.0#append(?)#?",1,6
+S4_1_3,"1.0#2.0#move.isWhitesmove#?",1,7
+S4_1_3,"2.0#2.0#?#?",1,8
+S4_1_3,"2.0#1.0#append#Nag nag : move.getNags()",1,9
+S4_1_3,"2.0#2.0#move.getMoveNumber#Nag nag : move.getNag()",1,10
+S4_1_3,"1.0#1.0#?#?",1,11
+S4_1_3,"1.0#1.0#?isWhitesMove?#Nag nag?",1,12
+S4_1_3,"1.0#1.0#append move?#?",1,13
+S4_1_3,"3.0#3.0#getInternet()#deleteInternet()",1,14
+S4_1_3,"2.0#1.0#?#Nag nag ?",1,15
+S4_1_3,"3.0#4.0#isTurn(whiteTurn)#Nag nag : move.getNag",1,16
+S4_1_3,"2.0#2.0#append(move.whiteMoves)#Nag nag getNags()",1,17
+S4_1_3,"2.0#1.0#(getString(builder.movesWhite)#move.nag:",1,18
+S4_1_3,"2.0#2.0#append(move.isWhitesMove() ? "". "" : ""? "").#Nag nag : move.getNags()",1,19
+S4_1_3,"2.0#2.0#getMoveWasMadeByWhite()#?",1,20
+S4_1_3,"4.0#3.0#append(move.isWhiteMove()#Nag nag : move.getNags()",1,21
+S4_2_1,"2.0#2.0#append#?",1,0
+S4_2_1,"1.0#1.0#?#?",1,1
+S4_2_1,"5.0#5.0#append(isWhite()#?nag : move.getNags()",1,2
+S4_2_1,"3.0#1.0#?#?",1,3
+S4_2_1,"3.0#3.0#append(isWhite()#?",1,4
+S4_2_1,"4.0#4.0#append((moveColor==White)#NumericAnnotations nag : move.getNag()",1,5
+S4_2_1,"3.0#3.0#append(isWhitesMove())#nag?.!=?.",1,6
+S4_2_1,"3.0#3.0#append(?#?",1,7
+S4_2_1,"5.0#5.0#append(move.isWhite()#NAG nag : move.getNags()",1,8
+S4_2_1,"2.0#2.0#.append(move.isWhitesMove() ? "". "" : ""? "");#(Nag nag : move.getNags()) ",1,9
+S4_2_1,"2.0#3.0#?#?",1,10
+S4_2_1,"3.0#2.0#?#NumericAnnotations numericannotations : move.getNumericAnnotations",1,11
+S4_2_1,"2.0#3.0#append(move.int)#builder.append",1,12
+S4_2_1,"3.0#3.0#startwithWhite#Nag nag : move.getnag()",1,13
+S4_2_1,"3.0#3.0#append(1,2,3,4,5)?#Nagsnode nags",1,14
+S4_2_2,"5.0#4.0#append#ddd",1,0
+S4_2_2,"1.0#1.0#append ()#builder.append ()",1,1
+S4_2_2,"5.0#5.0#move.isWhiteMove()#Nag nag : move.getNags()",1,2
+S4_2_2,"1.0#2.0#append#Comment",1,3
+S4_2_2,"3.0#2.0#?#Nag get Nag",1,4
+S4_2_2,"4.0#4.0#append(#NAG nag : move.getNAGs()",1,5
+S4_2_2,"2.0#2.0#append(isWhiteMove())#?",1,6
+S4_2_2,"4.0#4.0#append.(isWhitesMove()#Nag nag : move.getNags()",1,7
+S4_2_2,"2.0#2.0#append(getMove()#nag nag : move.getFullMoveCount()",1,8
+S4_2_2,"3.0#3.0#move.isWhitesMove()#Nag nag : ",1,9
+S4_2_2,"1.0#1.0#?#?",1,10
+S4_2_2,"4.0#4.0#move.isWhite()#Nag nag: move.getNags()",1,11
+S4_2_2,"4.0#2.0#ss#reast",1,12
+S4_2_2,"3.0#3.0#append(move.isWhiteMove#Nag nag = move.getNag()",1,13
+S4_2_2,"3.0#3.0#move.isWhite#Nag nag = move.getNag()",1,14
+S4_2_3,"2.0#2.0#isWhiteMove()#NAG nag : move.getNags()",1,0
+S4_2_3,"1.0#1.0#append(?)#?",1,1
+S4_2_3,"3.0#3.0#append(move.isWhiteTurn#NagString nag : nag.",1,2
+S4_2_3,"4.0#2.0#move.isColourWhite()#?",1,3
+S4_2_3,"4.0#3.0#append((move.blackTurn)#nagAnnotion nag : nag.getAnnotation",1,4
+S4_2_3,"2.0#2.0#append(move.fromWhite)#Nag nag : move.getNag()",1,5
+S4_2_3,"3.0#4.0#append(move.isWhitesMove()#Nag nag : move.getNags()",1,6
+S4_2_3,"2.0#2.0#append(move.isWhitesMove()#Nag nag : move.getNag()",1,7
+S4_2_3,"1.0#1.0#?#?",2,8
+S4_2_3,"4.0#4.0#append(move.isWhiteMove()#Nag nag : move.getNags()",1,9
+S4_2_3,"4.0#4.0#append(move.isWhite()#Nag nag : nag.getNagString()",1,10
+S4_2_3,"3.0#3.0#append(isWhitesTurn()#Nag nag : move.getNags()",1,11
+S4_2_3,"3.0#3.0#append(move#Nag",1,12
+S4_2_3,"4.0#2.0#append(move.isWhitesMove() ? "". "" : ""? "");#Nag nag : move.getNags()",1,13
+S4_2_3,"3.0#3.0#append(move.#Nag nag",1,14
+S4_2_3,"5.0#5.0#append(isWhitesMove)#Nag nag : move.getNag()",1,15
+S4_2_3,"1.0#1.0#?#Comment comment : move.NagString()",1,16
+S4_2_3,"3.0#3.0#append(move.isWhitesMove() #Nag nag : move.getNags()",1,17
+S4_2_3,"1.0#2.0#move.getFullMoveCount();#builder.append",1,18
+S4_2_3,"2.0#1.0#?#?",1,19
+S5_1_1,"4.0#4.0#maxExtent - 5#start >=0 && end<length",1,0
+S5_1_1,"2.0#2.0#gc.width(?)#end > maxWidth",1,1
+S5_1_1,"4.0#3.0#gc.#textValue.length >= start && textValue.length <=end",1,2
+S5_1_1,"2.0#2.0#gc.textMaxwidth(textvalue).5#start >0 && end <textValue.length",1,3
+S5_1_1,"4.0#3.0#control.width - 5#start >= 0 && end <= length",1,4
+S5_1_1,"3.0#3.0#gc.maxwidth(textValue).x-5#start >0 && end < length",1,5
+S5_1_1,"4.0#5.0#gc.getBorderWidth() -5#start >= 0 && end < length",1,6
+S5_1_1,"2.0#3.0#gc.maxWidth() -5#start > 0 && end < length",1,7
+S5_1_1,"1.0#1.0#?#?",1,8
+S5_1_1,"4.0#4.0#control.getBorders().x - 5#start >= 0 && end < length",1,9
+S5_1_1,"3.0#3.0#gc.textWidth(textValue)#s1>0 && s2<length",1,10
+S5_1_1,"5.0#5.0#something with control size -5#start>=0 && end<length",1,11
+S5_1_1,"5.0#4.0#gc.text#end<length",1,12
+S5_1_1,"3.0#4.0#control.getBounds().width - 5#start >= 0 && end < length",1,13
+S5_1_1,"4.0#4.0#.width -5#start >= 0 && end < length",1,14
+S5_1_1,"2.0#2.0#?#?",1,15
+S5_1_1,"5.0#5.0#control.getBounds#start>=0 && end < length",1,16
+S5_1_1,"4.0#4.0#?#start <= 0 && end <= length",1,17
+S5_1_1,"4.0#4.0#control.getBounds().width - 5;#start >= 0 && end < length",1,18
+S5_1_1,"2.0#2.0#get?#text value",1,19
+S5_1_1,"4.0#4.0#?#?",1,20
+S5_1_2,"3.0#3.0#gc.textExtent(width)-5#start > 0 && end < length",1,0
+S5_1_2,"1.0#1.0#?#start > 0 , end < length",1,1
+S5_1_2,"5.0#5.0#gc.textExtent(control).x#start >= 0 && end <= length",1,2
+S5_1_2,"2.0#3.0#control. ? .width() // from memory#start >= 0 && end < length",1,3
+S5_1_2,"1.0#1.0#gc.textExtent(control)#start < length && end > length   ",1,4
+S5_1_2,"3.0#3.0#gc.textWidth(textValue).x#start >0 && end < length",1,5
+S5_1_2,"3.0#3.0#gc.maxWidth.x#0<=start && end<length",1,6
+S5_1_2,"3.0#3.0#?#start > 0 && end < length",1,7
+S5_1_2,"3.0#3.0#gc.getGraphicsSomething().width - 5#?",1,8
+S5_1_2,"2.0#2.0#control.getBounds().width - 5;# while (start >= 0 && end < length) {",1,9
+S5_1_2,"2.0#3.0#?#?",1,10
+S5_1_2,"2.0#2.0#?#?",1,11
+S5_1_2,"2.0#2.0#gc.textWidth(text.Value).x#string s",1,12
+S5_1_2,"2.0#3.0#? -5#start>=0 && end <=length",1,13
+S5_1_2,"2.0#2.0#gc.textExtent(textValue).x#condition is true",1,14
+S5_1_3,"3.0#3.0#?#?",1,0
+S5_1_3,"3.0#2.0#?#start >=0 && end<length",1,1
+S5_1_3,"5.0#5.0#control.getWidth()#(end < length) && (start >=0)",1,2
+S5_1_3,"2.0#2.0#?#?",1,3
+S5_1_3,"1.0#1.0#textValue#keine ahung",1,4
+S5_1_3,"3.0#3.0#width()-5#true",1,5
+S5_1_3,"3.0#3.0#start>0  && end<length#gc.getTextWidth(textValue)",1,6
+S5_1_3,"4.0#4.0#control.getBounds().Width#start>=0 && end<Length",1,7
+S5_1_3,"3.0#3.0#gc.textWidth(textValue)#textValue > 0",1,8
+S5_1_3,"4.0#4.0#control.maxWidth()#start >=0 && end < maxWidth",1,9
+S5_1_3,"1.0#1.0#?#?",1,10
+S5_1_3,"3.0#3.0#gc.width(textValue)-5#(end-start) < maxWidth",1,11
+S5_1_3,"2.0#5.0#?#?",1,12
+S5_1_3,"4.0#3.0#control.getWidth()#start >= 0 && end >= length",1,13
+S5_1_3,"3.0#3.0#getBounds().width#start >= 0 && end < length",1,14
+S5_2_1,"4.0#5.0#?#?#?#?",1,0
+S5_2_1,"4.0#4.0#bounds#control.getBounds()#control.width()#start >= 0 && end <= length",1,1
+S5_2_1,"3.0#3.0#?#length-1#length/2#?",1,2
+S5_2_1,"3.0#3.0#bounds#gc.#control?#end<length",1,3
+S5_2_1,"4.0#4.0#bounds#control.getBounds()#bounds.width - 5#start >= 0 && end < length",1,4
+S5_2_1,"3.0#3.0#bounds#control.getbounds()#extent.getlength()-5#start >= 0 && end <= length",1,5
+S5_2_1,"4.0#3.0#bounds#control.bounds()#bounds.width - 5#start <= 0 && end <= length",1,6
+S5_2_1,"2.0#3.0#?#?#?#start>=0 && end<=length",1,7
+S5_2_1,"2.0#2.0#?#?#?#?",1,8
+S5_2_1,"3.0#1.0#bounds#control.getBounds();#bounds.width - 5;#start >= 0 && end < length",1,9
+S5_2_1,"4.0#4.0#bounds#boundsWidth#maxWidth -5#start >=0 && end < maxWidth",1,10
+S5_2_1,"3.0#3.0#bounds#?#? -5#start >= 0 && end < lenght",1,11
+S5_2_1,"3.0#3.0#bounds#control.getBounds#bounds.width?#start >= 0 && end < length",1,12
+S5_2_1,"2.0#2.0#bounds#?#bounds.width - 5 ?#start >=0",1,13
+S5_2_1,"3.0#3.0#?#?#?#?",1,14
+S5_2_1,"5.0#5.0#bounds#? bounds#bounds.width-5#start>0 && end<maxWidth",1,15
+S5_2_1,"3.0#2.0#?#?#length#start > 0 && end < length",1,16
+S5_2_1,"3.0#3.0#bound#contro.getBounds()#bounds.width-5#start>=0&&end<=length",1,17
+S5_2_1,"3.0#2.0#.#.#.#.",1,18
+S5_2_1,"1.0#1.0#bound#maxExtent.#.getWidth()#bound!=0",1,19
+S5_2_1,"3.0#3.0#bounds#control.getBounds()#bounds.width - 5#start >= 0 && end < length",1,20
+S5_2_1,"3.0#4.0#bounds#control.getBounds()#bounds - 5#text.length >= maxWidth",1,21
+S5_2_1,"4.0#3.0#bounds#control.getBounds()#bounds.width#start >= 0 && end < length",1,22
+S5_2_2,"4.0#4.0#bounds#ex.bounds#maxwidth#start >= 0 && length< end",1,0
+S5_2_2,"3.0#3.0#?#?#?#start >= 0 && end < length",1,1
+S5_2_2,"3.0#3.0#bounds#control.getSize#bounds.x - 5#?",1,2
+S5_2_2,"3.0#2.0#bounds#?getBounds#width-5#start >= 0 && ?",1,3
+S5_2_2,"1.0#1.0#?#?#?#?",2,4
+S5_2_2,"4.0#3.0#boundsVariableName#gc.getSuperBounds()#gc.getFunctionForVariable()#?",1,5
+S5_2_2,"4.0#4.0#bounds#gc.getbounds#bounds.getwidth()#start>0 and end<length",1,6
+S5_2_2,"3.0#2.0#max#textExtent(width)#l#length>maxWidth",1,7
+S5_2_2,"2.0#3.0#bounds#?#textValue.length()#end >= 0",1,8
+S5_2_2,"3.0#1.0#?#?#?#l> maxWidth && ",1,9
+S5_2_2,"3.0#3.0#bounds#control#bounds.width#start < end && end < length",1,10
+S5_2_2,"4.0#4.0#bounds#gc.getBounds()#bounds-5#start>=0 && end<= length",1,11
+S5_2_2,"3.0#2.0#bounds#gc.getBounds()#extent.width#start >= 0 && end < length",1,12
+S5_2_3,"2.0#2.0#bounds#control.getBounds();#bounds.width#start >=0 && end < length",1,0
+S5_2_3,"4.0#4.0#bounds#control.width()#bounds#0 <= start && end <= textValue.length()",1,1
+S5_2_3,"2.0#2.0#bounds#?#?#start ?",1,2
+S5_2_3,"3.0#3.0#bounds#control.getBounds()#bounds.width -5#start >= 0 && end < length",2,3
+S5_2_3,"2.0#2.0#?#?#?#?",1,4
+S5_2_3,"4.0#3.0#bounds #control.getBounds()#bounds.width - 5#start >= 0 && end < length",1,5
+S5_2_3,"2.0#1.0#?#?#?#?",1,6
+S5_2_3,"2.0#1.0#?#?#?#star >= 0 && end >= length",1,7
+S5_2_3,"4.0#1.0#?#?#?#?",1,8
+S5_2_3,"4.0#3.0#bounds#?#?#start >0 && end < length",1,9
+S5_2_3,"2.0#3.0#bounds#don't know#don't know#start > 0 && end < length",1,10
+S5_2_3,"2.0#1.0#bounds#Bounds()#?#start>=0 && end < length",1,11
+S5_2_3,"3.0#3.0#bounds#control.getBounds#bounds.width - #start >= 0 && end < length",1,12
+S5_2_3,"4.0#4.0#?#?#control.getLength()#start >= 0 && end <=length",1,13
+S5_2_3,"1.0#5.0#?#?#?#?",1,14

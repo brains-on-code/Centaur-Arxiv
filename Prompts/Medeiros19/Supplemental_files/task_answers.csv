@@ -1,0 +1,1165 @@
+task,participant,answer,pattern_id,snippet_file,order
+task_p1,1,Negative,P1,task_p1.txt,1
+task_p2,1,Positive,P2,task_p2.txt,2
+task_p3,1,Totally negative,P3,task_p3.txt,3
+task_p4,1,Neither negative or positive,P4,task_p4.txt,4
+task_p5,1,Negative,P5,task_p5.txt,5
+task_p6,1,Totally negative,P6,task_p6.txt,6
+task_p7,1,Totally negative,P7,task_p7.txt,7
+task_p8,1,Neither negative or positive,P8,task_p8.txt,8
+task_p9,1,Positive,P9,task_p9.txt,9
+task_p10,1,Positive,P10,task_p10.txt,10
+task_p11,1,Totally negative,P11,task_p11.txt,11
+task_p12,1,Totally positive,P12,task_p12.txt,12
+task_p1,2,Totally positive,P1,task_p1.txt,1
+task_p2,2,Negative,P2,task_p2.txt,2
+task_p3,2,Negative,P3,task_p3.txt,3
+task_p4,2,Totally positive,P4,task_p4.txt,4
+task_p5,2,Totally negative,P5,task_p5.txt,5
+task_p6,2,Totally negative,P6,task_p6.txt,6
+task_p7,2,Totally negative,P7,task_p7.txt,7
+task_p8,2,Positive,P8,task_p8.txt,8
+task_p9,2,Neither negative or positive,P9,task_p9.txt,9
+task_p10,2,Positive,P10,task_p10.txt,10
+task_p11,2,Negative,P11,task_p11.txt,11
+task_p12,2,Neither negative or positive,P12,task_p12.txt,12
+task_p1,3,Positive,P1,task_p1.txt,1
+task_p2,3,Totally negative,P2,task_p2.txt,2
+task_p3,3,Totally negative,P3,task_p3.txt,3
+task_p4,3,Neither negative or positive,P4,task_p4.txt,4
+task_p5,3,Negative,P5,task_p5.txt,5
+task_p6,3,Totally negative,P6,task_p6.txt,6
+task_p7,3,Totally negative,P7,task_p7.txt,7
+task_p8,3,Negative,P8,task_p8.txt,8
+task_p9,3,Neither negative or positive,P9,task_p9.txt,9
+task_p10,3,Neither negative or positive,P10,task_p10.txt,10
+task_p11,3,Totally negative,P11,task_p11.txt,11
+task_p12,3,Neither negative or positive,P12,task_p12.txt,12
+task_p1,4,Totally negative,P1,task_p1.txt,1
+task_p2,4,Negative,P2,task_p2.txt,2
+task_p3,4,Negative,P3,task_p3.txt,3
+task_p4,4,Negative,P4,task_p4.txt,4
+task_p5,4,Negative,P5,task_p5.txt,5
+task_p6,4,Totally negative,P6,task_p6.txt,6
+task_p7,4,Totally negative,P7,task_p7.txt,7
+task_p8,4,Neither negative or positive,P8,task_p8.txt,8
+task_p9,4,Neither negative or positive,P9,task_p9.txt,9
+task_p10,4,Neither negative or positive,P10,task_p10.txt,10
+task_p11,4,Totally negative,P11,task_p11.txt,11
+task_p12,4,Neither negative or positive,P12,task_p12.txt,12
+task_p1,5,Negative,P1,task_p1.txt,1
+task_p2,5,Negative,P2,task_p2.txt,2
+task_p3,5,Totally negative,P3,task_p3.txt,3
+task_p4,5,Neither negative or positive,P4,task_p4.txt,4
+task_p5,5,Totally negative,P5,task_p5.txt,5
+task_p6,5,Negative,P6,task_p6.txt,6
+task_p7,5,Totally negative,P7,task_p7.txt,7
+task_p8,5,Neither negative or positive,P8,task_p8.txt,8
+task_p9,5,Neither negative or positive,P9,task_p9.txt,9
+task_p10,5,Neither negative or positive,P10,task_p10.txt,10
+task_p11,5,Neither negative or positive,P11,task_p11.txt,11
+task_p12,5,Totally positive,P12,task_p12.txt,12
+task_p1,6,Neither negative or positive,P1,task_p1.txt,1
+task_p2,6,Negative,P2,task_p2.txt,2
+task_p3,6,Negative,P3,task_p3.txt,3
+task_p4,6,Neither negative or positive,P4,task_p4.txt,4
+task_p5,6,Negative,P5,task_p5.txt,5
+task_p6,6,Totally negative,P6,task_p6.txt,6
+task_p7,6,Totally negative,P7,task_p7.txt,7
+task_p8,6,Neither negative or positive,P8,task_p8.txt,8
+task_p9,6,Neither negative or positive,P9,task_p9.txt,9
+task_p10,6,Neither negative or positive,P10,task_p10.txt,10
+task_p11,6,Negative,P11,task_p11.txt,11
+task_p12,6,Negative,P12,task_p12.txt,12
+task_p1,7,Negative,P1,task_p1.txt,1
+task_p2,7,Negative,P2,task_p2.txt,2
+task_p3,7,Negative,P3,task_p3.txt,3
+task_p4,7,Positive,P4,task_p4.txt,4
+task_p5,7,Negative,P5,task_p5.txt,5
+task_p6,7,Totally negative,P6,task_p6.txt,6
+task_p7,7,Negative,P7,task_p7.txt,7
+task_p8,7,Neither negative or positive,P8,task_p8.txt,8
+task_p9,7,Neither negative or positive,P9,task_p9.txt,9
+task_p10,7,Neither negative or positive,P10,task_p10.txt,10
+task_p11,7,Totally negative,P11,task_p11.txt,11
+task_p12,7,Positive,P12,task_p12.txt,12
+task_p1,8,Totally negative,P1,task_p1.txt,1
+task_p2,8,Neither negative or positive,P2,task_p2.txt,2
+task_p3,8,Negative,P3,task_p3.txt,3
+task_p4,8,Neither negative or positive,P4,task_p4.txt,4
+task_p5,8,Negative,P5,task_p5.txt,5
+task_p6,8,Totally negative,P6,task_p6.txt,6
+task_p7,8,Negative,P7,task_p7.txt,7
+task_p8,8,Positive,P8,task_p8.txt,8
+task_p9,8,Totally positive,P9,task_p9.txt,9
+task_p10,8,Totally positive,P10,task_p10.txt,10
+task_p11,8,Totally negative,P11,task_p11.txt,11
+task_p12,8,Neither negative or positive,P12,task_p12.txt,12
+task_p1,9,Negative,P1,task_p1.txt,1
+task_p2,9,Totally negative,P2,task_p2.txt,2
+task_p3,9,Totally negative,P3,task_p3.txt,3
+task_p4,9,Neither negative or positive,P4,task_p4.txt,4
+task_p5,9,Neither negative or positive,P5,task_p5.txt,5
+task_p6,9,Totally negative,P6,task_p6.txt,6
+task_p7,9,Neither negative or positive,P7,task_p7.txt,7
+task_p8,9,Negative,P8,task_p8.txt,8
+task_p9,9,Neither negative or positive,P9,task_p9.txt,9
+task_p10,9,Neither negative or positive,P10,task_p10.txt,10
+task_p11,9,Negative,P11,task_p11.txt,11
+task_p12,9,Neither negative or positive,P12,task_p12.txt,12
+task_p1,10,Positive,P1,task_p1.txt,1
+task_p2,10,Totally negative,P2,task_p2.txt,2
+task_p3,10,Negative,P3,task_p3.txt,3
+task_p4,10,Negative,P4,task_p4.txt,4
+task_p5,10,Totally negative,P5,task_p5.txt,5
+task_p6,10,Totally negative,P6,task_p6.txt,6
+task_p7,10,Totally negative,P7,task_p7.txt,7
+task_p8,10,Positive,P8,task_p8.txt,8
+task_p9,10,Neither negative or positive,P9,task_p9.txt,9
+task_p10,10,Neither negative or positive,P10,task_p10.txt,10
+task_p11,10,Totally negative,P11,task_p11.txt,11
+task_p12,10,Neither negative or positive,P12,task_p12.txt,12
+task_p1,11,Negative,P1,task_p1.txt,1
+task_p2,11,Negative,P2,task_p2.txt,2
+task_p3,11,Totally negative,P3,task_p3.txt,3
+task_p4,11,Positive,P4,task_p4.txt,4
+task_p5,11,Negative,P5,task_p5.txt,5
+task_p6,11,Totally negative,P6,task_p6.txt,6
+task_p7,11,Negative,P7,task_p7.txt,7
+task_p8,11,Negative,P8,task_p8.txt,8
+task_p9,11,Neither negative or positive,P9,task_p9.txt,9
+task_p10,11,Neither negative or positive,P10,task_p10.txt,10
+task_p11,11,Neither negative or positive,P11,task_p11.txt,11
+task_p12,11,Totally positive,P12,task_p12.txt,12
+task_p1,12,Positive,P1,task_p1.txt,1
+task_p2,12,Positive,P2,task_p2.txt,2
+task_p3,12,Totally negative,P3,task_p3.txt,3
+task_p4,12,Neither negative or positive,P4,task_p4.txt,4
+task_p5,12,Totally negative,P5,task_p5.txt,5
+task_p6,12,Totally negative,P6,task_p6.txt,6
+task_p7,12,Totally negative,P7,task_p7.txt,7
+task_p8,12,Positive,P8,task_p8.txt,8
+task_p9,12,Totally positive,P9,task_p9.txt,9
+task_p10,12,Neither negative or positive,P10,task_p10.txt,10
+task_p11,12,Negative,P11,task_p11.txt,11
+task_p12,12,Positive,P12,task_p12.txt,12
+task_p1,13,Negative,P1,task_p1.txt,1
+task_p2,13,Positive,P2,task_p2.txt,2
+task_p3,13,Totally negative,P3,task_p3.txt,3
+task_p4,13,Positive,P4,task_p4.txt,4
+task_p5,13,Negative,P5,task_p5.txt,5
+task_p6,13,Totally negative,P6,task_p6.txt,6
+task_p7,13,Totally negative,P7,task_p7.txt,7
+task_p8,13,Negative,P8,task_p8.txt,8
+task_p9,13,Negative,P9,task_p9.txt,9
+task_p10,13,Negative,P10,task_p10.txt,10
+task_p11,13,Totally negative,P11,task_p11.txt,11
+task_p12,13,Totally positive,P12,task_p12.txt,12
+task_p1,14,Totally negative,P1,task_p1.txt,1
+task_p2,14,Totally negative,P2,task_p2.txt,2
+task_p3,14,Negative,P3,task_p3.txt,3
+task_p4,14,Totally positive,P4,task_p4.txt,4
+task_p5,14,Neither negative or positive,P5,task_p5.txt,5
+task_p6,14,Totally negative,P6,task_p6.txt,6
+task_p7,14,Totally negative,P7,task_p7.txt,7
+task_p8,14,Neither negative or positive,P8,task_p8.txt,8
+task_p9,14,Neither negative or positive,P9,task_p9.txt,9
+task_p10,14,Neither negative or positive,P10,task_p10.txt,10
+task_p11,14,Totally negative,P11,task_p11.txt,11
+task_p12,14,Neither negative or positive,P12,task_p12.txt,12
+task_p1,15,Neither negative or positive,P1,task_p1.txt,1
+task_p2,15,Positive,P2,task_p2.txt,2
+task_p3,15,Positive,P3,task_p3.txt,3
+task_p4,15,Positive,P4,task_p4.txt,4
+task_p5,15,Negative,P5,task_p5.txt,5
+task_p6,15,Totally negative,P6,task_p6.txt,6
+task_p7,15,Totally negative,P7,task_p7.txt,7
+task_p8,15,Negative,P8,task_p8.txt,8
+task_p9,15,Neither negative or positive,P9,task_p9.txt,9
+task_p10,15,Positive,P10,task_p10.txt,10
+task_p11,15,Totally positive,P11,task_p11.txt,11
+task_p12,15,Totally positive,P12,task_p12.txt,12
+task_p1,16,Neither negative or positive,P1,task_p1.txt,1
+task_p2,16,Totally negative,P2,task_p2.txt,2
+task_p3,16,Totally negative,P3,task_p3.txt,3
+task_p4,16,Positive,P4,task_p4.txt,4
+task_p5,16,Neither negative or positive,P5,task_p5.txt,5
+task_p6,16,Totally negative,P6,task_p6.txt,6
+task_p7,16,Totally negative,P7,task_p7.txt,7
+task_p8,16,Neither negative or positive,P8,task_p8.txt,8
+task_p9,16,Neither negative or positive,P9,task_p9.txt,9
+task_p10,16,Neither negative or positive,P10,task_p10.txt,10
+task_p11,16,Totally positive,P11,task_p11.txt,11
+task_p12,16,Neither negative or positive,P12,task_p12.txt,12
+task_p1,17,Totally negative,P1,task_p1.txt,1
+task_p2,17,Negative,P2,task_p2.txt,2
+task_p3,17,Totally negative,P3,task_p3.txt,3
+task_p4,17,Neither negative or positive,P4,task_p4.txt,4
+task_p5,17,Negative,P5,task_p5.txt,5
+task_p6,17,Totally negative,P6,task_p6.txt,6
+task_p7,17,Totally negative,P7,task_p7.txt,7
+task_p8,17,Neither negative or positive,P8,task_p8.txt,8
+task_p9,17,Neither negative or positive,P9,task_p9.txt,9
+task_p10,17,Neither negative or positive,P10,task_p10.txt,10
+task_p11,17,Totally negative,P11,task_p11.txt,11
+task_p12,17,Totally positive,P12,task_p12.txt,12
+task_p1,18,Negative,P1,task_p1.txt,1
+task_p2,18,Negative,P2,task_p2.txt,2
+task_p3,18,Negative,P3,task_p3.txt,3
+task_p4,18,Positive,P4,task_p4.txt,4
+task_p5,18,Totally negative,P5,task_p5.txt,5
+task_p6,18,Totally negative,P6,task_p6.txt,6
+task_p7,18,Totally negative,P7,task_p7.txt,7
+task_p8,18,Negative,P8,task_p8.txt,8
+task_p9,18,Neither negative or positive,P9,task_p9.txt,9
+task_p10,18,Neither negative or positive,P10,task_p10.txt,10
+task_p11,18,Positive,P11,task_p11.txt,11
+task_p12,18,Totally positive,P12,task_p12.txt,12
+task_p1,19,Negative,P1,task_p1.txt,1
+task_p2,19,Negative,P2,task_p2.txt,2
+task_p3,19,Negative,P3,task_p3.txt,3
+task_p4,19,Neither negative or positive,P4,task_p4.txt,4
+task_p5,19,Negative,P5,task_p5.txt,5
+task_p6,19,Negative,P6,task_p6.txt,6
+task_p7,19,Negative,P7,task_p7.txt,7
+task_p8,19,Negative,P8,task_p8.txt,8
+task_p9,19,Positive,P9,task_p9.txt,9
+task_p10,19,Neither negative or positive,P10,task_p10.txt,10
+task_p11,19,Totally negative,P11,task_p11.txt,11
+task_p12,19,Positive,P12,task_p12.txt,12
+task_p1,20,Totally negative,P1,task_p1.txt,1
+task_p2,20,Neither negative or positive,P2,task_p2.txt,2
+task_p3,20,Totally negative,P3,task_p3.txt,3
+task_p4,20,Totally positive,P4,task_p4.txt,4
+task_p5,20,Totally negative,P5,task_p5.txt,5
+task_p6,20,Totally negative,P6,task_p6.txt,6
+task_p7,20,Neither negative or positive,P7,task_p7.txt,7
+task_p8,20,Neither negative or positive,P8,task_p8.txt,8
+task_p9,20,Totally positive,P9,task_p9.txt,9
+task_p10,20,Totally positive,P10,task_p10.txt,10
+task_p11,20,Totally negative,P11,task_p11.txt,11
+task_p12,20,Neither negative or positive,P12,task_p12.txt,12
+task_p1,21,Negative,P1,task_p1.txt,1
+task_p2,21,Positive,P2,task_p2.txt,2
+task_p3,21,Totally negative,P3,task_p3.txt,3
+task_p4,21,Positive,P4,task_p4.txt,4
+task_p5,21,Neither negative or positive,P5,task_p5.txt,5
+task_p6,21,Negative,P6,task_p6.txt,6
+task_p7,21,Negative,P7,task_p7.txt,7
+task_p8,21,Neither negative or positive,P8,task_p8.txt,8
+task_p9,21,Positive,P9,task_p9.txt,9
+task_p10,21,Positive,P10,task_p10.txt,10
+task_p11,21,Totally negative,P11,task_p11.txt,11
+task_p12,21,Positive,P12,task_p12.txt,12
+task_p1,22,Negative,P1,task_p1.txt,1
+task_p2,22,Negative,P2,task_p2.txt,2
+task_p3,22,Negative,P3,task_p3.txt,3
+task_p4,22,Positive,P4,task_p4.txt,4
+task_p5,22,Negative,P5,task_p5.txt,5
+task_p6,22,Totally negative,P6,task_p6.txt,6
+task_p7,22,Totally negative,P7,task_p7.txt,7
+task_p8,22,Neither negative or positive,P8,task_p8.txt,8
+task_p9,22,Neither negative or positive,P9,task_p9.txt,9
+task_p10,22,Neither negative or positive,P10,task_p10.txt,10
+task_p11,22,Totally negative,P11,task_p11.txt,11
+task_p12,22,Positive,P12,task_p12.txt,12
+task_p1,23,Negative,P1,task_p1.txt,1
+task_p2,23,Totally negative,P2,task_p2.txt,2
+task_p3,23,Totally negative,P3,task_p3.txt,3
+task_p4,23,Neither negative or positive,P4,task_p4.txt,4
+task_p5,23,Totally negative,P5,task_p5.txt,5
+task_p6,23,Totally negative,P6,task_p6.txt,6
+task_p7,23,Totally negative,P7,task_p7.txt,7
+task_p8,23,Negative,P8,task_p8.txt,8
+task_p9,23,Positive,P9,task_p9.txt,9
+task_p10,23,Positive,P10,task_p10.txt,10
+task_p11,23,Totally negative,P11,task_p11.txt,11
+task_p12,23,Positive,P12,task_p12.txt,12
+task_p1,24,Negative,P1,task_p1.txt,1
+task_p2,24,Positive,P2,task_p2.txt,2
+task_p3,24,Totally negative,P3,task_p3.txt,3
+task_p4,24,Positive,P4,task_p4.txt,4
+task_p5,24,Totally negative,P5,task_p5.txt,5
+task_p6,24,Totally negative,P6,task_p6.txt,6
+task_p7,24,Totally negative,P7,task_p7.txt,7
+task_p8,24,Negative,P8,task_p8.txt,8
+task_p9,24,Positive,P9,task_p9.txt,9
+task_p10,24,Neither negative or positive,P10,task_p10.txt,10
+task_p11,24,Neither negative or positive,P11,task_p11.txt,11
+task_p12,24,Neither negative or positive,P12,task_p12.txt,12
+task_p1,25,Totally negative,P1,task_p1.txt,1
+task_p2,25,Negative,P2,task_p2.txt,2
+task_p3,25,Negative,P3,task_p3.txt,3
+task_p4,25,Totally positive,P4,task_p4.txt,4
+task_p5,25,Neither negative or positive,P5,task_p5.txt,5
+task_p6,25,Totally negative,P6,task_p6.txt,6
+task_p7,25,Totally negative,P7,task_p7.txt,7
+task_p8,25,Neither negative or positive,P8,task_p8.txt,8
+task_p9,25,Positive,P9,task_p9.txt,9
+task_p10,25,Positive,P10,task_p10.txt,10
+task_p11,25,Neither negative or positive,P11,task_p11.txt,11
+task_p12,25,Totally positive,P12,task_p12.txt,12
+task_p1,26,Positive,P1,task_p1.txt,1
+task_p2,26,Totally negative,P2,task_p2.txt,2
+task_p3,26,Totally negative,P3,task_p3.txt,3
+task_p4,26,Positive,P4,task_p4.txt,4
+task_p5,26,Neither negative or positive,P5,task_p5.txt,5
+task_p6,26,Totally negative,P6,task_p6.txt,6
+task_p7,26,Totally negative,P7,task_p7.txt,7
+task_p8,26,Neither negative or positive,P8,task_p8.txt,8
+task_p9,26,Neither negative or positive,P9,task_p9.txt,9
+task_p10,26,Neither negative or positive,P10,task_p10.txt,10
+task_p11,26,Totally negative,P11,task_p11.txt,11
+task_p12,26,Totally positive,P12,task_p12.txt,12
+task_p1,27,Negative,P1,task_p1.txt,1
+task_p2,27,Totally negative,P2,task_p2.txt,2
+task_p3,27,Neither negative or positive,P3,task_p3.txt,3
+task_p4,27,Positive,P4,task_p4.txt,4
+task_p5,27,Negative,P5,task_p5.txt,5
+task_p6,27,Totally negative,P6,task_p6.txt,6
+task_p7,27,Totally negative,P7,task_p7.txt,7
+task_p8,27,Negative,P8,task_p8.txt,8
+task_p9,27,Totally positive,P9,task_p9.txt,9
+task_p10,27,Neither negative or positive,P10,task_p10.txt,10
+task_p11,27,Totally positive,P11,task_p11.txt,11
+task_p12,27,Neither negative or positive,P12,task_p12.txt,12
+task_p1,28,Totally negative,P1,task_p1.txt,1
+task_p2,28,Positive,P2,task_p2.txt,2
+task_p3,28,Negative,P3,task_p3.txt,3
+task_p4,28,Positive,P4,task_p4.txt,4
+task_p5,28,Neither negative or positive,P5,task_p5.txt,5
+task_p6,28,Totally negative,P6,task_p6.txt,6
+task_p7,28,Totally negative,P7,task_p7.txt,7
+task_p8,28,Negative,P8,task_p8.txt,8
+task_p9,28,Neither negative or positive,P9,task_p9.txt,9
+task_p10,28,Negative,P10,task_p10.txt,10
+task_p11,28,Negative,P11,task_p11.txt,11
+task_p12,28,Negative,P12,task_p12.txt,12
+task_p1,29,Neither negative or positive,P1,task_p1.txt,1
+task_p2,29,Totally negative,P2,task_p2.txt,2
+task_p3,29,Totally negative,P3,task_p3.txt,3
+task_p4,29,Neither negative or positive,P4,task_p4.txt,4
+task_p5,29,Negative,P5,task_p5.txt,5
+task_p6,29,Totally negative,P6,task_p6.txt,6
+task_p7,29,Totally negative,P7,task_p7.txt,7
+task_p8,29,Neither negative or positive,P8,task_p8.txt,8
+task_p9,29,Neither negative or positive,P9,task_p9.txt,9
+task_p10,29,Neither negative or positive,P10,task_p10.txt,10
+task_p11,29,Neither negative or positive,P11,task_p11.txt,11
+task_p12,29,Positive,P12,task_p12.txt,12
+task_p1,30,Negative,P1,task_p1.txt,1
+task_p2,30,Negative,P2,task_p2.txt,2
+task_p3,30,Totally negative,P3,task_p3.txt,3
+task_p4,30,Positive,P4,task_p4.txt,4
+task_p5,30,Totally negative,P5,task_p5.txt,5
+task_p6,30,Totally negative,P6,task_p6.txt,6
+task_p7,30,Totally negative,P7,task_p7.txt,7
+task_p8,30,Totally negative,P8,task_p8.txt,8
+task_p9,30,Neither negative or positive,P9,task_p9.txt,9
+task_p10,30,Neither negative or positive,P10,task_p10.txt,10
+task_p11,30,Totally positive,P11,task_p11.txt,11
+task_p12,30,Positive,P12,task_p12.txt,12
+task_p1,31,Negative,P1,task_p1.txt,1
+task_p2,31,Negative,P2,task_p2.txt,2
+task_p3,31,Totally negative,P3,task_p3.txt,3
+task_p4,31,Positive,P4,task_p4.txt,4
+task_p5,31,Negative,P5,task_p5.txt,5
+task_p6,31,Totally negative,P6,task_p6.txt,6
+task_p7,31,Totally negative,P7,task_p7.txt,7
+task_p8,31,Neither negative or positive,P8,task_p8.txt,8
+task_p9,31,Totally positive,P9,task_p9.txt,9
+task_p10,31,Neither negative or positive,P10,task_p10.txt,10
+task_p11,31,Neither negative or positive,P11,task_p11.txt,11
+task_p12,31,Neither negative or positive,P12,task_p12.txt,12
+task_p1,32,Totally negative,P1,task_p1.txt,1
+task_p2,32,Negative,P2,task_p2.txt,2
+task_p3,32,Negative,P3,task_p3.txt,3
+task_p4,32,Totally positive,P4,task_p4.txt,4
+task_p5,32,Totally negative,P5,task_p5.txt,5
+task_p6,32,Negative,P6,task_p6.txt,6
+task_p7,32,Totally negative,P7,task_p7.txt,7
+task_p8,32,Negative,P8,task_p8.txt,8
+task_p9,32,Positive,P9,task_p9.txt,9
+task_p10,32,Neither negative or positive,P10,task_p10.txt,10
+task_p11,32,Neither negative or positive,P11,task_p11.txt,11
+task_p12,32,Negative,P12,task_p12.txt,12
+task_p1,33,Negative,P1,task_p1.txt,1
+task_p2,33,Totally negative,P2,task_p2.txt,2
+task_p3,33,Positive,P3,task_p3.txt,3
+task_p4,33,Positive,P4,task_p4.txt,4
+task_p5,33,Negative,P5,task_p5.txt,5
+task_p6,33,Totally negative,P6,task_p6.txt,6
+task_p7,33,Totally negative,P7,task_p7.txt,7
+task_p8,33,Neither negative or positive,P8,task_p8.txt,8
+task_p9,33,Neither negative or positive,P9,task_p9.txt,9
+task_p10,33,Neither negative or positive,P10,task_p10.txt,10
+task_p11,33,Neither negative or positive,P11,task_p11.txt,11
+task_p12,33,Totally positive,P12,task_p12.txt,12
+task_p1,34,Totally positive,P1,task_p1.txt,1
+task_p2,34,Negative,P2,task_p2.txt,2
+task_p3,34,Positive,P3,task_p3.txt,3
+task_p4,34,Positive,P4,task_p4.txt,4
+task_p5,34,Negative,P5,task_p5.txt,5
+task_p6,34,Totally negative,P6,task_p6.txt,6
+task_p7,34,Totally negative,P7,task_p7.txt,7
+task_p8,34,Negative,P8,task_p8.txt,8
+task_p9,34,Neither negative or positive,P9,task_p9.txt,9
+task_p10,34,Positive,P10,task_p10.txt,10
+task_p11,34,Totally positive,P11,task_p11.txt,11
+task_p12,34,Positive,P12,task_p12.txt,12
+task_p1,35,Positive,P1,task_p1.txt,1
+task_p2,35,Negative,P2,task_p2.txt,2
+task_p3,35,Totally negative,P3,task_p3.txt,3
+task_p4,35,Positive,P4,task_p4.txt,4
+task_p5,35,Negative,P5,task_p5.txt,5
+task_p6,35,Negative,P6,task_p6.txt,6
+task_p7,35,Totally negative,P7,task_p7.txt,7
+task_p8,35,Negative,P8,task_p8.txt,8
+task_p9,35,Neither negative or positive,P9,task_p9.txt,9
+task_p10,35,Neither negative or positive,P10,task_p10.txt,10
+task_p11,35,Totally positive,P11,task_p11.txt,11
+task_p12,35,Negative,P12,task_p12.txt,12
+task_p1,36,Totally negative,P1,task_p1.txt,1
+task_p2,36,Negative,P2,task_p2.txt,2
+task_p3,36,Negative,P3,task_p3.txt,3
+task_p4,36,Totally positive,P4,task_p4.txt,4
+task_p5,36,Neither negative or positive,P5,task_p5.txt,5
+task_p6,36,Totally negative,P6,task_p6.txt,6
+task_p7,36,Neither negative or positive,P7,task_p7.txt,7
+task_p8,36,Neither negative or positive,P8,task_p8.txt,8
+task_p9,36,Neither negative or positive,P9,task_p9.txt,9
+task_p10,36,Neither negative or positive,P10,task_p10.txt,10
+task_p11,36,Neither negative or positive,P11,task_p11.txt,11
+task_p12,36,Totally negative,P12,task_p12.txt,12
+task_p1,37,Negative,P1,task_p1.txt,1
+task_p2,37,Negative,P2,task_p2.txt,2
+task_p3,37,Totally negative,P3,task_p3.txt,3
+task_p4,37,Positive,P4,task_p4.txt,4
+task_p5,37,Totally negative,P5,task_p5.txt,5
+task_p6,37,Totally negative,P6,task_p6.txt,6
+task_p7,37,Totally negative,P7,task_p7.txt,7
+task_p8,37,Positive,P8,task_p8.txt,8
+task_p9,37,Totally positive,P9,task_p9.txt,9
+task_p10,37,Neither negative or positive,P10,task_p10.txt,10
+task_p11,37,Neither negative or positive,P11,task_p11.txt,11
+task_p12,37,Positive,P12,task_p12.txt,12
+task_p1,38,Totally positive,P1,task_p1.txt,1
+task_p2,38,Positive,P2,task_p2.txt,2
+task_p3,38,Negative,P3,task_p3.txt,3
+task_p4,38,Positive,P4,task_p4.txt,4
+task_p5,38,Negative,P5,task_p5.txt,5
+task_p6,38,Totally negative,P6,task_p6.txt,6
+task_p7,38,Totally negative,P7,task_p7.txt,7
+task_p8,38,Neither negative or positive,P8,task_p8.txt,8
+task_p9,38,Neither negative or positive,P9,task_p9.txt,9
+task_p10,38,Neither negative or positive,P10,task_p10.txt,10
+task_p11,38,Totally positive,P11,task_p11.txt,11
+task_p12,38,Negative,P12,task_p12.txt,12
+task_p1,39,Negative,P1,task_p1.txt,1
+task_p2,39,Totally negative,P2,task_p2.txt,2
+task_p3,39,Totally negative,P3,task_p3.txt,3
+task_p4,39,Neither negative or positive,P4,task_p4.txt,4
+task_p5,39,Totally negative,P5,task_p5.txt,5
+task_p6,39,Totally negative,P6,task_p6.txt,6
+task_p7,39,Totally negative,P7,task_p7.txt,7
+task_p8,39,Negative,P8,task_p8.txt,8
+task_p9,39,Neither negative or positive,P9,task_p9.txt,9
+task_p10,39,Negative,P10,task_p10.txt,10
+task_p11,39,Totally positive,P11,task_p11.txt,11
+task_p12,39,Totally negative,P12,task_p12.txt,12
+task_p1,40,Neither negative or positive,P1,task_p1.txt,1
+task_p2,40,Negative,P2,task_p2.txt,2
+task_p3,40,Positive,P3,task_p3.txt,3
+task_p4,40,Neither negative or positive,P4,task_p4.txt,4
+task_p5,40,Negative,P5,task_p5.txt,5
+task_p6,40,Totally negative,P6,task_p6.txt,6
+task_p7,40,Totally negative,P7,task_p7.txt,7
+task_p8,40,Negative,P8,task_p8.txt,8
+task_p9,40,Totally positive,P9,task_p9.txt,9
+task_p10,40,Neither negative or positive,P10,task_p10.txt,10
+task_p11,40,Totally positive,P11,task_p11.txt,11
+task_p12,40,Totally negative,P12,task_p12.txt,12
+task_p1,41,Negative,P1,task_p1.txt,1
+task_p2,41,Negative,P2,task_p2.txt,2
+task_p3,41,Negative,P3,task_p3.txt,3
+task_p4,41,Positive,P4,task_p4.txt,4
+task_p5,41,Neither negative or positive,P5,task_p5.txt,5
+task_p6,41,Totally negative,P6,task_p6.txt,6
+task_p7,41,Totally negative,P7,task_p7.txt,7
+task_p8,41,Neither negative or positive,P8,task_p8.txt,8
+task_p9,41,Neither negative or positive,P9,task_p9.txt,9
+task_p10,41,Neither negative or positive,P10,task_p10.txt,10
+task_p11,41,Totally positive,P11,task_p11.txt,11
+task_p12,41,Totally positive,P12,task_p12.txt,12
+task_p1,42,Neither negative or positive,P1,task_p1.txt,1
+task_p2,42,Negative,P2,task_p2.txt,2
+task_p3,42,Positive,P3,task_p3.txt,3
+task_p4,42,Positive,P4,task_p4.txt,4
+task_p5,42,Negative,P5,task_p5.txt,5
+task_p6,42,Totally negative,P6,task_p6.txt,6
+task_p7,42,Totally negative,P7,task_p7.txt,7
+task_p8,42,Neither negative or positive,P8,task_p8.txt,8
+task_p9,42,Neither negative or positive,P9,task_p9.txt,9
+task_p10,42,Neither negative or positive,P10,task_p10.txt,10
+task_p11,42,Totally positive,P11,task_p11.txt,11
+task_p12,42,Neither negative or positive,P12,task_p12.txt,12
+task_p1,43,Negative,P1,task_p1.txt,1
+task_p2,43,Negative,P2,task_p2.txt,2
+task_p3,43,Neither negative or positive,P3,task_p3.txt,3
+task_p4,43,Totally positive,P4,task_p4.txt,4
+task_p5,43,Neither negative or positive,P5,task_p5.txt,5
+task_p6,43,Totally negative,P6,task_p6.txt,6
+task_p7,43,Totally negative,P7,task_p7.txt,7
+task_p8,43,Neither negative or positive,P8,task_p8.txt,8
+task_p9,43,Neither negative or positive,P9,task_p9.txt,9
+task_p10,43,Negative,P10,task_p10.txt,10
+task_p11,43,Neither negative or positive,P11,task_p11.txt,11
+task_p12,43,Totally positive,P12,task_p12.txt,12
+task_p1,44,Neither negative or positive,P1,task_p1.txt,1
+task_p2,44,Neither negative or positive,P2,task_p2.txt,2
+task_p3,44,Positive,P3,task_p3.txt,3
+task_p4,44,Positive,P4,task_p4.txt,4
+task_p5,44,Negative,P5,task_p5.txt,5
+task_p6,44,Totally negative,P6,task_p6.txt,6
+task_p7,44,Totally negative,P7,task_p7.txt,7
+task_p8,44,Negative,P8,task_p8.txt,8
+task_p9,44,Totally positive,P9,task_p9.txt,9
+task_p10,44,Totally positive,P10,task_p10.txt,10
+task_p11,44,Totally positive,P11,task_p11.txt,11
+task_p12,44,Positive,P12,task_p12.txt,12
+task_p1,45,Negative,P1,task_p1.txt,1
+task_p2,45,Neither negative or positive,P2,task_p2.txt,2
+task_p3,45,Negative,P3,task_p3.txt,3
+task_p4,45,Negative,P4,task_p4.txt,4
+task_p5,45,Totally negative,P5,task_p5.txt,5
+task_p6,45,Totally negative,P6,task_p6.txt,6
+task_p7,45,Totally negative,P7,task_p7.txt,7
+task_p8,45,Neither negative or positive,P8,task_p8.txt,8
+task_p9,45,Positive,P9,task_p9.txt,9
+task_p10,45,Neither negative or positive,P10,task_p10.txt,10
+task_p11,45,Neither negative or positive,P11,task_p11.txt,11
+task_p12,45,Positive,P12,task_p12.txt,12
+task_p1,46,Totally negative,P1,task_p1.txt,1
+task_p2,46,Negative,P2,task_p2.txt,2
+task_p3,46,Totally negative,P3,task_p3.txt,3
+task_p4,46,Negative,P4,task_p4.txt,4
+task_p5,46,Negative,P5,task_p5.txt,5
+task_p6,46,Totally negative,P6,task_p6.txt,6
+task_p7,46,Totally negative,P7,task_p7.txt,7
+task_p8,46,Neither negative or positive,P8,task_p8.txt,8
+task_p9,46,Totally negative,P9,task_p9.txt,9
+task_p10,46,Neither negative or positive,P10,task_p10.txt,10
+task_p11,46,Neither negative or positive,P11,task_p11.txt,11
+task_p12,46,Totally negative,P12,task_p12.txt,12
+task_p1,47,Totally positive,P1,task_p1.txt,1
+task_p2,47,Totally negative,P2,task_p2.txt,2
+task_p3,47,Negative,P3,task_p3.txt,3
+task_p4,47,Totally positive,P4,task_p4.txt,4
+task_p5,47,Totally negative,P5,task_p5.txt,5
+task_p6,47,Totally negative,P6,task_p6.txt,6
+task_p7,47,Negative,P7,task_p7.txt,7
+task_p8,47,Neither negative or positive,P8,task_p8.txt,8
+task_p9,47,Neither negative or positive,P9,task_p9.txt,9
+task_p10,47,Positive,P10,task_p10.txt,10
+task_p11,47,Neither negative or positive,P11,task_p11.txt,11
+task_p12,47,Positive,P12,task_p12.txt,12
+task_p1,48,Negative,P1,task_p1.txt,1
+task_p2,48,Totally negative,P2,task_p2.txt,2
+task_p3,48,Negative,P3,task_p3.txt,3
+task_p4,48,Positive,P4,task_p4.txt,4
+task_p5,48,Neither negative or positive,P5,task_p5.txt,5
+task_p6,48,Negative,P6,task_p6.txt,6
+task_p7,48,Totally negative,P7,task_p7.txt,7
+task_p8,48,Negative,P8,task_p8.txt,8
+task_p9,48,Neither negative or positive,P9,task_p9.txt,9
+task_p10,48,Totally positive,P10,task_p10.txt,10
+task_p11,48,Totally positive,P11,task_p11.txt,11
+task_p12,48,Totally negative,P12,task_p12.txt,12
+task_p1,49,Totally negative,P1,task_p1.txt,1
+task_p2,49,Negative,P2,task_p2.txt,2
+task_p3,49,Totally negative,P3,task_p3.txt,3
+task_p4,49,Positive,P4,task_p4.txt,4
+task_p5,49,Negative,P5,task_p5.txt,5
+task_p6,49,Totally negative,P6,task_p6.txt,6
+task_p7,49,Totally negative,P7,task_p7.txt,7
+task_p8,49,Negative,P8,task_p8.txt,8
+task_p9,49,Neither negative or positive,P9,task_p9.txt,9
+task_p10,49,Positive,P10,task_p10.txt,10
+task_p11,49,Negative,P11,task_p11.txt,11
+task_p12,49,Positive,P12,task_p12.txt,12
+task_p1,50,Negative,P1,task_p1.txt,1
+task_p2,50,Totally negative,P2,task_p2.txt,2
+task_p3,50,Totally negative,P3,task_p3.txt,3
+task_p4,50,Neither negative or positive,P4,task_p4.txt,4
+task_p5,50,Negative,P5,task_p5.txt,5
+task_p6,50,Negative,P6,task_p6.txt,6
+task_p7,50,Totally negative,P7,task_p7.txt,7
+task_p8,50,Neither negative or positive,P8,task_p8.txt,8
+task_p9,50,Positive,P9,task_p9.txt,9
+task_p10,50,Totally positive,P10,task_p10.txt,10
+task_p11,50,Totally negative,P11,task_p11.txt,11
+task_p12,50,Totally positive,P12,task_p12.txt,12
+task_p1,51,Negative,P1,task_p1.txt,1
+task_p2,51,Totally negative,P2,task_p2.txt,2
+task_p3,51,Totally negative,P3,task_p3.txt,3
+task_p4,51,Positive,P4,task_p4.txt,4
+task_p5,51,Totally negative,P5,task_p5.txt,5
+task_p6,51,Totally negative,P6,task_p6.txt,6
+task_p7,51,Totally negative,P7,task_p7.txt,7
+task_p8,51,Positive,P8,task_p8.txt,8
+task_p9,51,Positive,P9,task_p9.txt,9
+task_p10,51,Positive,P10,task_p10.txt,10
+task_p11,51,Neither negative or positive,P11,task_p11.txt,11
+task_p12,51,Positive,P12,task_p12.txt,12
+task_p1,52,Totally negative,P1,task_p1.txt,1
+task_p2,52,Negative,P2,task_p2.txt,2
+task_p3,52,Negative,P3,task_p3.txt,3
+task_p4,52,Positive,P4,task_p4.txt,4
+task_p5,52,Neither negative or positive,P5,task_p5.txt,5
+task_p6,52,Totally negative,P6,task_p6.txt,6
+task_p7,52,Totally negative,P7,task_p7.txt,7
+task_p8,52,Positive,P8,task_p8.txt,8
+task_p9,52,Neither negative or positive,P9,task_p9.txt,9
+task_p10,52,Positive,P10,task_p10.txt,10
+task_p11,52,Neither negative or positive,P11,task_p11.txt,11
+task_p12,52,Totally negative,P12,task_p12.txt,12
+task_p1,53,Negative,P1,task_p1.txt,1
+task_p2,53,Totally negative,P2,task_p2.txt,2
+task_p3,53,Negative,P3,task_p3.txt,3
+task_p4,53,Totally positive,P4,task_p4.txt,4
+task_p5,53,Negative,P5,task_p5.txt,5
+task_p6,53,Totally negative,P6,task_p6.txt,6
+task_p7,53,Totally negative,P7,task_p7.txt,7
+task_p8,53,Negative,P8,task_p8.txt,8
+task_p9,53,Positive,P9,task_p9.txt,9
+task_p10,53,Positive,P10,task_p10.txt,10
+task_p11,53,Totally positive,P11,task_p11.txt,11
+task_p12,53,Totally positive,P12,task_p12.txt,12
+task_p1,54,Neither negative or positive,P1,task_p1.txt,1
+task_p2,54,Negative,P2,task_p2.txt,2
+task_p3,54,Totally negative,P3,task_p3.txt,3
+task_p4,54,Neither negative or positive,P4,task_p4.txt,4
+task_p5,54,Neither negative or positive,P5,task_p5.txt,5
+task_p6,54,Negative,P6,task_p6.txt,6
+task_p7,54,Totally negative,P7,task_p7.txt,7
+task_p8,54,Negative,P8,task_p8.txt,8
+task_p9,54,Positive,P9,task_p9.txt,9
+task_p10,54,Neither negative or positive,P10,task_p10.txt,10
+task_p11,54,Negative,P11,task_p11.txt,11
+task_p12,54,Positive,P12,task_p12.txt,12
+task_p1,55,Totally negative,P1,task_p1.txt,1
+task_p2,55,Negative,P2,task_p2.txt,2
+task_p3,55,Negative,P3,task_p3.txt,3
+task_p4,55,Positive,P4,task_p4.txt,4
+task_p5,55,Negative,P5,task_p5.txt,5
+task_p6,55,Totally negative,P6,task_p6.txt,6
+task_p7,55,Totally negative,P7,task_p7.txt,7
+task_p8,55,Positive,P8,task_p8.txt,8
+task_p9,55,Positive,P9,task_p9.txt,9
+task_p10,55,Neither negative or positive,P10,task_p10.txt,10
+task_p11,55,Neither negative or positive,P11,task_p11.txt,11
+task_p12,55,Neither negative or positive,P12,task_p12.txt,12
+task_p1,56,Negative,P1,task_p1.txt,1
+task_p2,56,Neither negative or positive,P2,task_p2.txt,2
+task_p3,56,Totally negative,P3,task_p3.txt,3
+task_p4,56,Negative,P4,task_p4.txt,4
+task_p5,56,Totally negative,P5,task_p5.txt,5
+task_p6,56,Totally negative,P6,task_p6.txt,6
+task_p7,56,Totally negative,P7,task_p7.txt,7
+task_p8,56,Neither negative or positive,P8,task_p8.txt,8
+task_p9,56,Neither negative or positive,P9,task_p9.txt,9
+task_p10,56,Neither negative or positive,P10,task_p10.txt,10
+task_p11,56,Totally positive,P11,task_p11.txt,11
+task_p12,56,Positive,P12,task_p12.txt,12
+task_p1,57,Negative,P1,task_p1.txt,1
+task_p2,57,Neither negative or positive,P2,task_p2.txt,2
+task_p3,57,Negative,P3,task_p3.txt,3
+task_p4,57,Neither negative or positive,P4,task_p4.txt,4
+task_p5,57,Negative,P5,task_p5.txt,5
+task_p6,57,Totally negative,P6,task_p6.txt,6
+task_p7,57,Totally negative,P7,task_p7.txt,7
+task_p8,57,Negative,P8,task_p8.txt,8
+task_p9,57,Negative,P9,task_p9.txt,9
+task_p10,57,Positive,P10,task_p10.txt,10
+task_p11,57,Totally negative,P11,task_p11.txt,11
+task_p12,57,Positive,P12,task_p12.txt,12
+task_p1,58,Totally negative,P1,task_p1.txt,1
+task_p2,58,Negative,P2,task_p2.txt,2
+task_p3,58,Negative,P3,task_p3.txt,3
+task_p4,58,Neither negative or positive,P4,task_p4.txt,4
+task_p5,58,Negative,P5,task_p5.txt,5
+task_p6,58,Negative,P6,task_p6.txt,6
+task_p7,58,Totally negative,P7,task_p7.txt,7
+task_p8,58,Negative,P8,task_p8.txt,8
+task_p9,58,Negative,P9,task_p9.txt,9
+task_p10,58,Neither negative or positive,P10,task_p10.txt,10
+task_p11,58,Positive,P11,task_p11.txt,11
+task_p12,58,Totally negative,P12,task_p12.txt,12
+task_p1,59,Negative,P1,task_p1.txt,1
+task_p2,59,Negative,P2,task_p2.txt,2
+task_p3,59,Totally negative,P3,task_p3.txt,3
+task_p4,59,Totally positive,P4,task_p4.txt,4
+task_p5,59,Negative,P5,task_p5.txt,5
+task_p6,59,Totally negative,P6,task_p6.txt,6
+task_p7,59,Totally negative,P7,task_p7.txt,7
+task_p8,59,Neither negative or positive,P8,task_p8.txt,8
+task_p9,59,Neither negative or positive,P9,task_p9.txt,9
+task_p10,59,Neither negative or positive,P10,task_p10.txt,10
+task_p11,59,Totally negative,P11,task_p11.txt,11
+task_p12,59,Negative,P12,task_p12.txt,12
+task_p1,60,Totally negative,P1,task_p1.txt,1
+task_p2,60,Negative,P2,task_p2.txt,2
+task_p3,60,Totally negative,P3,task_p3.txt,3
+task_p4,60,Positive,P4,task_p4.txt,4
+task_p5,60,Negative,P5,task_p5.txt,5
+task_p6,60,Totally negative,P6,task_p6.txt,6
+task_p7,60,Totally negative,P7,task_p7.txt,7
+task_p8,60,Neither negative or positive,P8,task_p8.txt,8
+task_p9,60,Totally positive,P9,task_p9.txt,9
+task_p10,60,Neither negative or positive,P10,task_p10.txt,10
+task_p11,60,Totally positive,P11,task_p11.txt,11
+task_p12,60,Neither negative or positive,P12,task_p12.txt,12
+task_p1,61,Positive,P1,task_p1.txt,1
+task_p2,61,Positive,P2,task_p2.txt,2
+task_p3,61,Totally negative,P3,task_p3.txt,3
+task_p4,61,Positive,P4,task_p4.txt,4
+task_p5,61,Neither negative or positive,P5,task_p5.txt,5
+task_p6,61,Totally negative,P6,task_p6.txt,6
+task_p7,61,Totally negative,P7,task_p7.txt,7
+task_p8,61,Neither negative or positive,P8,task_p8.txt,8
+task_p9,61,Neither negative or positive,P9,task_p9.txt,9
+task_p10,61,Positive,P10,task_p10.txt,10
+task_p11,61,Totally positive,P11,task_p11.txt,11
+task_p12,61,Positive,P12,task_p12.txt,12
+task_p1,62,Neither negative or positive,P1,task_p1.txt,1
+task_p2,62,Totally negative,P2,task_p2.txt,2
+task_p3,62,Negative,P3,task_p3.txt,3
+task_p4,62,Positive,P4,task_p4.txt,4
+task_p5,62,Totally negative,P5,task_p5.txt,5
+task_p6,62,Totally negative,P6,task_p6.txt,6
+task_p7,62,Totally negative,P7,task_p7.txt,7
+task_p8,62,Positive,P8,task_p8.txt,8
+task_p9,62,Neither negative or positive,P9,task_p9.txt,9
+task_p10,62,Neither negative or positive,P10,task_p10.txt,10
+task_p11,62,Totally positive,P11,task_p11.txt,11
+task_p12,62,Totally positive,P12,task_p12.txt,12
+task_p1,63,Totally negative,P1,task_p1.txt,1
+task_p2,63,Totally negative,P2,task_p2.txt,2
+task_p3,63,Totally negative,P3,task_p3.txt,3
+task_p4,63,Positive,P4,task_p4.txt,4
+task_p5,63,Negative,P5,task_p5.txt,5
+task_p6,63,Totally negative,P6,task_p6.txt,6
+task_p7,63,Negative,P7,task_p7.txt,7
+task_p8,63,Negative,P8,task_p8.txt,8
+task_p9,63,Neither negative or positive,P9,task_p9.txt,9
+task_p10,63,Neither negative or positive,P10,task_p10.txt,10
+task_p11,63,Neither negative or positive,P11,task_p11.txt,11
+task_p12,63,Totally positive,P12,task_p12.txt,12
+task_p1,64,Negative,P1,task_p1.txt,1
+task_p2,64,Totally negative,P2,task_p2.txt,2
+task_p3,64,Negative,P3,task_p3.txt,3
+task_p4,64,Totally positive,P4,task_p4.txt,4
+task_p5,64,Totally negative,P5,task_p5.txt,5
+task_p6,64,Totally negative,P6,task_p6.txt,6
+task_p7,64,Totally negative,P7,task_p7.txt,7
+task_p8,64,Positive,P8,task_p8.txt,8
+task_p9,64,Totally positive,P9,task_p9.txt,9
+task_p10,64,Negative,P10,task_p10.txt,10
+task_p11,64,Positive,P11,task_p11.txt,11
+task_p12,64,Neither negative or positive,P12,task_p12.txt,12
+task_p1,65,Negative,P1,task_p1.txt,1
+task_p2,65,Negative,P2,task_p2.txt,2
+task_p3,65,Totally negative,P3,task_p3.txt,3
+task_p4,65,Positive,P4,task_p4.txt,4
+task_p5,65,Negative,P5,task_p5.txt,5
+task_p6,65,Negative,P6,task_p6.txt,6
+task_p7,65,Negative,P7,task_p7.txt,7
+task_p8,65,Negative,P8,task_p8.txt,8
+task_p9,65,Negative,P9,task_p9.txt,9
+task_p10,65,Neither negative or positive,P10,task_p10.txt,10
+task_p11,65,Totally negative,P11,task_p11.txt,11
+task_p12,65,Positive,P12,task_p12.txt,12
+task_p1,66,Neither negative or positive,P1,task_p1.txt,1
+task_p2,66,Totally negative,P2,task_p2.txt,2
+task_p3,66,Totally negative,P3,task_p3.txt,3
+task_p4,66,Neither negative or positive,P4,task_p4.txt,4
+task_p5,66,Neither negative or positive,P5,task_p5.txt,5
+task_p6,66,Totally negative,P6,task_p6.txt,6
+task_p7,66,Neither negative or positive,P7,task_p7.txt,7
+task_p8,66,Positive,P8,task_p8.txt,8
+task_p9,66,Totally negative,P9,task_p9.txt,9
+task_p10,66,Totally positive,P10,task_p10.txt,10
+task_p11,66,Totally negative,P11,task_p11.txt,11
+task_p12,66,Positive,P12,task_p12.txt,12
+task_p1,67,Negative,P1,task_p1.txt,1
+task_p2,67,Totally negative,P2,task_p2.txt,2
+task_p3,67,Negative,P3,task_p3.txt,3
+task_p4,67,Positive,P4,task_p4.txt,4
+task_p5,67,Negative,P5,task_p5.txt,5
+task_p6,67,Negative,P6,task_p6.txt,6
+task_p7,67,Negative,P7,task_p7.txt,7
+task_p8,67,Neither negative or positive,P8,task_p8.txt,8
+task_p9,67,Neither negative or positive,P9,task_p9.txt,9
+task_p10,67,Neither negative or positive,P10,task_p10.txt,10
+task_p11,67,Totally positive,P11,task_p11.txt,11
+task_p12,67,Totally positive,P12,task_p12.txt,12
+task_p1,68,Negative,P1,task_p1.txt,1
+task_p2,68,Totally negative,P2,task_p2.txt,2
+task_p3,68,Negative,P3,task_p3.txt,3
+task_p4,68,Positive,P4,task_p4.txt,4
+task_p5,68,Neither negative or positive,P5,task_p5.txt,5
+task_p6,68,Negative,P6,task_p6.txt,6
+task_p7,68,Totally negative,P7,task_p7.txt,7
+task_p8,68,Positive,P8,task_p8.txt,8
+task_p9,68,Neither negative or positive,P9,task_p9.txt,9
+task_p10,68,Neither negative or positive,P10,task_p10.txt,10
+task_p11,68,Totally positive,P11,task_p11.txt,11
+task_p12,68,Positive,P12,task_p12.txt,12
+task_p1,69,Negative,P1,task_p1.txt,1
+task_p2,69,Totally negative,P2,task_p2.txt,2
+task_p3,69,Totally negative,P3,task_p3.txt,3
+task_p4,69,Neither negative or positive,P4,task_p4.txt,4
+task_p5,69,Negative,P5,task_p5.txt,5
+task_p6,69,Totally negative,P6,task_p6.txt,6
+task_p7,69,Neither negative or positive,P7,task_p7.txt,7
+task_p8,69,Neither negative or positive,P8,task_p8.txt,8
+task_p9,69,Neither negative or positive,P9,task_p9.txt,9
+task_p10,69,Neither negative or positive,P10,task_p10.txt,10
+task_p11,69,Totally negative,P11,task_p11.txt,11
+task_p12,69,Totally positive,P12,task_p12.txt,12
+task_p1,70,Neither negative or positive,P1,task_p1.txt,1
+task_p2,70,Negative,P2,task_p2.txt,2
+task_p3,70,Totally negative,P3,task_p3.txt,3
+task_p4,70,Positive,P4,task_p4.txt,4
+task_p5,70,Totally negative,P5,task_p5.txt,5
+task_p6,70,Totally negative,P6,task_p6.txt,6
+task_p7,70,Negative,P7,task_p7.txt,7
+task_p8,70,Neither negative or positive,P8,task_p8.txt,8
+task_p9,70,Positive,P9,task_p9.txt,9
+task_p10,70,Neither negative or positive,P10,task_p10.txt,10
+task_p11,70,Totally positive,P11,task_p11.txt,11
+task_p12,70,Totally positive,P12,task_p12.txt,12
+task_p1,71,Negative,P1,task_p1.txt,1
+task_p2,71,Negative,P2,task_p2.txt,2
+task_p3,71,Negative,P3,task_p3.txt,3
+task_p4,71,Negative,P4,task_p4.txt,4
+task_p5,71,Negative,P5,task_p5.txt,5
+task_p6,71,Totally negative,P6,task_p6.txt,6
+task_p7,71,Totally negative,P7,task_p7.txt,7
+task_p8,71,Totally negative,P8,task_p8.txt,8
+task_p9,71,Neither negative or positive,P9,task_p9.txt,9
+task_p10,71,Positive,P10,task_p10.txt,10
+task_p11,71,Totally positive,P11,task_p11.txt,11
+task_p12,71,Positive,P12,task_p12.txt,12
+task_p1,72,Negative,P1,task_p1.txt,1
+task_p2,72,Totally negative,P2,task_p2.txt,2
+task_p3,72,Totally negative,P3,task_p3.txt,3
+task_p4,72,Positive,P4,task_p4.txt,4
+task_p5,72,Totally negative,P5,task_p5.txt,5
+task_p6,72,Totally negative,P6,task_p6.txt,6
+task_p7,72,Totally negative,P7,task_p7.txt,7
+task_p8,72,Positive,P8,task_p8.txt,8
+task_p9,72,Negative,P9,task_p9.txt,9
+task_p10,72,Neither negative or positive,P10,task_p10.txt,10
+task_p11,72,Totally negative,P11,task_p11.txt,11
+task_p12,72,Totally positive,P12,task_p12.txt,12
+task_p1,73,Totally negative,P1,task_p1.txt,1
+task_p2,73,Totally negative,P2,task_p2.txt,2
+task_p3,73,Totally negative,P3,task_p3.txt,3
+task_p4,73,Positive,P4,task_p4.txt,4
+task_p5,73,Neither negative or positive,P5,task_p5.txt,5
+task_p6,73,Totally negative,P6,task_p6.txt,6
+task_p7,73,Neither negative or positive,P7,task_p7.txt,7
+task_p8,73,Totally negative,P8,task_p8.txt,8
+task_p9,73,Negative,P9,task_p9.txt,9
+task_p10,73,Neither negative or positive,P10,task_p10.txt,10
+task_p11,73,Positive,P11,task_p11.txt,11
+task_p12,73,Positive,P12,task_p12.txt,12
+task_p1,74,Negative,P1,task_p1.txt,1
+task_p2,74,Negative,P2,task_p2.txt,2
+task_p3,74,Negative,P3,task_p3.txt,3
+task_p4,74,Totally positive,P4,task_p4.txt,4
+task_p5,74,Negative,P5,task_p5.txt,5
+task_p6,74,Negative,P6,task_p6.txt,6
+task_p7,74,Negative,P7,task_p7.txt,7
+task_p8,74,Negative,P8,task_p8.txt,8
+task_p9,74,Totally negative,P9,task_p9.txt,9
+task_p10,74,Positive,P10,task_p10.txt,10
+task_p11,74,Neither negative or positive,P11,task_p11.txt,11
+task_p12,74,Totally positive,P12,task_p12.txt,12
+task_p1,75,Neither negative or positive,P1,task_p1.txt,1
+task_p2,75,Neither negative or positive,P2,task_p2.txt,2
+task_p3,75,Positive,P3,task_p3.txt,3
+task_p4,75,Positive,P4,task_p4.txt,4
+task_p5,75,Totally negative,P5,task_p5.txt,5
+task_p6,75,Totally negative,P6,task_p6.txt,6
+task_p7,75,Neither negative or positive,P7,task_p7.txt,7
+task_p8,75,Negative,P8,task_p8.txt,8
+task_p9,75,Negative,P9,task_p9.txt,9
+task_p10,75,Neither negative or positive,P10,task_p10.txt,10
+task_p11,75,Totally positive,P11,task_p11.txt,11
+task_p12,75,Positive,P12,task_p12.txt,12
+task_p1,76,Totally negative,P1,task_p1.txt,1
+task_p2,76,Totally negative,P2,task_p2.txt,2
+task_p3,76,Negative,P3,task_p3.txt,3
+task_p4,76,Positive,P4,task_p4.txt,4
+task_p5,76,Totally negative,P5,task_p5.txt,5
+task_p6,76,Totally negative,P6,task_p6.txt,6
+task_p7,76,Totally negative,P7,task_p7.txt,7
+task_p8,76,Neither negative or positive,P8,task_p8.txt,8
+task_p9,76,Neither negative or positive,P9,task_p9.txt,9
+task_p10,76,Neither negative or positive,P10,task_p10.txt,10
+task_p11,76,Neither negative or positive,P11,task_p11.txt,11
+task_p12,76,Totally negative,P12,task_p12.txt,12
+task_p1,77,Negative,P1,task_p1.txt,1
+task_p2,77,Totally negative,P2,task_p2.txt,2
+task_p3,77,Totally negative,P3,task_p3.txt,3
+task_p4,77,Neither negative or positive,P4,task_p4.txt,4
+task_p5,77,Negative,P5,task_p5.txt,5
+task_p6,77,Totally negative,P6,task_p6.txt,6
+task_p7,77,Totally negative,P7,task_p7.txt,7
+task_p8,77,Negative,P8,task_p8.txt,8
+task_p9,77,Neither negative or positive,P9,task_p9.txt,9
+task_p10,77,Neither negative or positive,P10,task_p10.txt,10
+task_p11,77,Neither negative or positive,P11,task_p11.txt,11
+task_p12,77,Totally negative,P12,task_p12.txt,12
+task_p1,78,Neither negative or positive,P1,task_p1.txt,1
+task_p2,78,Neither negative or positive,P2,task_p2.txt,2
+task_p3,78,Negative,P3,task_p3.txt,3
+task_p4,78,Positive,P4,task_p4.txt,4
+task_p5,78,Totally negative,P5,task_p5.txt,5
+task_p6,78,Totally negative,P6,task_p6.txt,6
+task_p7,78,Negative,P7,task_p7.txt,7
+task_p8,78,Neither negative or positive,P8,task_p8.txt,8
+task_p9,78,Neither negative or positive,P9,task_p9.txt,9
+task_p10,78,Neither negative or positive,P10,task_p10.txt,10
+task_p11,78,Totally positive,P11,task_p11.txt,11
+task_p12,78,Totally positive,P12,task_p12.txt,12
+task_p1,79,Negative,P1,task_p1.txt,1
+task_p2,79,Negative,P2,task_p2.txt,2
+task_p3,79,Negative,P3,task_p3.txt,3
+task_p4,79,Positive,P4,task_p4.txt,4
+task_p5,79,Negative,P5,task_p5.txt,5
+task_p6,79,Negative,P6,task_p6.txt,6
+task_p7,79,Totally negative,P7,task_p7.txt,7
+task_p8,79,Neither negative or positive,P8,task_p8.txt,8
+task_p9,79,Neither negative or positive,P9,task_p9.txt,9
+task_p10,79,Negative,P10,task_p10.txt,10
+task_p11,79,Totally negative,P11,task_p11.txt,11
+task_p12,79,Positive,P12,task_p12.txt,12
+task_p1,80,Negative,P1,task_p1.txt,1
+task_p2,80,Negative,P2,task_p2.txt,2
+task_p3,80,Totally negative,P3,task_p3.txt,3
+task_p4,80,Negative,P4,task_p4.txt,4
+task_p5,80,Totally negative,P5,task_p5.txt,5
+task_p6,80,Totally negative,P6,task_p6.txt,6
+task_p7,80,Totally negative,P7,task_p7.txt,7
+task_p8,80,Neither negative or positive,P8,task_p8.txt,8
+task_p9,80,Totally positive,P9,task_p9.txt,9
+task_p10,80,Neither negative or positive,P10,task_p10.txt,10
+task_p11,80,Totally positive,P11,task_p11.txt,11
+task_p12,80,Totally negative,P12,task_p12.txt,12
+task_p1,81,Negative,P1,task_p1.txt,1
+task_p2,81,Totally negative,P2,task_p2.txt,2
+task_p3,81,Negative,P3,task_p3.txt,3
+task_p4,81,Positive,P4,task_p4.txt,4
+task_p5,81,Totally negative,P5,task_p5.txt,5
+task_p6,81,Totally negative,P6,task_p6.txt,6
+task_p7,81,Neither negative or positive,P7,task_p7.txt,7
+task_p8,81,Negative,P8,task_p8.txt,8
+task_p9,81,Positive,P9,task_p9.txt,9
+task_p10,81,Totally positive,P10,task_p10.txt,10
+task_p11,81,Neither negative or positive,P11,task_p11.txt,11
+task_p12,81,Negative,P12,task_p12.txt,12
+task_p1,82,Positive,P1,task_p1.txt,1
+task_p2,82,Totally negative,P2,task_p2.txt,2
+task_p3,82,Totally negative,P3,task_p3.txt,3
+task_p4,82,Negative,P4,task_p4.txt,4
+task_p5,82,Negative,P5,task_p5.txt,5
+task_p6,82,Totally negative,P6,task_p6.txt,6
+task_p7,82,Negative,P7,task_p7.txt,7
+task_p8,82,Positive,P8,task_p8.txt,8
+task_p9,82,Totally negative,P9,task_p9.txt,9
+task_p10,82,Negative,P10,task_p10.txt,10
+task_p11,82,Neither negative or positive,P11,task_p11.txt,11
+task_p12,82,Negative,P12,task_p12.txt,12
+task_p1,83,Negative,P1,task_p1.txt,1
+task_p2,83,Negative,P2,task_p2.txt,2
+task_p3,83,Negative,P3,task_p3.txt,3
+task_p4,83,Totally positive,P4,task_p4.txt,4
+task_p5,83,Totally negative,P5,task_p5.txt,5
+task_p6,83,Negative,P6,task_p6.txt,6
+task_p7,83,Negative,P7,task_p7.txt,7
+task_p8,83,Negative,P8,task_p8.txt,8
+task_p9,83,Neither negative or positive,P9,task_p9.txt,9
+task_p10,83,Positive,P10,task_p10.txt,10
+task_p11,83,Neither negative or positive,P11,task_p11.txt,11
+task_p12,83,Negative,P12,task_p12.txt,12
+task_p1,84,Totally negative,P1,task_p1.txt,1
+task_p2,84,Neither negative or positive,P2,task_p2.txt,2
+task_p3,84,Positive,P3,task_p3.txt,3
+task_p4,84,Positive,P4,task_p4.txt,4
+task_p5,84,Totally negative,P5,task_p5.txt,5
+task_p6,84,Totally negative,P6,task_p6.txt,6
+task_p7,84,Totally negative,P7,task_p7.txt,7
+task_p8,84,Neither negative or positive,P8,task_p8.txt,8
+task_p9,84,Neither negative or positive,P9,task_p9.txt,9
+task_p10,84,Positive,P10,task_p10.txt,10
+task_p11,84,Positive,P11,task_p11.txt,11
+task_p12,84,Positive,P12,task_p12.txt,12
+task_p1,85,Neither negative or positive,P1,task_p1.txt,1
+task_p2,85,Negative,P2,task_p2.txt,2
+task_p3,85,Totally negative,P3,task_p3.txt,3
+task_p4,85,Neither negative or positive,P4,task_p4.txt,4
+task_p5,85,Negative,P5,task_p5.txt,5
+task_p6,85,Negative,P6,task_p6.txt,6
+task_p7,85,Negative,P7,task_p7.txt,7
+task_p8,85,Neither negative or positive,P8,task_p8.txt,8
+task_p9,85,Neither negative or positive,P9,task_p9.txt,9
+task_p10,85,Neither negative or positive,P10,task_p10.txt,10
+task_p11,85,Positive,P11,task_p11.txt,11
+task_p12,85,Positive,P12,task_p12.txt,12
+task_p1,86,Totally negative,P1,task_p1.txt,1
+task_p2,86,Negative,P2,task_p2.txt,2
+task_p3,86,Totally negative,P3,task_p3.txt,3
+task_p4,86,Neither negative or positive,P4,task_p4.txt,4
+task_p5,86,Neither negative or positive,P5,task_p5.txt,5
+task_p6,86,Totally negative,P6,task_p6.txt,6
+task_p7,86,Totally negative,P7,task_p7.txt,7
+task_p8,86,Negative,P8,task_p8.txt,8
+task_p9,86,Neither negative or positive,P9,task_p9.txt,9
+task_p10,86,Neither negative or positive,P10,task_p10.txt,10
+task_p11,86,Positive,P11,task_p11.txt,11
+task_p12,86,Neither negative or positive,P12,task_p12.txt,12
+task_p1,87,Neither negative or positive,P1,task_p1.txt,1
+task_p2,87,Negative,P2,task_p2.txt,2
+task_p3,87,Negative,P3,task_p3.txt,3
+task_p4,87,Positive,P4,task_p4.txt,4
+task_p5,87,Negative,P5,task_p5.txt,5
+task_p6,87,Totally negative,P6,task_p6.txt,6
+task_p7,87,Negative,P7,task_p7.txt,7
+task_p8,87,Positive,P8,task_p8.txt,8
+task_p9,87,Positive,P9,task_p9.txt,9
+task_p10,87,Totally positive,P10,task_p10.txt,10
+task_p11,87,Neither negative or positive,P11,task_p11.txt,11
+task_p12,87,Positive,P12,task_p12.txt,12
+task_p1,88,Positive,P1,task_p1.txt,1
+task_p2,88,Totally negative,P2,task_p2.txt,2
+task_p3,88,Totally negative,P3,task_p3.txt,3
+task_p4,88,Totally positive,P4,task_p4.txt,4
+task_p5,88,Negative,P5,task_p5.txt,5
+task_p6,88,Totally negative,P6,task_p6.txt,6
+task_p7,88,Totally negative,P7,task_p7.txt,7
+task_p8,88,Negative,P8,task_p8.txt,8
+task_p9,88,Neither negative or positive,P9,task_p9.txt,9
+task_p10,88,Neither negative or positive,P10,task_p10.txt,10
+task_p11,88,Totally positive,P11,task_p11.txt,11
+task_p12,88,Positive,P12,task_p12.txt,12
+task_p1,89,Totally negative,P1,task_p1.txt,1
+task_p2,89,Totally negative,P2,task_p2.txt,2
+task_p3,89,Neither negative or positive,P3,task_p3.txt,3
+task_p4,89,Positive,P4,task_p4.txt,4
+task_p5,89,Neither negative or positive,P5,task_p5.txt,5
+task_p6,89,Totally negative,P6,task_p6.txt,6
+task_p7,89,Totally negative,P7,task_p7.txt,7
+task_p8,89,Neither negative or positive,P8,task_p8.txt,8
+task_p9,89,Negative,P9,task_p9.txt,9
+task_p10,89,Positive,P10,task_p10.txt,10
+task_p11,89,Neither negative or positive,P11,task_p11.txt,11
+task_p12,89,Positive,P12,task_p12.txt,12
+task_p1,90,Negative,P1,task_p1.txt,1
+task_p2,90,Neither negative or positive,P2,task_p2.txt,2
+task_p3,90,Totally negative,P3,task_p3.txt,3
+task_p4,90,Positive,P4,task_p4.txt,4
+task_p5,90,Negative,P5,task_p5.txt,5
+task_p6,90,Totally negative,P6,task_p6.txt,6
+task_p7,90,Totally negative,P7,task_p7.txt,7
+task_p8,90,Neither negative or positive,P8,task_p8.txt,8
+task_p9,90,Positive,P9,task_p9.txt,9
+task_p10,90,Neither negative or positive,P10,task_p10.txt,10
+task_p11,90,Neither negative or positive,P11,task_p11.txt,11
+task_p12,90,Positive,P12,task_p12.txt,12
+task_p1,91,Negative,P1,task_p1.txt,1
+task_p2,91,Negative,P2,task_p2.txt,2
+task_p3,91,Negative,P3,task_p3.txt,3
+task_p4,91,Totally positive,P4,task_p4.txt,4
+task_p5,91,Totally negative,P5,task_p5.txt,5
+task_p6,91,Totally negative,P6,task_p6.txt,6
+task_p7,91,Negative,P7,task_p7.txt,7
+task_p8,91,Negative,P8,task_p8.txt,8
+task_p9,91,Neither negative or positive,P9,task_p9.txt,9
+task_p10,91,Positive,P10,task_p10.txt,10
+task_p11,91,Totally negative,P11,task_p11.txt,11
+task_p12,91,Negative,P12,task_p12.txt,12
+task_p1,92,Totally negative,P1,task_p1.txt,1
+task_p2,92,Neither negative or positive,P2,task_p2.txt,2
+task_p3,92,Totally negative,P3,task_p3.txt,3
+task_p4,92,Positive,P4,task_p4.txt,4
+task_p5,92,Negative,P5,task_p5.txt,5
+task_p6,92,Totally negative,P6,task_p6.txt,6
+task_p7,92,Totally negative,P7,task_p7.txt,7
+task_p8,92,Positive,P8,task_p8.txt,8
+task_p9,92,Positive,P9,task_p9.txt,9
+task_p10,92,Negative,P10,task_p10.txt,10
+task_p11,92,Neither negative or positive,P11,task_p11.txt,11
+task_p12,92,Totally positive,P12,task_p12.txt,12
+task_p1,93,Negative,P1,task_p1.txt,1
+task_p2,93,Positive,P2,task_p2.txt,2
+task_p3,93,Negative,P3,task_p3.txt,3
+task_p4,93,Positive,P4,task_p4.txt,4
+task_p5,93,Totally negative,P5,task_p5.txt,5
+task_p6,93,Totally negative,P6,task_p6.txt,6
+task_p7,93,Negative,P7,task_p7.txt,7
+task_p8,93,Neither negative or positive,P8,task_p8.txt,8
+task_p9,93,Neither negative or positive,P9,task_p9.txt,9
+task_p10,93,Positive,P10,task_p10.txt,10
+task_p11,93,Totally positive,P11,task_p11.txt,11
+task_p12,93,Totally positive,P12,task_p12.txt,12
+task_p1,94,Negative,P1,task_p1.txt,1
+task_p2,94,Negative,P2,task_p2.txt,2
+task_p3,94,Totally negative,P3,task_p3.txt,3
+task_p4,94,Neither negative or positive,P4,task_p4.txt,4
+task_p5,94,Negative,P5,task_p5.txt,5
+task_p6,94,Totally negative,P6,task_p6.txt,6
+task_p7,94,Totally negative,P7,task_p7.txt,7
+task_p8,94,Neither negative or positive,P8,task_p8.txt,8
+task_p9,94,Totally positive,P9,task_p9.txt,9
+task_p10,94,Neither negative or positive,P10,task_p10.txt,10
+task_p11,94,Totally positive,P11,task_p11.txt,11
+task_p12,94,Neither negative or positive,P12,task_p12.txt,12
+task_p1,95,Neither negative or positive,P1,task_p1.txt,1
+task_p2,95,Neither negative or positive,P2,task_p2.txt,2
+task_p3,95,Totally negative,P3,task_p3.txt,3
+task_p4,95,Totally positive,P4,task_p4.txt,4
+task_p5,95,Totally negative,P5,task_p5.txt,5
+task_p6,95,Totally negative,P6,task_p6.txt,6
+task_p7,95,Negative,P7,task_p7.txt,7
+task_p8,95,Neither negative or positive,P8,task_p8.txt,8
+task_p9,95,Positive,P9,task_p9.txt,9
+task_p10,95,Neither negative or positive,P10,task_p10.txt,10
+task_p11,95,Totally positive,P11,task_p11.txt,11
+task_p12,95,Positive,P12,task_p12.txt,12
+task_p1,96,Negative,P1,task_p1.txt,1
+task_p2,96,Positive,P2,task_p2.txt,2
+task_p3,96,Negative,P3,task_p3.txt,3
+task_p4,96,Positive,P4,task_p4.txt,4
+task_p5,96,Totally negative,P5,task_p5.txt,5
+task_p6,96,Totally negative,P6,task_p6.txt,6
+task_p7,96,Totally negative,P7,task_p7.txt,7
+task_p8,96,Negative,P8,task_p8.txt,8
+task_p9,96,Neither negative or positive,P9,task_p9.txt,9
+task_p10,96,Positive,P10,task_p10.txt,10
+task_p11,96,Totally positive,P11,task_p11.txt,11
+task_p12,96,Positive,P12,task_p12.txt,12
+task_p1,97,Negative,P1,task_p1.txt,1
+task_p2,97,Negative,P2,task_p2.txt,2
+task_p3,97,Totally negative,P3,task_p3.txt,3
+task_p4,97,Positive,P4,task_p4.txt,4
+task_p5,97,Negative,P5,task_p5.txt,5
+task_p6,97,Totally negative,P6,task_p6.txt,6
+task_p7,97,Totally negative,P7,task_p7.txt,7
+task_p8,97,Negative,P8,task_p8.txt,8
+task_p9,97,Neither negative or positive,P9,task_p9.txt,9
+task_p10,97,Positive,P10,task_p10.txt,10
+task_p11,97,Totally positive,P11,task_p11.txt,11
+task_p12,97,Negative,P12,task_p12.txt,12

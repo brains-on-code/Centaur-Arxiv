@@ -1,0 +1,53 @@
+text,snippet,experiment
+"
+
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest);     
+ 
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    log(troubleTicket.toString()); 
+    
+    /* Update context and mail trouble ticket. */ 
+    aRequest.getSession().getServletContext(). 
+        setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+} 
+Your Answer: << 2.0 >>.
+
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest);     
+ 
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    A:______________________________; 
+
+    /* Update context and mail trouble ticket. */ 
+    aRequest.getSession().B:_____________________. 
+        setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+} 
+Your answer for A: << log(troubleTicket.toString()); >>.
+Your answer for B: << ? >>.
+Your Answer: << 1.0 >>.
+",S1_1_2,Börstler16

@@ -1,0 +1,16 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uCel.?.getBackgroundColor() >>.
+Your answer for B: << uCel.?.getBackgroundColor() >>.
+Your answer for C: << table.addCell(cell) >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

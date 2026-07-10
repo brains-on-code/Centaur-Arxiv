@@ -1,0 +1,12 @@
+public float beebtBurebzr(int[] odxsrev) {
+	int counter = 0;
+	int vdx = 0;
+
+	while (counter < odxsrev.length) {
+		vdx = vdx + odxsrev[counter];
+		counter = counter + 1;
+	}
+
+	float burebzr = vdx / (float) counter;
+	return burebzr;
+}

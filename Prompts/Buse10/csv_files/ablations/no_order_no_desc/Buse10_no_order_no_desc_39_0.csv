@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+            row[1] = ns.getCatalogName(row[0]);
+            row[2] = schema.equals(defschema) ? Boolean.TRUE
+                                              : Boolean.FALSE;
+
+            t.insertSys(row);
+
+Your answer: << 4 >>. 
+",39,Buse10

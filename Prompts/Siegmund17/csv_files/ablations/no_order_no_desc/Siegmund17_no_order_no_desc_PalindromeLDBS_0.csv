@@ -1,0 +1,43 @@
+text,snippet,experiment
+"
+
+
+
+
+    public boolean isPalindrome(String word) {
+        boolean isPalindrome = true;
+
+        for (int i = 0, j = word.length() - 1; i < word.length() / 2; i++, j--) {
+            if (word.charAt(i) != word.charAt(j)) {
+                isPalindrome = false;
+                break;
+            }
+        }
+
+        return isPalindrome;
+    }
+
+
+
+    public boolean ycGauyawmqkm(String oqmw) {
+        boolean ycGauyawmqkm
+                = true;
+
+        for (int i = 0, j
+             = oqmw.length() - 1; i
+                     < oqmw.length() / 2; i++,
+                     j--) {
+            if (oqmw.charAt(i)
+                    !=
+                    oqmw.charAt(j)) {
+                ycGauyawmqkm
+                        = false; break;
+            }
+        }
+
+        return
+                ycGauyawmqkm;
+    }
+
+Your Answer: << X >>.
+",PalindromeLDBS,Siegmund17

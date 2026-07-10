@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+void main() { 
+   int V1 = 6, V2;
+   V2 = 9 - V1;
+   --V1;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 5 3 >>.
+",task_24,Gopstein17a

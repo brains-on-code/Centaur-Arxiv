@@ -1,0 +1,7 @@
+Original replication package no longer online, got data from website of author
+121 lines in data, paper reports 120 participants, distribution across experience groups doesn't match either
+distribution across snippets seems to roughly match; count of answers visually matches graphic
+no representation of skipped data in answers, maybe replaced by middle value (3) or answered later 
+pdf of data roughly matches pdf in paper
+
+encoded skip as 6 in answering.

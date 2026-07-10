@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+		if ( parent != null )
+			setStrictJava( parent.getStrictJava() );
+		this.sourceFileInfo = sourceFileInfo;
+
+		BshClassManager bcm = BshClassManager.createClassManager( this );
+
+Your answer: << 3 >>. 
+",16,Buse10

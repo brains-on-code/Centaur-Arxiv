@@ -1,0 +1,14 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your answer: 
+ << a: 0 azy 1 >>.
+ << b: 1 azy 1 >>.
+ << a: 0 bzy 1 >>.
+ << b: 1 bzy 1 >>.
+ << c >>.
+
+",1,Gopstein17b

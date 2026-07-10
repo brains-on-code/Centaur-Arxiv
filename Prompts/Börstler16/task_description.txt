@@ -1,0 +1,9 @@
+This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.

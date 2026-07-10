@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+        
+        btPanel.add(cancel);
+
+        getRootPane().setDefaultButton(ok);
+        
+        panel.add(btPanel, BorderLayout.SOUTH);
+
+Your answer: << 4 >>. 
+",12,Buse10

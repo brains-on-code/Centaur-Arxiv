@@ -1,0 +1,137 @@
+text,participant,experiment
+"You participate in a game as part of research in software engineering with the aim to measure the comprehension of different code snippets. 
+Note that the goal is to characterize the different code snippets, not to evaluate the programmers!
+During the game you will be given code snippets of varying difficulty drawn randomly from a pool. 
+There is a time limit for each question.
+Try to answer every question as quickly as possible (and of course correctly, but please think it out and do not guess!).
+Remember that your score depends on how fast and how correctly you answered. 
+The total time is expected to be about 15 minutes. 
+To answer a question type out the output of the code. 
+Assume that print() prints the output without spaces or new line.
+
+
+You see the code snippet:
+
+var x = 48;
+if (x>0 && x<70 && !(x>10 && x<20) && !(x>30 && x<40) && !(x>50 && x<60)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 33;
+if( !x<0 && !(x>10 && x<20) && !(x>30 && x<40) && !(x>50) ){
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=0; i<arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << a >> << b >> << c >> << d >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=0; i<=arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << a >> << b >> << c >> << d >>.
+
+
+You see the code snippet:
+
+var x = 63;
+if ( !(x<0 || (x>10 && x<20) || (x>30 && x<40)|| (x>50 && x<60)|| x>70) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 51;
+if (x>0 && x<10 || x>20 && x<30 || x>40 && x<50) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var x = 14;
+if (x>0 && x<30 && !(x>10 && x<20)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 2 >>.
+
+
+You see the code snippet:
+
+var x = 27;
+if ( !(x<0 || (x>10 && x<20) || x>30) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 48;
+if (x>0 && x<50 && !(x>10 && x<20) && !(x>30 && x<40)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var x = 27;
+if ( !(x<0 || (x>10 && x<20) || (x>30 && x<40)|| x>50) ) {
+	print (""1"");
+}else{
+	print (""2"");
+}
+
+Your answer: << 1 >>.
+
+
+You see the code snippet:
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=arr.length-1; i>0; i--){
+	print(arr[i]);
+}
+
+Your answer: << d >> << c >> << b >>.
+",157,Ajami18

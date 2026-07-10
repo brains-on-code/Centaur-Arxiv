@@ -1,0 +1,14 @@
+LHS:
+if (x)
+  if (y)
+    f();
+  else
+    g();
+
+RHS:
+if (x)
+  if (y) {
+    f();
+  } else {
+    g();
+  }

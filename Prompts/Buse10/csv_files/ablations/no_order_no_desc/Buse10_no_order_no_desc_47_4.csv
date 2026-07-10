@@ -1,0 +1,16 @@
+text,snippet,experiment
+"
+
+    /**
+     * Read Settings
+     * @param stream
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
+    public void readData(ObjectInputStream stream) throws IOException, ClassNotFoundException {
+      int version = stream.readInt();
+      mNumber = stream.readInt();
+      mName = stream.readUTF();
+
+Your answer: << 5 >>. 
+",47,Buse10

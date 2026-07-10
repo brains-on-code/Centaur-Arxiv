@@ -1,0 +1,124 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table. 
+ */ 
+protected Table writeUTable(UTable uTable) 
+{ 
+    /* Create a new table with the same size and color as uTable. */ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    BoxModelOption option = uTable.getBoxModel(); 
+    UColor color = option.getBorderColor(); 
+    table.setBorderColor(new Color     
+        (color.getRed(),color.getGreen(),color.getBlue())); 
+    
+    /* Go through all entries of uTable and copy image information. */  
+    Cell cell;                 
+    for (UTableCell uCell : uTable.getEntries()) { 
+    
+        UParagraph paragraph = uCell.getContent(); 
+        UChildren children = paragraph.getChildren(); 
+       
+        /* Check if there is image information to copy. */ 
+        if (children.size() > 0 && children.get(0) instanceof UImage) { 
+           
+            UImage image = children.get(0); 
+            Path path = image.getPath(); 
+            USegment segment = path.lastSegment(); 
+            
+            /* Copy the last segment of the image. False and true */ 
+            /* are transformed to “no” and “yes”, respectively.   */ 
+            if (segment.startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            } else { 
+                if (segment.startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(segment); 
+                } 
+            } 
+            
+            /* Copy background color of uCell. */ 
+            option = uCell.getBoxModel(); 
+            color = option.getBackgroundColor(); 
+            if (color != null) { 
+                cell.setBackgroundColor(color); 
+            } 
+        }         
+        table.addCell(cell); 
+    } 
+    return table; 
+} 
+You are asked to rate this snippets readability.
+Your Answer: << 1.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table. 
+ */ 
+protected Table writeUTable(UTable uTable) 
+{ 
+    /* Create a new table with the same size and color as uTable. */ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    BoxModelOption option = uTable.getBoxModel(); 
+    UColor color = option.getBorderColor(); 
+    table.setBorderColor(new Color     
+        (color.getRed(),color.getGreen(),color.getBlue())); 
+    
+    /* Go through all entries of uTable and copy image information. */  
+    Cell cell;                 
+    for (UTableCell uCell : uTable.getEntries()) { 
+    
+        UParagraph paragraph = uCell.getContent(); 
+        UChildren children = paragraph.getChildren(); 
+       
+        /* Check if there is image information to copy. */ 
+        if (children.size() > 0 && children.get(0) instanceof UImage) { 
+           
+            UImage image = children.get(0); 
+            Path path = image.getPath(); 
+            USegment segment = path.lastSegment(); 
+            
+            /* Copy the last segment of the image. False and true */ 
+            /* are transformed to “no” and “yes”, respectively.   */ 
+            if (segment.startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            } else { 
+                if (segment.startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(segment); 
+                } 
+            } 
+            
+            /* Copy background color of uCell. */ 
+            option = A:__________________; 
+            B:____ = C:___________________________; 
+            if (D:____ != null) { 
+                cell.setBackgroundColor(E:_____); 
+            } 
+        }         
+        F:____________________; 
+    } 
+    return table; 
+} 
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your answer for E: << ? >>.
+Your answer for F: << ? >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 1.0 >>.
+",S3_2_1,Börstler16

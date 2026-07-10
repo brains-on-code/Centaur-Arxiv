@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your Answer: << 5.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 5.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uCell >>.
+Your answer for B: << new Color() >>.
+Your answer for C: << table.add(paragraph) >>.
+Your Answer: << 5.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << builder.Whites() >>.
+Your answer for B: << Nag nag : move.getNag() >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 5.0 >>.
+",1,Börstler16

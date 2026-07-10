@@ -1,0 +1,17 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << bounds >>.
+Your answer for B: << ? >>.
+Your answer for C: << textValue.length() >>.
+Your answer for D: << end >= 0 >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

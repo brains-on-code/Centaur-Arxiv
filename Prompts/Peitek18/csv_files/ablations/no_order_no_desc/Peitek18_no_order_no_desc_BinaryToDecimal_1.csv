@@ -1,0 +1,23 @@
+text,snippet,experiment
+"
+
+
+
+public int grey(int number) {
+    if (number < 0)
+        return -1; 
+    
+    int result = 0;
+    int tempNumber = number;
+    int variable = 0;
+
+    for (int i = 0; tempNumber > 0; i++) {
+        variable = tempNumber % 10; 
+        result = result + variable * (int) Math.pow(2, i);
+        tempNumber  tempNumber / 10;
+    }
+
+    return result;
+}
+Your Answer: << Z >>.
+",BinaryToDecimal,Peitek18

@@ -1,0 +1,18 @@
+text,snippet,experiment
+"
+ 
+
+
+if ((x = f()) == 0){
+  // do something
+}
+
+
+x = f();
+if (x == 0){
+  // do something
+}
+
+
+Your answer: << 5 >>.
+",task_p2,Medeiros19

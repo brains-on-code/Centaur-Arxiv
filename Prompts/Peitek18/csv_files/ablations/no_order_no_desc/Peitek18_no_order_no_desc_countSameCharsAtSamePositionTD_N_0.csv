@@ -1,0 +1,25 @@
+text,snippet,experiment
+"
+
+
+
+public int ecoamKayiEoaikAmKayiEckqmqca(String scig1, String scig2) {
+	int shortestLength;
+
+	if (scig1.length() < scig2.length())
+		shortestLength = scig1.length();
+	else
+		shortestLength = scig2.length();
+
+	int kayiEoaikAmKayiEckqmqca = 0;
+
+	for (int i = 0; i < shortestLength; i++) {
+		if (scig1.charAt(i) == scig2.charAt(i)) {
+			kayiEoaikAmKayiEckqmqca++;
+		}
+	}
+
+	return kayiEoaikAmKayiEckqmqca;
+}
+Your Answer: << Y >>.
+",countSameCharsAtSamePositionTD_N,Peitek18

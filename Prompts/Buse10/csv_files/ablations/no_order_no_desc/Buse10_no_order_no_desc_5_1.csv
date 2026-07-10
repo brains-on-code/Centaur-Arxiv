@@ -1,0 +1,15 @@
+text,snippet,experiment
+"
+
+    /**
+     * Quits the application without any questions.
+     */
+    public void quit() {
+        getConnectController().quitGame(true);
+        if (!windowed) {
+            gd.setFullScreenWindow(null);
+        }
+        System.exit(0);
+
+Your answer: << 4 >>. 
+",5,Buse10

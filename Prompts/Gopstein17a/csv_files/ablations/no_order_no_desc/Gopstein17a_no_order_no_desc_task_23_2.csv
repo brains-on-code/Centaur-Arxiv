@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() { 
+   int V1 = 2;
+   int V2 = --V1 + 3;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 5 >>.
+",task_23,Gopstein17a

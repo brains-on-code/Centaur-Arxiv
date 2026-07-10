@@ -1,0 +1,14 @@
+text,participant,experiment
+"
+ 
+
+
+variable1 = variable2++;
+
+
+variable1 = variable2;
+variable2 = variable2  + 1
+
+
+Your answer: << 5 >>.
+",1,Medeiros19

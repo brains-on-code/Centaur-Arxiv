@@ -1,0 +1,185 @@
+text,participant,experiment
+"
+
+
+
+
+public float arrayAverage(int[] array) {
+	int counter = 0;
+	int sum = 0;
+
+	while (counter < array.length) {
+		sum = sum + array[counter];
+		counter = counter + 1;
+	}
+
+	float average = sum / (float) counter;
+	return average;
+}
+
+
+You see a code snippet.
+
+
+
+You see a code snippet.
+
+
+
+You see a code snippet.
+
+
+
+You see a code snippet.
+
+
+
+You see a code snippet.
+
+Your Answer: << Y >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << Y >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << Z >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >> << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >> << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >> << X >> << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << Y >>.
+
+
+
+You see a code snippet.
+
+Your Answer: << X >> << X >>.
+
+",1,Peitek18

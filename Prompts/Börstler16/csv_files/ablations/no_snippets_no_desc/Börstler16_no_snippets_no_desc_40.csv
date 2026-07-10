@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << log(?) >>.
+Your answer for B: << get.(?) >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << value != null >>.
+Your answer for B: << nComposite >>.
+Your answer for C: << get.Value >>.
+Your answer for D: << notifications.addAll(nStore.getNotifications()) >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << image.getPath().lastSegment() >>.
+Your answer for B: << get.BackroundColor >>.
+Your answer for C: << Cell cell >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << append(move.istWhitesMove) >>.
+Your answer for B: << Nag nag : move.getNags >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << bounds >>.
+Your answer for B: << ex.bounds >>.
+Your answer for C: << maxwidth >>.
+Your answer for D: << start >= 0 && length< end >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

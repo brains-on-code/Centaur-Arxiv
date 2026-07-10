@@ -1,0 +1,15 @@
+text,snippet,experiment
+"
+
+
+void main()
+{
+   int V1 = 7;
+   if ((V1 = 8) != 0)
+      printf(""true"");
+   else
+      printf(""false"");
+}
+
+Your answer: << false >>.
+",task_4,Gopstein17a

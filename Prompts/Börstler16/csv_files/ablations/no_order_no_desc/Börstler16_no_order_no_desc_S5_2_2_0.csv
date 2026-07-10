@@ -1,0 +1,89 @@
+text,snippet,experiment
+"
+
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    /* Define local variables. */ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds bounds = control.getBounds(); 
+    int maxWidth = bounds.width - 5;
+
+    /* Define further local variables. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* While the condition holds true,                      */ 
+    /* override characters between s1 and s2 with ELLIPSIS. */ 
+    while (start >= 0 && end < length) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When l is smaller than maxWidth, return s. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+Your Answer: << 4.0 >>.
+
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    /* Define local variables. */ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds A:_____ = B:__________________; 
+    int maxWidth = C:_______________;
+
+    /* Define further local variables. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* While the condition holds true,                      */ 
+    /* override characters between s1 and s2 with ELLIPSIS. */ 
+    while (D:_________________________) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When l is smaller than maxWidth, return s. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+Your answer for A: << bounds >>.
+Your answer for B: << ex.bounds >>.
+Your answer for C: << maxwidth >>.
+Your answer for D: << start >= 0 && length< end >>.
+Your Answer: << 4.0 >>.
+",S5_2_2,Börstler16

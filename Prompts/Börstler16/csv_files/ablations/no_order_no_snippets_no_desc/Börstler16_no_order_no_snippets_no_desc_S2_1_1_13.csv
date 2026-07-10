@@ -1,0 +1,15 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << property != null >>.
+Your answer for B: << nComposite.getNotifications().addAll(nStore.getNotifications()); >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

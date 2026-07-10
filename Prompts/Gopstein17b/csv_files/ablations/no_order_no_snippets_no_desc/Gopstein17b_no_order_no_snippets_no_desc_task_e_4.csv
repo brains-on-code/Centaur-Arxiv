@@ -1,0 +1,12 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your answer: 
+ << a: -2 -2 0 ? >>.
+ << b: 0 >>.
+ << c: -3 -2 0 ? ab >>.
+
+",1,Gopstein17b

@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+	public TestMethodRunner(Object test, Method method, RunNotifier notifier, Description description) {
+		super(test.getClass(), Before.class, After.class, test);
+		fTest= test;
+		fMethod= method;
+
+Your answer: << 5 >>. 
+",8,Buse10

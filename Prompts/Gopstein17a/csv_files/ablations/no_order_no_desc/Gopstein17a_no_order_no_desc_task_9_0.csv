@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   if (! 0 && 2) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << false >>.
+",task_9,Gopstein17a

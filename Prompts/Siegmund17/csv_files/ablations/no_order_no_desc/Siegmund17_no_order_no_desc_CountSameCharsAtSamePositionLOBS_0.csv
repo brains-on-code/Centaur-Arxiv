@@ -1,0 +1,47 @@
+text,snippet,experiment
+"
+
+
+
+
+	public int countSameCharsAtSamePosition(String word1, String word2) {
+		int shortestLength;
+
+		if (word1.length() < word2.length())
+			shortestLength = word1.length();
+		else
+			shortestLength = word2.length();
+
+		int sameCharsAtSamePosition = 0;
+
+		for (int i = 0; i < shortestLength; i++) {
+			if (word1.charAt(i) == word2.charAt(i)) {
+				sameCharsAtSamePosition++;
+			}
+		}
+
+		return sameCharsAtSamePosition;
+	}
+
+
+
+	public int ecoamKayiEoaikAmKayiEckqmqca(String scig1, String scig2) {
+		int kocimikmWiammo;
+
+		if (scig1.length() > scig2.length())
+			kocimikmWiammo = scig2.length();
+		else
+			kocimikmWiammo = scig1.length();
+
+		int kayiEoaikAmKayiEckqmqca = 0;
+
+		for (int q = 0; q < kocimikmWiammo; ++q) {
+			if (scig1.charAt(q) == scig2.charAt(q)) {
+				kayiEoaikAmKayiEckqmqca += 1;
+			}
+		}
+		return kayiEoaikAmKayiEckqmqca;
+	}
+
+Your Answer: << Y >>.
+",CountSameCharsAtSamePositionLOBS,Siegmund17

@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char V1 = 0xD0 & 0x0D;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 0 >>.
+",task_108,Gopstein17a

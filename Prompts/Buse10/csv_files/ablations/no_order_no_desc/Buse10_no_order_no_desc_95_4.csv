@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+        InGameInputHandler inGameInputHandler = freeColClient.getInGameInputHandler();
+
+        freeColClient.getClient().setMessageHandler(inGameInputHandler);
+        gui.setInGame(true);
+
+Your answer: << 1 >>. 
+",95,Buse10

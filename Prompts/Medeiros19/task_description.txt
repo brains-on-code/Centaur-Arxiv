@@ -1,0 +1,4 @@
+You will be shown a series of pairs of C code patterns which you shoud rate regarding their influence in terms of understanding the code. 
+For each question you will be presented with a code pattern at the Left-Hand Side (LHS) and an alternative at the Right-Hand Side (RHS). 
+You should rank the impact regarding understanding the code on a scale of 1 to 5, with 1 representing a totally positive effect of using LHS and 5 representing a totally negative effect of using LHS.
+You should give your answer by typing the corresponding number.

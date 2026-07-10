@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main(){
+   int V1;
+   V1 = 128 - 1 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 254 >>.
+",task_38,Gopstein17a

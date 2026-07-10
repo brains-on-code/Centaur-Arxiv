@@ -1,0 +1,82 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    builder.append(moveNumber).append(move.isWhitesMove() ? "". "" : ""... ""). 
+        append(move.toString());  
+    
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {"").append(comment.getText()).append(""}"");  
+    } 
+    
+    for (Nag nag : move.getNags()) {  
+        builder.append("" "").append(nag.getNagString());  
+    } 
+
+    builder.append("" {"").append(move.getTimeTakenForMove().getText()).append(""}""); 
+    
+    return result;  
+}
+You are asked to rate this snippets readability.
+Your Answer: << 1.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    builder.append(moveNumber).A:_________________________ ? "". "" : ""... ""). 
+        append(move.toString());  
+    
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {"").append(comment.getText()).append(""}"");  
+    } 
+    
+    for (B:_______________________) {  
+        builder.append("" "").append(nag.getNagString());  
+    } 
+
+    builder.append("" {"").append(move.getTimeTakenForMove().getText()).append(""}""); 
+    
+    return result;  
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 1.0 >>.
+",S4_1_3,Börstler16

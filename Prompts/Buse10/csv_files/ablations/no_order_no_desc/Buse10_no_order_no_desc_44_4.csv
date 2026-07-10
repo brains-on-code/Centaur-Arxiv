@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+        void link(IndexRowIterator other) {
+
+            other.next = next;
+            other.last = this;
+            next.last  = other;
+
+Your answer: << 2 >>. 
+",44,Buse10

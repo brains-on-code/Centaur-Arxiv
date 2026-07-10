@@ -1,0 +1,15 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << gc.textMaxwidth(textvalue).5 >>.
+Your answer for B: << start >0 && end <textValue.length >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

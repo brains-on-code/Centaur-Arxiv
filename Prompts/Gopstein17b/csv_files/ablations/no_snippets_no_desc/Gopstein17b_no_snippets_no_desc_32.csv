@@ -1,0 +1,36 @@
+text,participant,experiment
+"
+
+You see a code snippet.
+
+Your answers: 
+ << a: -1 -2 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00  >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+ << a: -1 -1 0 0.00 >>.
+
+
+
+You see a code snippet.
+
+Your answers: 
+ << _ >>.
+
+
+
+You see a code snippet.
+
+Your answers: 
+ << a: 2 2 0 0 >>.
+ << c: 2 0 2 1 >>.
+ << d: 2 >>.
+ << a: 3 3 2 2 >>.
+ << c: 3 0 16 0 >>.
+ << e >>.
+",1,Gopstein17b

@@ -1,0 +1,17 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << length-1 >>.
+Your answer for C: << length/2 >>.
+Your answer for D: << ? >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

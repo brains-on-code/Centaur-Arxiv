@@ -1,0 +1,9 @@
+LHS:
+int[] a;
+…
+printf("%d", 1[a]);
+
+RHS:
+int[] a;
+…
+printf("%d", a[1]);

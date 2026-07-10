@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+        public void actionPerformed(ActionEvent evt) {
+            if (!hasFocus()) {
+                stopBlinking();
+            }
+
+            if (blinkOn) {
+                setOpaque(false);
+                blinkOn = false;
+
+Your answer: << 5 >>. 
+",50,Buse10

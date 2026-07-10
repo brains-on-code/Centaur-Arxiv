@@ -1,0 +1,16 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 1;
+
+   if (0) {
+      V1 = 3;
+   }
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 3 >>.
+",task_99,Gopstein17a

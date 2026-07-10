@@ -1,0 +1,42 @@
+Study: Gopstein17a / Atoms of Confusion 2016 Snippet Study
+
+Source database: Supplemental_files/confusion.db
+
+Tables used:
+- code: used for task snippets, reference answers, type, and pair information.
+- UserCode: used for participant answers, correctness, duration, timestamps, and task order.
+
+Columns used from code table:
+- ID as original_code_id
+- Code as code snippet
+- Answer as reference answer
+- Type as confusing/non-confusing type
+- Pair as paired snippet ID
+
+Columns used from UserCode table:
+- UserID as original participant ID
+- CodeID as task ID
+- Answer as participant answer
+- Correct as correctness
+- rank as task order
+- Duration and TimeTotal as timing metadata
+
+Original UserID values were mapped to participant numbers 1, 2, 3, etc.
+The mapping is stored in participant_file_mapping.csv.
+
+? in answers caused problems with tokenizer as ?>> is one token. Used _ to replace all instances of ? as unsure what the solution is and removed one instance of _ at the end of a string. Added instruction to respond with _ for unsure answers or part of answers;
+
+) at end of answer causes problem with tokenizer due to )>> being a token. 
+
+Some prompts have less answers in eval: 
+13, 16, 20, 21, 22, 36, 37, 42, 45, 48, 50, 58, 61, 67, 68
+The following are caused by missing answers (skipped as no token is there to predict): 
+13, 21, 22, 50, 68
+The following are caused by )>>: 
+37, 42
+The following are caused by <<-: 
+16, 20, 36, 45, 48, 58, 61, 67, 
+
+
+replace all cases of text indicating impossible to determine output with !
+

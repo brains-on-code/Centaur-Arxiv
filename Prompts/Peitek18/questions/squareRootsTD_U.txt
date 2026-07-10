@@ -1,0 +1,1 @@
+What is the output of squareRoots([9,25,16,100])?

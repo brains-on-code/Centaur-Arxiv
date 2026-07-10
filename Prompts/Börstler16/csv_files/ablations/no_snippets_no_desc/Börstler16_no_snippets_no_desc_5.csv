@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 1.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << !=null >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << cell >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

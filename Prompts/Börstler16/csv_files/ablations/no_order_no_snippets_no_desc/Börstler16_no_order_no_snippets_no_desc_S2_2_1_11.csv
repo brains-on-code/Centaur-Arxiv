@@ -1,0 +1,17 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << (projectSpace !>0) >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << (notifications.add) >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

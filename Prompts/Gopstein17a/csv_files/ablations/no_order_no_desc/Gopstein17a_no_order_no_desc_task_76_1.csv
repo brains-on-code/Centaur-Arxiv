@@ -1,0 +1,18 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 0;
+
+   V1 = 0;
+
+   if (V1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << false >>.
+",task_76,Gopstein17a

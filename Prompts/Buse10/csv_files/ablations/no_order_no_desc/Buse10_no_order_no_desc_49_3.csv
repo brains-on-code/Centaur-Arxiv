@@ -1,0 +1,16 @@
+text,snippet,experiment
+"
+
+    public void close() {
+
+        if (isClosed) {
+            return;
+        }
+
+        isClosed = true;
+
+        try {
+            resultOut.setResultType(ResultConstants.SQLDISCONNECT);
+
+Your answer: << 3 >>. 
+",49,Buse10

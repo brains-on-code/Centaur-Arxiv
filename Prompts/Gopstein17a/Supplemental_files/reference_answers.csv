@@ -1,0 +1,127 @@
+task,participant,answer,original_code_id
+task_1,ground_truth,false,1
+task_2,ground_truth,false,2
+task_3,ground_truth,true,3
+task_4,ground_truth,true,4
+task_5,ground_truth,true,5
+task_6,ground_truth,true,6
+task_7,ground_truth,0,7
+task_8,ground_truth,6,8
+task_9,ground_truth,true,9
+task_10,ground_truth,true,10
+task_11,ground_truth,true,11
+task_12,ground_truth,true,12
+task_13,ground_truth,3 5,13
+task_14,ground_truth,3 5,14
+task_15,ground_truth,true 1,15
+task_16,ground_truth,true 1,16
+task_17,ground_truth,false 1,17
+task_18,ground_truth,false 1,18
+task_19,ground_truth,3 1,19
+task_20,ground_truth,6 -1,20
+task_21,ground_truth,true 1,21
+task_22,ground_truth,true 1,22
+task_23,ground_truth,1 4,23
+task_24,ground_truth,5 3,24
+task_25,ground_truth,5,25
+task_26,ground_truth,5,26
+task_27,ground_truth,4,27
+task_28,ground_truth,6,28
+task_29,ground_truth,5,29
+task_30,ground_truth,9,30
+task_31,ground_truth,7,31
+task_32,ground_truth,9,32
+task_33,ground_truth,6,33
+task_34,ground_truth,6,34
+task_35,ground_truth,2 2,35
+task_36,ground_truth,5 5,36
+task_37,ground_truth,62,37
+task_38,ground_truth,126,38
+task_39,ground_truth,11,39
+task_40,ground_truth,9,40
+task_41,ground_truth,21,41
+task_42,ground_truth,21,42
+task_43,ground_truth,def,43
+task_44,ground_truth,cdef,44
+task_45,ground_truth,2,45
+task_46,ground_truth,1,46
+task_47,ground_truth,3,47
+task_48,ground_truth,4,48
+task_49,ground_truth,1,49
+task_50,ground_truth,1,50
+task_51,ground_truth,2,51
+task_52,ground_truth,2,52
+task_53,ground_truth,1,53
+task_54,ground_truth,1,54
+task_55,ground_truth,true,55
+task_56,ground_truth,true,56
+task_57,ground_truth,false,57
+task_58,ground_truth,false,58
+task_59,ground_truth,true,59
+task_60,ground_truth,true,60
+task_61,ground_truth,2 1,61
+task_62,ground_truth,2 1,62
+task_63,ground_truth,7 7,63
+task_64,ground_truth,7 7,64
+task_65,ground_truth,8 8,65
+task_66,ground_truth,8 8,66
+task_67,ground_truth,abcdefabcdef,67
+task_68,ground_truth,abcdefabcdef,68
+task_69,ground_truth,4 5,69
+task_70,ground_truth,4 5,70
+task_71,ground_truth,2 1,71
+task_72,ground_truth,2 1,72
+task_73,ground_truth,true,73
+task_74,ground_truth,true,74
+task_75,ground_truth,false,75
+task_76,ground_truth,false,76
+task_77,ground_truth,3 9,77
+task_78,ground_truth,4 7,78
+task_79,ground_truth,4 10,79
+task_80,ground_truth,6 8,80
+task_81,ground_truth,1 6,81
+task_82,ground_truth,2 7,82
+task_83,ground_truth,5 5 2,83
+task_84,ground_truth,11 11 10,84
+task_85,ground_truth,2 0,85
+task_86,ground_truth,4 0,86
+task_87,ground_truth,4,87
+task_88,ground_truth,1,88
+task_89,ground_truth,2,89
+task_90,ground_truth,4,90
+task_91,ground_truth,e,91
+task_92,ground_truth,b,92
+task_93,ground_truth,v,93
+task_94,ground_truth,d,94
+task_95,ground_truth,s,95
+task_96,ground_truth,e,96
+task_97,ground_truth,2,97
+task_98,ground_truth,2,98
+task_99,ground_truth,1,99
+task_100,ground_truth,1,100
+task_101,ground_truth,0,101
+task_102,ground_truth,0,102
+task_103,ground_truth,h,103
+task_104,ground_truth,g,104
+task_105,ground_truth,11,105
+task_106,ground_truth,23,106
+task_107,ground_truth,0,107
+task_108,ground_truth,0,108
+task_109,ground_truth,3,109
+task_110,ground_truth,3,110
+task_111,ground_truth,5 3,111
+task_112,ground_truth,8 3,112
+task_113,ground_truth,7,113
+task_114,ground_truth,8,114
+task_115,ground_truth,1,115
+task_116,ground_truth,2,116
+task_117,ground_truth,4,117
+task_118,ground_truth,4,118
+task_119,ground_truth,5,119
+task_120,ground_truth,32,120
+task_121,ground_truth,4,121
+task_122,ground_truth,4,122
+task_123,ground_truth,3,123
+task_124,ground_truth,10,124
+task_125,ground_truth,7,125
+task_126,ground_truth,9,126

@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   if (""V1"")
+      printf(""true"");
+   else
+      printf(""false"");
+}
+
+Your answer: << true >>.
+",task_5,Gopstein17a

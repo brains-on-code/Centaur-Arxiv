@@ -1,0 +1,12 @@
+
+public double[] squareRoots(int[] numbers) {
+    double[] squareRootArray = new double[numbers.length];
+    for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] < 0) {
+            squareRootArray[i] = Math.sqrt(-1 * numbers[i]);
+        } else {
+            squareRootArray[i] = Math.sqrt(numbers[i]);
+        }
+    }
+    return squareRootArray;
+}

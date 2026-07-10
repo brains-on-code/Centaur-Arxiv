@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=0; i<arr.length-1; i++){
+	print(arr[i]);
+}
+
+Your answer: << a >> << b >> << c >> << d >> << u >> << n >> << d >> << e >> << f >> << i >> << n >> << e >> << d >>.
+",task_102,Ajami18

@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+
+		if ( clas == null )
+			throw new ClassNotFoundException(
+				""Class: "" + value+ "" not found in namespace"");
+
+		asClass = clas;
+		return asClass;
+
+Your answer: << 1 >>. 
+",11,Buse10

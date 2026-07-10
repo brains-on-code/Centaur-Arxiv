@@ -1,0 +1,85 @@
+text,snippet,experiment
+"
+
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount();
+
+    builder.append(moveNumber); 
+    builder.append(move.isWhitesMove() ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    for (Nag nag : move.getNags()) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+    
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    
+    return result; 
+}
+Your Answer: << 2.0 >>.
+
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount();
+
+    builder.append(moveNumber); 
+    builder.append(A:_________________________ ? "". "" : ""... ""); 
+    builder.append(move.toString());  
+
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {""); 
+        builder.append(comment.getText()); 
+        builder.append(""}"");  
+    } 
+
+    for (B:_______________________) {  
+        builder.append("" ""); 
+        builder.append(nag.getNagString());  
+    } 
+    
+    builder.append("" {""); 
+    TimeTakenForMove timeTaken = move.getTimeTakenForMove(); 
+    builder.append(timeTaken.getText()); 
+    builder.append(""}""); 
+    
+    return result; 
+}
+Your answer for A: << append(move.isWhitesMove() >>.
+Your answer for B: << Nag nag : move.getNag() >>.
+Your Answer: << 2.0 >>.
+",S4_2_3,Börstler16

@@ -1,0 +1,6 @@
+LHS:
+variable1 = variable2++;
+
+RHS:
+variable1 = variable2;
+variable2 = variable2 + 1;

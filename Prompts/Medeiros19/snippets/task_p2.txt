@@ -1,0 +1,10 @@
+LHS:
+if ((x = f()) == 0){
+  // do something
+}
+
+RHS:
+x = f();
+if (x == 0){
+  // do something
+}

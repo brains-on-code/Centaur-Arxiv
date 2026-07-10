@@ -1,0 +1,172 @@
+text,participant,experiment
+" 
+
+
+
+if (x)
+  if (y)
+    f();
+  else
+    g();
+
+
+if (x)
+  if (y) {
+    f();
+  } else {
+    g();
+  }
+
+
+
+Your answer: << 5 >>.
+
+
+
+
+if ((x = f()) == 0){
+  // do something
+}
+
+
+x = f();
+if (x == 0){
+  // do something
+}
+
+
+Your answer: << 3 >>.
+
+
+
+
+x && f();
+
+
+if (x) {
+  f();
+}
+
+
+Your answer: << 5 >>.
+
+
+
+
+x = f() ? 2 : 3;
+
+
+if (f()){
+  x = 2;
+} else {
+  x = 3;
+}
+
+
+Your answer: << 2 >>.
+
+
+
+
+x || y && z;
+
+
+x || (y && z)
+
+
+
+Your answer: << 4 >>.
+
+
+
+
+x = (y += 1, y);
+
+
+y += 1;
+x = y;
+
+
+
+Your answer: << 5 >>.
+
+
+
+
+int[] a;
+…
+printf(""%d"", 1[a]);
+
+
+int[] a;
+…
+printf(""%d"", a[1]);
+
+
+
+Your answer: << 5 >>.
+
+
+
+
+""abcdef""+3
+
+
+&""abcdef""[3]
+
+
+Your answer: << 2 >>.
+
+
+
+
+int x = 10, y = 20;
+
+
+int x = 10;
+
+int y = 20;
+
+
+Your answer: << 2 >>.
+
+
+
+
+x = y = 20;
+
+
+x = 20;
+
+y = 20;
+
+
+
+Your answer: << 4 >>.
+
+
+
+
+variable1 = variable2++;
+
+
+variable1 = variable2;
+variable2 = variable2  + 1
+
+
+
+Your answer: << 3 >>.
+
+
+
+ 
+variable1 = --variable2;
+
+
+variable2 = variable2 - 1;
+variable1 = variable2;
+
+
+
+Your answer: << 1 >>.
+",92,Medeiros19

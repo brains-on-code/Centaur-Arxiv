@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+		private TestClassRunnerForParameters(Class<?> klass, Object[] parameters, int i) {
+			super(klass);
+			fParameters= parameters;
+			fParameterSetNumber= i;
+
+Your answer: << 3 >>. 
+",43,Buse10

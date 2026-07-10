@@ -1,0 +1,507 @@
+text,participant,experiment
+"
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+	/**
+	 * Do not use. Testing purposes only.
+	 */
+	public Result runMain(String... args) {
+		System.out.println(""JUnit version "" + Version.id());
+		List<Class<?>>. classes= new ArrayList<Class<?>>.();
+		List<Failure> missingClasses= new ArrayList<Failure>();
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 1 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 2 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 5 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 4 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+
+
+You see a code snippet.
+
+Your answer: << 3 >>. 
+",1,Buse10

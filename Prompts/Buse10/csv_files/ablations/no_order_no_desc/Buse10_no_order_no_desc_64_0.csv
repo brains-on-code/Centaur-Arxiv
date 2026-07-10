@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+            while (classNames.hasNext()) {
+                clsName         = (String) classNames.next();
+                clsCat          = ns.getCatalogName(clsName);
+                clsSchem        = ns.getSchemaName(clsName);
+
+Your answer: << 4 >>. 
+",64,Buse10

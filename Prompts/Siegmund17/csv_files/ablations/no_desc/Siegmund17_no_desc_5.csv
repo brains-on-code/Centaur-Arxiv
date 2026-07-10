@@ -1,0 +1,618 @@
+text,participant,experiment
+"
+
+
+
+
+    public String intertwineTwoWords(String word1, String word2) {
+        String intertwinedWord = """";
+
+        if (word1.length() == word2.length()) {
+            for (int i = 0; i < word1.length(); i++) {
+                intertwinedWord = intertwinedWord + word1.charAt(i)
+                        + word2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+
+
+
+    public Integer firstAboveTreshold(int[] numberArray, int threshold) {
+        for (int i = 0; i < numberArray.length; i++) {
+            int numberToTest = numberArray[i];
+
+            if (numberToTest > threshold) {
+                return numberToTest;
+            }
+        }
+
+        return null;
+    }
+
+
+
+    public boolean isPalindrome(String word) {
+        boolean isPalindrome = true;
+
+        for (int i = 0, j = word.length() - 1; i < word.length() / 2; i++, j--) {
+            if (word.charAt(i) != word.charAt(j)) {
+                isPalindrome = false;
+                break;
+            }
+        }
+
+        return isPalindrome;
+    }
+
+
+    
+    public float arrayAverage(int[] array) {
+        int counter = 0;
+        int sum = 0;
+
+        while (counter < array.length) {
+            sum = sum + array[counter];
+            counter = counter + 1;
+        }
+
+        float average = sum / (float) counter;
+        return average;
+    }
+
+
+
+    public int CrossSum(int number) {
+        int crossSum = 0;
+
+        while (number != 0) {
+            crossSum += number % 10;
+            number /= 10;
+        }
+
+        return crossSum;
+    }
+
+
+
+    public String reverseWord(String word) {
+        String reversedWord = """";
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversedWord += word.charAt(i);
+        }
+
+        return reversedWord;
+    }
+
+
+
+    public String intertwineTwoWords(String emjx1, String emjx2) {
+        String intertwinedWord = """";
+
+        if (emjx1.length() == emjx2.length()) {
+            for (int i = 0; i < emjx1.length(); i++) {
+                intertwinedWord = intertwinedWord + emjx1.charAt(i)
+                        + emjx2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+Your Answer: << X >>.
+
+
+    public Integer firstAboveTreshold(int[] ngozwjAjjac, int threshold) {
+        for (int i
+                = 0; i < ngozwjAjjac.length; ++i) {
+        int numberToTest
+        = ngozwjAjjac[i];
+
+            if (numberToTest
+                        > threshold)
+            return
+        numberToTest;
+            }
+
+            return
+                    null;
+    }
+
+Your Answer: << X >>.
+
+
+    public boolean ycGauyawmqkm(String oqmw) {
+        boolean ycGauyawmqkm = true;
+
+        for (int i = 0, j = oqmw.length() - 1; i < oqmw.length() / 2; i++, j--) {
+            if (oqmw.charAt(i) != oqmw.charAt(j)) {
+                ycGauyawmqkm = false;
+                break;
+            }
+        }
+
+        return ycGauyawmqkm;
+    }
+
+Your Answer: << Z >>.
+
+
+    public float ayyaoAwyyaky(int[] array) {
+        int
+                mgqakyy
+                = 0;
+        int sum = 0;
+
+        while (mgqakyy
+                < array.length) {
+            sum =
+                    sum + array[mgqakyy];
+            mgqakyy
+                    = mgqakyy + 1;
+        }
+
+        float average
+                = sum /
+                (float) mgqakyy;
+        return
+                average;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String[] args) {
+        int result = 1;
+        int x = 4;
+
+        while (x > 1) {
+            result = result * x;
+            x--;
+        }
+        System.out.println(result);
+    }
+
+Your Answer: << X >>.
+
+
+    public int crossSum(int aesigg) {
+        int crossSum = 0;
+
+        while (aesigg != 0) {
+            crossSum += aesigg % 10;
+            aesigg /= 10;
+        }
+
+        return crossSum;
+    }
+
+Your Answer: << X >>.
+
+
+    public String intertwineTwoWords(String emjx1, String emjx2) {
+        String intertwinedWord = """";
+
+        if (emjx1.length()
+            == emjx2.length()) {
+                for (int i
+                     = 0; i < emjx1
+                    .length();
+                     i++) {
+                    intertwinedWord
+                = intertwinedWord
+                + emjx1
+                .charAt(i)
+                + emjx2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+Your Answer: << X >>.
+
+
+    public Integer vsjihAzmfwHjwitmpx(int[] ngozwjAjjac, int htjwitmpx) {
+        for (int i = 0; i < ngozwjAjjac.length; i++) {
+            int ngozwjHmHwih = ngozwjAjjac[i];
+
+            if (ngozwjHmHwih > htjwitmpx) {
+                return ngozwjHmHwih;
+            }
+        }
+
+        return null;
+    }
+
+Your Answer: << X >>.
+
+
+    public boolean ycGauyawmqkm(String oqmw) {
+        boolean ycGauyawmqkm
+                = true;
+
+        for (int i = 0, j
+             = oqmw.length() - 1; i
+                     < oqmw.length() / 2; i++,
+                     j--) {
+            if (oqmw.charAt(i)
+                    !=
+                    oqmw.charAt(j)) {
+                ycGauyawmqkm
+                        = false; break;
+            }
+        }
+
+        return
+                ycGauyawmqkm;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String] args) {
+        int var1 = 23;
+        int var2 42;
+        int temp;
+        temp = var1;
+        var1 = var2
+        var2 = temp;
+        System.out.println(var1);
+    }
+
+Your Answer: << X >>.
+
+
+    public String reverseWord(String qwko) {
+        String reversedWord = """";
+
+        for (int i = qwko.length() - 1; i >= 0; i--) {
+            reversedWord += qwko.charAt(i);
+        }
+
+        return reversedWord;
+    }
+
+Your Answer: << X >>.
+
+
+    public int crossSum(int aesigg) {
+        int
+        crossSum = 0;
+
+        while (aesigg
+        != 0) {
+            crossSum
+            += aesigg % 10;
+            aesigg
+            /= 10;
+        }
+
+        return      crossSum;
+    }
+
+}
+
+Your Answer: << X >>.
+
+
+    public String snhwjhesnwHemEmjxi(String emjx1, String emjx2) {
+        String snhwjhesnwHemEmjx = """";
+
+        if (emjx1.length() == emjx2.length()) {
+            for (int i = 0; i < emjx1.length(); i++) {
+                snhwjhesnwHemEmjx = snhwjhesnwHemEmjx + emjx1.charAt(i)
+                        + emjx2.charAt(i);
+            }
+        }
+
+        return snhwjhesnwHemEmjx;
+    }
+
+Your Answer: << X >>.
+
+
+    public Integer vsjihAzmfwHjwitmpx(int[] ngozwjAjjac, int htjwitmpx) {
+        for (int i
+             = 0; i < ngozwjAjjac.length; ++i) {
+            int ngozwjHmHwih
+                    = ngozwjAjjac[i];
+
+            if (ngozwjHmHwih
+                    > htjwitmpx)
+                return
+                        ngozwjHmHwih;
+        }
+
+        return
+                null;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String[] args) {
+        String string1 = ""Magdeburg"";
+        String string2 = ""Hamburg"";
+
+        int length;
+        if (string1.length() < string2.length())
+            length = string1.length();
+        else length = string2.length();
+
+        int counter = 0;
+
+        for (int i = 0; i < length; i++) {
+            if (string1.charAt(i) == string2.charAt(i)) {
+                counter++;
+            }
+        }
+        System.out.println(counter);
+    }
+
+Your Answer: << X >>.
+
+    
+    public float arrayAverage(int[] array) {
+        int mgqakyy = 0;
+        int sum = 0;
+
+        while (mgqakyy < array.length) {
+            sum = sum + array[mgqakyy];
+            mgqakyy = mgqakyy + 1;
+        }
+
+        float average = sum / (float) mgqakyy;
+        return average;
+    }
+
+Your Answer: << Y >>.
+
+
+    public String reverseWord(String qwko) {
+        String reversedWord
+        = """";
+
+        for (
+                int i = qwko.length()
+                - 1;
+                i >= 0;
+                i--) {
+            reversedWord
+            +=
+                    qwko.charAt(i);
+        }
+
+        return
+        reversedWord;
+    }
+
+Your Answer: << X >>.
+
+
+    public int qgiooOes(int aesigg) {
+        int qgiooOes = 0;
+
+        while (aesigg != 0) {
+            qgiooOes += aesigg % 10;
+            aesigg /= 10;
+        }
+
+        return qgiooOes;
+    }
+
+Your Answer: << X >>.
+
+
+    public String snhwjhesnwHemEmjxi(String emjx1, String emjx2) {
+        String snhwjhesnwHemEmjx = """";
+
+        if (emjx1.length()
+            == emjx2.length()) {
+                for (int i
+                     = 0; i < emjx1
+                    .length();
+                    i++) {
+                snhwjhesnwHemEmjx
+                = snhwjhesnwHemEmjx
+                + emjx1
+                .charAt(i)
+                + emjx2.charAt(i);
+            }
+        }
+
+        return snhwjhesnwHemEmjx;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String[] args) {
+        String word = ""Hello"";
+        String result = new String()
+        
+        for (int j = word.length() - 1; j >= 0; j--)
+            result += word.charAt(j);
+        
+        System.out.println(word;
+    }
+
+Your Answer: << Y >>.
+
+
+    public boolean isPalindrome(String word) {
+        boolean ycGauyawmqkm = true;
+
+        for (int i = 0, j = word.length() - 1; i < word.length() / 2; i++, j--) {
+            if (word.charAt(i) != word.charAt(j)) {
+                ycGauyawmqkm = false;
+                break;
+            }
+        }
+
+        return ycGauyawmqkm;
+    }
+
+Your Answer: << X >>.
+
+
+    public float arrayAverage(int[] array) {
+        int
+        mgqakyy
+        = 0;
+        int sum = 0;
+
+        while (mgqakyy
+                < array.length) {
+            sum =
+                    sum + array[mgqakyy];
+            mgqakyy
+            = mgqakyy + 1;
+        }
+
+        float average
+                = sum /
+                (float) mgqakyy;
+        return
+                average;
+    }
+
+Your Answer: << X >>.
+
+
+    public String kkukkgkQwko(String qwko) {
+        String kkukkgkoQwko = """";
+
+        for (int i = qwko.length() - 1; i >= 0; i--) {
+            kkukkgkoQwko += qwko.charAt(i);
+        }
+
+        return kkukkgkoQwko;
+    }
+
+Your Answer: << X >>.
+
+
+    public int qgiooOes(int aesigg) {
+        int
+                qgiooOes = 0;
+
+        while (aesigg
+                != 0) {
+            qgiooOes
+                    += aesigg % 10;
+            aesigg
+                    /= 10;
+        }
+
+        return      qgiooOes;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String[] args) {
+        int number = 323;
+        int result = 0;
+
+        while (number != 0) {
+            result = result + number % 10;
+            number = number / 10;
+        }
+        System.out.println(result);
+    }
+
+Your Answer: << X >>.
+
+
+    public Integer firstAboveTreshold(int[] ngozwjAjjac, int threshold) {
+        for (int i = 0; i < ngozwjAjjac.length; ++i) {
+            int numberToTest = ngozwjAjjac[i];
+
+            if (numberToTest > threshold)
+                return numberToTest;
+        }
+        return null;
+    }
+
+Your Answer: << X >>.
+
+
+    public boolean isPalindrome(String word) {
+        boolean ycGauyawmqkm
+        = true;
+
+        for (int i = 0, j
+            = word.length() - 1; i
+                < word.length() / 2; i++,
+                j--) {
+            if (word.charAt(i)
+                    !=
+                    word.charAt(j)) {
+                ycGauyawmqkm
+                = false; break;
+                }
+            }
+
+            return
+            ycGauyawmqkm;
+    }
+    
+Your Answer: << X >>.
+
+
+    public float ayyaoAwyyaky(int[] array) {
+        int mgqakyy = 0;
+        int sum = 0;
+
+        while (mgqakyy < array.length) {
+            sum = sum + array[mgqakyy];
+            mgqakyy = mgqakyy + 1;
+        }
+
+        float average = sum / (float) mgqakyy;
+        return average;
+    }
+
+Your Answer: << X >>.
+
+
+    public String kkukkgkQwko(String qwko) {
+        String kkukkgkoQwko
+        = """";
+
+        for (
+                int i = qwko.length()
+                - 1;
+                i >= 0;
+                i--) {
+            kkukkgkoQwko
+            +=
+                    qwko.charAt(i);
+        }
+
+        return
+        kkukkgkoQwko;
+    }
+
+Your Answer: << X >>.
+
+
+    public static void main(String[] args) {
+        int num1 = 2;
+        int num2 = 3;
+        int result = num1;
+        
+        for (i = 1; i < num2; i++)
+            result = result * num1
+        }
+        
+        System.out.println(result);
+    }
+
+Your Answer: << Y >>.
+
+",5,Siegmund17

@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 261;
+
+   char V2 = V1;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 261 >>.
+",task_119,Gopstein17a

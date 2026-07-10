@@ -1,0 +1,19 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+	protected void printFailures(Result result) {
+		if (result.getFailureCount() == 0)
+			return;
+		if (result.getFailureCount() == 1)
+			getWriter().println(""There was "" + result.getFailureCount() + "" failure:"");
+		else
+			getWriter().println(""There were "" + result.getFailureCount() + "" failures:"");
+
+Readability Rating: << 1 >>. 
+",23,Buse10

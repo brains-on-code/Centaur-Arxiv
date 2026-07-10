@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+void main(){
+   int V1 = 2 + 1 * 4 + 3;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 21 >>.
+",task_40,Gopstein17a

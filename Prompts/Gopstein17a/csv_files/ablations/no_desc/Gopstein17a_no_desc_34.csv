@@ -1,0 +1,1094 @@
+text,participant,experiment
+"
+
+
+
+void main() {
+   #define M1 1
+   #define M2 2
+
+   int V1;
+   V1 = 4;
+
+   int V2 = 1 + V1;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 5 >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4 = (V1 == 2 ? (V3 == 2 ? 1 : 2) : (V2 == 2 ? 3 : 4));
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 2 >>.
+
+
+
+void main() {
+   int V1[5];
+   V1[4] = 3;
+
+   while (V1[4]) {
+      V1[3 - V1[4]] = V1[4];
+      V1[4] = V1[4] - 1;
+   }
+
+   printf(""%d %d\n"", V1[1], V1[4]);
+}
+
+Your answer: << 2 0 >>.
+
+
+
+void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+   V1++;
+   printf(""%d\n"",V1);
+}
+
+Your answer: << 6 >>.
+
+
+
+void main() {
+   int V1 = 1;
+
+   if (0) {
+      V1 = 3;
+   }
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() {
+   int V1 = 7;
+   V1 = 1;
+   if (1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() {
+   int V1 = 2;
+
+   if (0) V1++; V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 3 >>.
+
+
+
+void main() {
+   char *V1 = &(""abcdef""[2]);
+   printf(""%s\n"", V1);
+}
+
+Your answer: << c >>.
+
+
+
+void main() {
+   char V1 = 2;
+   char V2 = ""asdfg""[V1];
+
+   printf(""%c\n"", V2);
+}
+
+Your answer: << d >>.
+
+
+
+void main() { 
+   int V1 =  2, V2;
+   V2 = V1 + 3;
+   V1++;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 3 5 >>.
+
+
+
+void main() {
+   if ( 1 && (! 0) ) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() {
+   int V1 = 0;
+   int V2 = 5;
+
+   if (V1) {
+      V2 = 2;
+   }
+   V2 = V2 * 2;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 10 >>.
+
+
+
+void main() {
+   int V1, V2;
+
+   V1 = 2;
+   V2 = 1;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 1 >>.
+
+
+
+void main(){
+   int V1 = 10, V2 = 3;
+   if (! (V1 % V2)){
+      printf(""%s\n"", ""true"");
+   }
+   else{
+      printf(""%s\n"", ""false"");
+   }
+}
+
+Your answer: << false >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 4;
+
+   if (++V1) {
+        V1 = V1 * 2;
+        V2 = V2 * 2;
+   } else if (++V2) {
+        V1 = V1 * 2;
+        V2 = V2 * 2;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 6 8 >>.
+
+
+
+void main() {
+   int V1 = 8;
+
+   if (3 <= V1 || V1 >= 7) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() {
+   int V1 = 3 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 6 >>.
+
+
+
+void main() {
+   int V1;
+   V1 = 4;
+
+   int V2 = 1
+   #define M1 1
+   +
+   #define M2 2
+   V1;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 5 >>.
+
+
+
+void main() {
+   int V1 = 1;
+
+   V1 = 3;
+   V1 = 2;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 2 >>.
+
+
+
+#define M1 64 - 1
+
+void main(){
+   int V1;
+   V1 = M1 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 62 >>.
+
+
+
+void main() {
+   int V1 = 013;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 13 >>.
+
+
+
+void main() {
+   int V1[] = {3, 1, 4, 6};
+   int *V2 = &V1[1];
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() {
+   int V1 = 0;
+
+   V1 = 0;
+
+   if (V1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << false >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 0;
+   int V3 = 5;
+
+   if (V1)
+      if (V2)
+         V3 = V3 + 2;
+      else
+         V3 = V3 + 4;
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 9 >>.
+
+
+
+void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+   V2 = 4;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() {
+   if (! 0 && 2) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main(){
+   int V1 = 1, V2 = 2;
+   if ( (V2 - V1) == 0){
+      printf(""%s\n"", ""true"");
+   }
+   else{
+      printf(""%s\n"", ""false"");
+   }
+}
+
+Your answer: << false >>.
+
+
+
+void main() {
+   int V3 = 0;
+
+   for (int V1 = 0; V1 < 2; V1++) {
+      for (int V2 = 0; V2 < 2; V2++) {
+         V3 = 4 * V1 + V2;
+         V1 = V2;
+      }
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() {
+   int V1 = 7;
+
+   int V2 = 1;
+   while (V2 < 3) { V2++; } V1++;
+ 
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 8 2 >>.
+
+
+
+void main() { 
+   int V1 = 2;
+   if (--V1 == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true  >> << 1 >>.
+
+
+
+void main() {
+   char *V1 = ""abcdef""
+   #define M1
+   ""abcdef"";
+
+   printf(""%s\n"", V1);
+}
+
+Your answer: << abcdef >>.
+
+
+
+void main() {
+   int V1 = 2;
+
+   if ((V1 - 2) * (6 - V1) > 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << false >>.
+
+
+
+void main() {
+   float V1 = 1.99;
+
+   int V2 = V1;
+ 
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() {
+   char V1 = 2[""qwert""];
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << e >>.
+
+
+
+void main() {
+   int V1[] = {4, 2, 7, 5};
+   int *V2 = V1 + 1;
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 5 >>.
+
+
+
+void main(){
+   int V1;
+   V1 = 128 - 1 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 126 >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4;
+   if (V1 == 2) {
+      if (V3 == 2) {
+         V4 = 1;
+      } else {
+         V4 = 2;
+      }
+   } else {
+      if (V2 == 2) {
+         V4 = 3;
+      } else {
+         V4 = 4;
+      }
+   }
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 2 >>.
+
+
+
+void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+      V2 = 4;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() { 
+   int V1 = 0;
+   if (V1++ == 0) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true  >> << 1 >>.
+
+
+
+void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+      V1++;
+   printf(""%d\n"",V1);
+}
+
+Your answer: << 6 >>.
+
+
+
+void main() {
+   int V3 = 0;
+
+   for (int V1 = 0; V1 < 2; V1++) {
+      for (int V2 = 0; V1 < 2; V1++) {
+        V3 = 4 * V1 + V2;
+      }
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() {
+   int V1 = 3;
+  
+   V1 *= 2;
+
+   int V2 = (V1 += 1);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 7 7 >>.
+
+
+
+void main() { 
+   int V1 = 2;
+   V1--;
+   if (V1 == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true  >> << 1 >>.
+
+
+
+void main() {
+   int V1 =  2 + 3;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 5 >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 6;
+
+   if (V1 == V2) {
+      ++V1;
+   } else {
+      ++V2;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 7 >>.
+
+
+
+void main() {
+   char V1 = 104;
+   printf(""%c\n"", V1);
+}
+
+Your answer: << a >>.
+
+
+
+void main() {
+   char V1 = 3;
+   char V2 = V1[""zxcvb""];
+
+   printf(""%c\n"", V2);
+}
+
+Your answer: << v >>.
+
+
+
+void main() {
+   int V1 = 1;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() {
+   int V1 = 0;
+
+   if (V1 = 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() { 
+   int V1;
+   V1 = 3 + (9 / 3);
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 6 >>.
+
+
+
+#include  &lt;limits.h&gt;
+void main() {
+   int V1 = -1;
+
+   unsigned int V2;
+   if (V1 >= 0) {
+      V2 = V1;
+   } else {
+      V2 = UINT_MAX + (V1 + 1);
+   }
+
+   int V3;
+   if (V2 >= 0) {
+      V3 = 4;
+   } else {
+      V3 = 5;
+   }  
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() {
+   char *V1 = ""abcdef""
+   ""abcdef"";
+
+   #define M1
+
+   printf(""%s\n"", V1);
+}
+
+Your answer: << abcdefabcdef >>.
+
+
+
+void main() {
+   char *V1 = ""abcdef"" + 3;
+   printf(""%s\n"", V1);
+}
+
+Your answer: << abcdei >>.
+
+
+
+void main() {
+   int V1 = 8;
+
+   if ((V1 - 3) * (7 - V1) <= 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() { 
+   int V1 = 2;
+   int V2 = 3 + V1++;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 3 5 >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 0;
+   int V3 = 3;
+
+   if (V1)
+      if (V2)
+         V3 = V3 + 2;
+   else
+      V3 = V3 + 4;
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 7 >>.
+
+
+
+void main() {
+   int V1 = 4;
+   int V2 = 3;
+   int V3;
+  
+   if (V1 == 3) {
+      V3 = 2;
+   } else {
+      V3 = 1;
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main() { 
+   int V1 = 7; 
+   if (V1 = 8) 
+      printf(""true\n""); 
+   else
+      printf(""false\n""); 
+}
+
+Your answer: << true >>.
+
+
+
+void main() {
+   char V1 = 'g';
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << g >>.
+
+
+
+void main() {
+   int V1 = 3;
+   int V2 = V1 + 2;
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 5 >>.
+
+
+
+void main() {
+   int V1 = 2;
+
+   if (V1 = 1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() { 
+   int V1;
+   V1 = 2 - 4 / 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 0 >>.
+
+
+
+void main() {
+   int V1[6];
+   int V2 = 5;
+
+   while (V2) {
+      V1[5 - V2] = V2;
+      V2 = V2 - 1;
+   }
+
+   printf(""%d %d\n"", V1[1], V2);
+}
+
+Your answer: << 4 0 >>.
+
+
+
+void main() {
+  int V1 = 1;
+
+  V1 = 2;
+
+  printf(""%d\n"", V1);
+}
+
+Your answer: << 2 >>.
+
+
+
+void main() {
+   int V1 = 1;
+   int V2 = 5;
+
+   if (++V1 || ++V2) {
+      V1 = V1 * 2;
+      V2 = V2 * 2;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 10 >>.
+
+
+
+void main() { 
+   int V1 = 2;
+   int V2 = ++V1 - 2;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 3 1 >>.
+
+
+
+#include &lt;math.h&gt;
+void main() {
+   float V1 = 2.87;
+
+   int V2 = trunc(V1);
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 2 >>.
+
+
+
+void main() {
+   int V1 = 2;
+
+   if (V1 < 2 || 6 < V1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+
+void main() {
+   int V1, V2;
+
+   V1 = (V2 = 1, 2);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 1 >>.
+
+
+
+void main() {
+   int V1 = 4;
+
+   int V2 = 0;
+   while (V2 < 3) V2++; V1++;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 5 3 >>.
+
+
+
+void main() {
+   int V1 = 0;
+   int V2 = 1;
+
+   if (V1) {
+      V2 = 2;
+   }
+      V2 = V2 * 3;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 3 >>.
+
+
+
+void main() {
+   int V1 = 4;
+
+   int V2 = V1 == 3 ? 2 : 1;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 1 >>.
+
+
+
+void main()
+{
+   int V1 = 7;
+   if ((V1 = 8) != 0)
+      printf(""true"");
+   else
+      printf(""false"");
+}
+
+Your answer: << true >>.
+
+
+
+void main() { 
+   int V1 = 0;
+   if (V1 == 0) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   V1++;
+   printf(""%d"", V1);
+}
+
+Your answer: << true  >> << 1 >>.
+
+
+
+void main() {
+   char V1 = 23;
+ 
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 23 >>.
+
+
+
+void main() {
+   int V1 = 2;
+   int V2 = 2 * V1;
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() {
+   int V1 = 1;
+   int V2 = 5;
+
+   V1 == V2 && ++V1 || ++V2;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 1 5 >>.
+
+
+
+void main() {
+   char V1 = ""zxcvb""[4];
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << b >>.
+
+
+
+void main() { 
+   int V1 = 5, V2;
+   ++V1;
+   V2 = 5 - V1;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 6 -1 >>.
+
+
+
+void main() {
+   int V1 = -1;
+
+   unsigned int V2 = V1;
+
+   int V3;
+   if (V2 > 0) {
+      V3 = 4;
+   } else {
+      V3 = 5;
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 4 >>.
+
+
+
+void main() {
+   int V1 = 3;
+   int V2 = (V1 *= 2, V1 += 1);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 7 7 >>.
+
+
+
+void main() {
+   int V1 = 2;
+
+   if (0) { V1++; } V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 3 >>.
+",34,Gopstein17a

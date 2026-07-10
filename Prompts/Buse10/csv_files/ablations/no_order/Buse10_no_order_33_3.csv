@@ -1,0 +1,22 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+		/**
+		 * @param contextLength the maximum length for <code>expected</code> and <code>actual</code>. When contextLength 
+		 * is exceeded, the Strings are shortened
+		 * @param expected the expected string value
+		 * @param actual the actual string value
+		 */
+		public ComparisonCompactor(int contextLength, String expected, String actual) {
+			fContextLength= contextLength;
+			fExpected= expected;
+			fActual= actual;
+
+Readability Rating: << 5 >>. 
+",33,Buse10

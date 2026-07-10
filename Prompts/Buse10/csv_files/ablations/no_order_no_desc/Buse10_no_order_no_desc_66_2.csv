@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+      mProgramTable.changeSelection(row, 0, false, false);
+
+      Program p = (Program) mProgramTableModel.getValueAt(row, 1);
+
+      JPopupMenu menu = devplugin.Plugin.getPluginManager().createPluginContextMenu(p, CapturePlugin.getInstance());
+
+Your answer: << 3 >>. 
+",66,Buse10

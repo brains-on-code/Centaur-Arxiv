@@ -1,0 +1,15 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your answer: 
+ << a: -1 -2 0 0.0 >>.
+ << a: -1 -1 0 0.0 >>.
+ << b: c >>.
+ << c: -2 -1 0 -1 1.0 >>.
+ << b: a >>.
+ << d >>.
+
+",1,Gopstein17b

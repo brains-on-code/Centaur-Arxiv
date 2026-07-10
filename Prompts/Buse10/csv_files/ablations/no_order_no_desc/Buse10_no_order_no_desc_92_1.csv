@@ -1,0 +1,17 @@
+text,snippet,experiment
+"
+
+    /**
+     * Get the List of all available Channels
+     * 
+     * @return All available Channels
+     */
+    public ElgatoChannel[] getAvailableChannels() {
+        ArrayList<ElgatoChannel> list = new ArrayList<ElgatoChannel>();
+
+        String res = null;
+        try {
+            res = mAppleScript.executeScript(CHANNELLIST);
+
+Your answer: << 1 >>. 
+",92,Buse10

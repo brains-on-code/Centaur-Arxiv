@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   printf(""%f\n"", 2 * 4.5);
+}
+
+Your answer: << 9 >>.
+",task_30,Gopstein17a

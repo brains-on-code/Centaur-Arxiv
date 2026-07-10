@@ -1,0 +1,23 @@
+text,participant,experiment
+"
+
+
+
+var x = 48;
+if (x>0 && x<70 && !(x>10 && x<20) && !(x>30 && x<40) && !(x>50 && x<60)) {
+	print (""1"");
+} else {
+	print (""2"");
+}
+
+Your answer: <<  >>.
+
+
+
+var arr = [""a"",""b"",""c"",""d"",""e""];
+for(var i=arr.length-1; i>=0; i--){
+	print(arr[i]);
+}
+
+Your answer: <<  >>.
+",189,Ajami18

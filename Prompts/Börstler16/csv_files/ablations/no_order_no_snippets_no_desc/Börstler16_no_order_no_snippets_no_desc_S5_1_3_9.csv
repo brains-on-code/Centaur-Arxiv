@@ -1,0 +1,15 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << control.maxWidth() >>.
+Your answer for B: << start >=0 && end < maxWidth >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

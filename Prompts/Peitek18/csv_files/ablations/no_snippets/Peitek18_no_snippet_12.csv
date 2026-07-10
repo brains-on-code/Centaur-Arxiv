@@ -1,0 +1,203 @@
+text,participant,experiment
+"You will be shown a series of Java code snippets, for which you should determine the output. 
+At the beginning of the study, you will be presented with five code snippets which you should read and memorize.
+Afterwards you will be shown code snippets in one of two tasks.
+You will have 30 seconds for each task.
+In the first type of tasks you will have to determine the output of the code for specific inputs.
+Once you have determined the output of the code snippet respond by pressing X. 
+If you are unable to determine the output respond by pressing Y.
+In the second type of task you will be asked to find three syntax errors in a code snippet.
+Every time you locate a syntax error, you should respond with X. 
+Repeat this until you find all three syntax errors or run out of time. 
+If you are unable to find any syntax errors press Y instead.
+If you run out of time on any task respond with Z.
+
+
+Now the Training begins:
+
+You are shown Snippet 1:
+
+public float arrayAverage(int[] array) {
+	int counter = 0;
+	int sum = 0;
+
+	while (counter < array.length) {
+		sum = sum + array[counter];
+		counter = counter + 1;
+	}
+
+	float average = sum / (float) counter;
+	return average;
+}
+
+You are shown Snippet 2:
+
+You see a code snippet.
+
+
+You are shown Snippet 3:
+
+You see a code snippet.
+
+
+You are shown Snippet 4:
+
+You see a code snippet.
+
+
+You are shown Snippet 5:
+
+You see a code snippet.
+
+
+What is the output of arrayAverage([2,4,1,9])?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of grey(11010)?
+
+You see a code snippet.
+
+Your Answer: << Y >>.
+
+What is the output of ecnzaqnkKopkzvqnm(""Hamburg"", ""burg"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of reverseWord(""Spiegel"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+Find three syntax errors!
+
+You see a code snippet.
+
+Your Answer: << X >> << X >> << X >>.
+
+What is the output of power(2, 4)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of pink(5)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of ecoamKayiEoaikAmKayiEckqmqca(""Deutschland"", ""Russland"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of CrossSum(432)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+Find three syntax errors!
+
+You see a code snippet.
+
+Your Answer: << X >> << X >> << X >>.
+
+What is the output of firstAboveTreshold([3,1,5,2], 4)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of red(""Deutschland"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of beebtBurebzr([5,2,3,6])?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of sumUp(4)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+Find three syntax errors!
+
+You see a code snippet.
+
+Your Answer: << X >> << X >>.
+
+What is the output of containsSubstring(""Magdeburg"", ""debu"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of lightgreen([13,12,15,12])?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of buycp(3, 3)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of isPalindrome(""reviver"")?
+
+You see a code snippet.
+
+Your Answer: << Y >>.
+
+Find three syntax errors!
+
+You see a code snippet.
+
+Your Answer: << X >> << X >> << X >>.
+
+What is the output of countSameCharAtSamePosition(""Hamburg"", ""Magdeburg"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of gold(""Apfel"", ""Birne"")?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of vsjihAzmfwHjwitmpx([5,9,4,2], 6)?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+What is the output of squareRoots([9,25,16,100])?
+
+You see a code snippet.
+
+Your Answer: << X >>.
+
+Find three syntax errors!
+
+You see a code snippet.
+
+Your Answer: << X >> << X >> << X >>.
+
+",1,Peitek18

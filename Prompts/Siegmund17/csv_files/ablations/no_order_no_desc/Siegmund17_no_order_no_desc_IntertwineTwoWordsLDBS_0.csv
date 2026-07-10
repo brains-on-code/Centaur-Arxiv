@@ -1,0 +1,44 @@
+text,snippet,experiment
+"
+
+
+
+
+    public String intertwineTwoWords(String word1, String word2) {
+        String intertwinedWord = """""""";
+
+        if (word1.length() == word2.length()) {
+            for (int i = 0; i < word1.length(); i++) {
+                intertwinedWord = intertwinedWord + word1.charAt(i)
+                        + word2.charAt(i);
+            }
+        }
+
+        return intertwinedWord;
+    }
+
+
+
+
+    public String snhwjhesnwHemEmjxi(String emjx1, String emjx2) {
+        String snhwjhesnwHemEmjx = """""""";
+
+        if (emjx1.length()
+            == emjx2.length()) {
+                for (int i
+                     = 0; i < emjx1
+                    .length();
+                    i++) {
+                snhwjhesnwHemEmjx
+                = snhwjhesnwHemEmjx
+                + emjx1
+                .charAt(i)
+                + emjx2.charAt(i);
+            }
+        }
+
+        return snhwjhesnwHemEmjx;
+    }
+
+Your Answer: << X >>.
+",IntertwineTwoWordsLDBS,Siegmund17

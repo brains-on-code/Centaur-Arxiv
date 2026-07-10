@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+ 
+
+
+variable1 = --variable2;
+
+
+variable2 = variable2 - 1;
+variable1 = variable2;
+
+
+Your answer: << 3 >>.
+",task_p12,Medeiros19

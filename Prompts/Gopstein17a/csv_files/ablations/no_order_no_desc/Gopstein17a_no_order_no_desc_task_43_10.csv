@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char *V1 = ""abcdef"" + 3;
+   printf(""%s\n"", V1);
+}
+
+Your answer: << cdefgh >>.
+",task_43,Gopstein17a

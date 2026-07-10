@@ -1,0 +1,16 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << aRequest.info = ? >>.
+Your answer for B: << troubleTicket.info >>.
+Your answer for C: << info >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

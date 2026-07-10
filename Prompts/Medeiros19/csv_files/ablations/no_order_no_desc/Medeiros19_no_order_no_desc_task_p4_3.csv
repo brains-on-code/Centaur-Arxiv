@@ -1,0 +1,17 @@
+text,snippet,experiment
+"
+ 
+
+
+x = f() ? 2 : 3;
+
+
+if (f()){
+  x = 2;
+} else {
+  x = 3;
+}
+
+
+Your answer: << 2 >>.
+",task_p4,Medeiros19

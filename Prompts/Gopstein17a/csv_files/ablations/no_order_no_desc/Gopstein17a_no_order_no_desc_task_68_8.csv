@@ -1,0 +1,15 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char *V1 = ""abcdef""
+   ""abcdef"";
+
+   #define M1
+
+   printf(""%s\n"", V1);
+}
+
+Your answer: << _ >>.
+",task_68,Gopstein17a

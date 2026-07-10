@@ -1,0 +1,3 @@
+participant,answer,correct,likelihoods
+Ajami18_whole_runs_122.csv_0,1,"[17, None]","[[16, 0.8663679957389832], [17, 0.07570239156484604]]"
+Ajami18_whole_runs_122.csv_1,2,"[16, None]","[[16, 0.29392746090888977], [17, 0.7050953507423401]]"

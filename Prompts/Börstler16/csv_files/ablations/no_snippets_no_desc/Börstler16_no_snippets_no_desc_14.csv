@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << log(troubleTicket.toString()); >>.
+Your answer for B: << getServletContext()). >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << property.getValue; >>.
+Your answer for B: << notifications  >>.
+Your answer for C: << ncomposite.getNotifications(); >>.
+Your answer for D: << notification.addAll(nstore.getNotifications()); >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uCell.getBoxModel().getBackgroundColor() >>.
+Your answer for B: << uCell.getBoxModel().getBackgroundColor() >>.
+Your answer for C: << table.addCell(cell) >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << append(move.) >>.
+Your answer for B: << Nag nag : move.getNags >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << bounds >>.
+Your answer for B: << control.getBounds >>.
+Your answer for C: << bounds.width -  >>.
+Your answer for D: << start >= 0 && end < length >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

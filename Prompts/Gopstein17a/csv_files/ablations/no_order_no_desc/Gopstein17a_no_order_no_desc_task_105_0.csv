@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 013;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 013 >>.
+",task_105,Gopstein17a

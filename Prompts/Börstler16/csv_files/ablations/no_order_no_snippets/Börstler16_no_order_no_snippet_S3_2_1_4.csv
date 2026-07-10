@@ -1,0 +1,32 @@
+text,participant,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+
+You see a code snippet.
+
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+
+You see a cloze test of the prior snippet.
+
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << uTable.getCellModel >>.
+Your answer for B: << color >>.
+Your answer for C: << option.getCellColor >>.
+Your answer for D: << color >>.
+Your answer for E: << color >>.
+Your answer for F: << table.addCell >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+",1,Börstler16

@@ -1,0 +1,17 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << bounds >>.
+Your answer for B: << control.width() >>.
+Your answer for C: << bounds >>.
+Your answer for D: << 0 <= start && end <= textValue.length() >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

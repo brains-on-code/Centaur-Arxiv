@@ -1,0 +1,126 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+    /* If projectSpace is not null */ 
+    if (projectSpace != null) {  
+
+        /* Define local variables. */ 
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+        NotificationList notifications; 
+
+        if (property != null) { 
+            Value value = property.getValue(); 
+
+            /* If value is not null and if nstore is acknowledged,   */ 
+            /* then remove nstore-notifications from notifications.  */ 
+            /* Otherwise, add nstore-notifications to notifications. */ 
+            if (value != null && value instanceof NotificationComposite) { 
+                
+                NotificationComposite nComposite = value; 
+                notifications = nComposite.getNotifications(); 
+                
+                if (nStore.isAcknowledged()) { 
+                    notifications.removeAll(nStore.getNotifications()); 
+                } else { 
+                    notifications.addAll(nStore.getNotifications()); 
+                } 
+            }  
+        } else { 
+
+            /* If property is not null                  */ 
+            /* and if nStore is not acknowledged,       */ 
+            /* then add nStore-notifications,           */ 
+            /* and set NOTIFICATION_COMPOSITE property. */ 
+            if (!nStore.isAcknowledged()) { 
+                
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+                notifications = nComposite.getNotifications();
+
+                notifications.addAll(nStore.getNotifications()); 
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+} 
+You are asked to rate this snippets readability.
+Your Answer: << 1.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+    /* If projectSpace is not null */ 
+    if (projectSpace != null) {  
+
+        /* Define local variables. */ 
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+        NotificationList notifications; 
+
+        if (A:________________) { 
+            Value value = property.getValue(); 
+
+            /* If value is not null and if nstore is acknowledged,   */ 
+            /* then remove nstore-notifications from notifications.  */ 
+            /* Otherwise, add nstore-notifications to notifications. */ 
+            if (value != null && value instanceof NotificationComposite) { 
+                
+                NotificationComposite nComposite = value; 
+                B:____________ = C:___________________________; 
+                
+                if (nStore.isAcknowledged()) { 
+                    notifications.removeAll(nStore.getNotifications()); 
+                } else { 
+                    D:______________________________________________; 
+                } 
+            }  
+        } else { 
+
+            /* If property is not null                  */ 
+            /* and if nStore is not acknowledged,       */ 
+            /* then add nStore-notifications,           */ 
+            /* and set NOTIFICATION_COMPOSITE property. */ 
+            if (!nStore.isAcknowledged()) { 
+                
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+                notifications = nComposite.getNotifications();
+
+                notifications.addAll(nStore.getNotifications()); 
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+} 
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << property != Null >>.
+Your answer for B: << notifications  >>.
+Your answer for C: << nComposite.getNotifications() >>.
+Your answer for D: << notifications.addAll(nStore.getNotifications()) >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 1.0 >>.
+",S2_2_2,Börstler16

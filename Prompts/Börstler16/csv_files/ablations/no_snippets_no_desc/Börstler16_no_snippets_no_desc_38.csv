@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << flogger.sever(troubleTicket.toString()); >>.
+Your answer for B: << ? >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << property != null >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << (Color backgroundColor = uCell.getBackgroundColor) >>.
+Your answer for B: << backgroundColor >>.
+Your answer for C: << table.addCell(cell) >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << getMoveWasMadeByWhite() >>.
+Your answer for B: << ? >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << bounds >>.
+Your answer for B: << control.getBounds() >>.
+Your answer for C: << bounds - 5 >>.
+Your answer for D: << text.length >= maxWidth >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

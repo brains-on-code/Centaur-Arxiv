@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ucell.getboxmodel() >>.
+Your answer for B: << colour >>.
+Your answer for C: << option.getBackgroundColor(); >>.
+Your answer for D: << colour >>.
+Your answer for E: << colour >>.
+Your answer for F: << ? >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

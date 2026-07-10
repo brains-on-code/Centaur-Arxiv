@@ -1,0 +1,38 @@
+text,snippet,experiment
+"
+
+
+
+
+    public Integer firstAboveTreshold(int[] numberArray, int threshold) {
+        for (int i = 0; i < numberArray.length; i++) {
+            int numberToTest = numberArray[i];
+
+            if (numberToTest > threshold) {
+                return numberToTest;
+            }
+        }
+
+        return null;
+    }
+
+
+
+    public Integer vsjihAzmfwHjwitmpx(int[] ngozwjAjjac, int htjwitmpx) {
+        for (int i
+             = 0; i < ngozwjAjjac.length; ++i) {
+            int ngozwjHmHwih
+                    = ngozwjAjjac[i];
+
+            if (ngozwjHmHwih
+                    > htjwitmpx)
+                return
+                        ngozwjHmHwih;
+        }
+
+        return
+                null;
+    }
+
+Your Answer: << X >>.
+",FirstAboveTresholdLDBS,Siegmund17

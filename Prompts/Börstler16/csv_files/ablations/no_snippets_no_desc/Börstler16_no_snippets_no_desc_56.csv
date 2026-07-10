@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << ? >>.
+Your answer for B: << ?context >>.
+Your answer for C: << ? >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << property != null >>.
+Your answer for B: << nComposite.getNotifications().addAll(nStore.getNotifications()) >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << paragraph.getBoxModel() >>.
+Your answer for B: << color >>.
+Your answer for C: << option.getBackgroundColor() >>.
+Your answer for D: << color >>.
+Your answer for E: << color >>.
+Your answer for F: << table.addCell(cell) >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << move.isWhiteMove() >>.
+Your answer for B: << Nag nag : move.getNags() >>.
+Your Answer: << 5.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 5.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << control.getWidth() >>.
+Your answer for B: << (end < length) && (start >=0) >>.
+Your Answer: << 5.0 >>.
+",1,Börstler16

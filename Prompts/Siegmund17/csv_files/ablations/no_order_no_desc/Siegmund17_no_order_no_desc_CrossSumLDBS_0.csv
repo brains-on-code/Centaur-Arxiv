@@ -1,0 +1,36 @@
+text,snippet,experiment
+"
+
+
+
+
+    public int CrossSum(int number) {
+        int crossSum = 0;
+
+        while (number != 0) {
+            crossSum += number % 10;
+            number /= 10;
+        }
+
+        return crossSum;
+    }
+
+
+
+    public int qgiooOes(int aesigg) {
+        int
+                qgiooOes = 0;
+
+        while (aesigg
+                != 0) {
+            qgiooOes
+                    += aesigg % 10;
+            aesigg
+                    /= 10;
+        }
+
+        return      qgiooOes;
+    }
+
+Your Answer: << X >>.
+",CrossSumLDBS,Siegmund17

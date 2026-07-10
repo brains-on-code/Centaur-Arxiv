@@ -1,0 +1,1169 @@
+text,part,experiment
+"
+
+			Object ret = body.eval(callstack, interpreter);
+
+			boolean breakout = false;
+			if(ret instanceof ReturnControl)
+			{
+				switch(((ReturnControl)ret).kind )
+				{
+					case RETURN:
+						return ret;
+
+Your answer: << 3 >>. 
+
+
+
+        if (actionList.size() == 1) {
+            ActionMenu menu = actionList.get(0);
+
+            if (menu.getSubItems().length == 0) {
+                return null;
+            }
+
+            if (menu.getSubItems().length == 1) {
+                Action action = menu.getSubItems()[0].getAction();
+
+Your answer: << 4 >>. 
+
+
+		private String compactString(String source) {
+			String result= DELTA_START + source.substring(fPrefix, source.length() - fSuffix + 1) + DELTA_END;
+			if (fPrefix > 0)
+				result= computeCommonPrefix() + result;
+			if (fSuffix > 0)
+				result= result + computeCommonSuffix();
+
+Your answer: << 2 >>. 
+
+
+    /**
+     * Constructor, with a argument reference to the PUBLIC User Object which
+     * is null if this is the SYS or PUBLIC user.
+     *
+     * The dependency upon a GranteeManager is undesirable.  Hopefully we
+     * can get rid of this dependency with an IOC or Listener re-design.
+     */
+    Grantee(String name, Grantee inGrantee,
+            GranteeManager man) throws HsqlException {
+
+        rightsMap      = new IntValueHashMap();
+        granteeName    = name;
+        granteeManager = man;
+
+Your answer: << 4 >>. 
+
+
+    /**
+     * Quits the application without any questions.
+     */
+    public void quit() {
+        getConnectController().quitGame(true);
+        if (!windowed) {
+            gd.setFullScreenWindow(null);
+        }
+        System.exit(0);
+
+Your answer: << 3 >>. 
+
+
+    xsp = jj_scanpos;
+    if (jj_scan_token(100)) {
+    jj_scanpos = xsp;
+    if (jj_scan_token(101)) return true;
+
+Your answer: << 3 >>. 
+
+
+  /**
+   * Attention: DO NOT USE THIS!
+   * Under Os/2 it has some problems with calculating the real Date!
+   * 
+   * @deprecated
+   */
+  public Date(int daysSince1970) {
+
+    long l = (long) daysSince1970 * 24 * 60 * 60 * 1000;
+    java.util.Date d = new java.util.Date(l);
+    Calendar cal = Calendar.getInstance();
+
+Your answer: << 3 >>. 
+
+
+	public TestMethodRunner(Object test, Method method, RunNotifier notifier, Description description) {
+		super(test.getClass(), Before.class, After.class, test);
+		fTest= test;
+		fMethod= method;
+
+Your answer: << 2 >>. 
+
+
+    /**
+     * Returns a vector containing the URI (type + path) for all the databases.
+     */
+    public static Vector getDatabaseURIs() {
+
+        Vector   v  = new Vector();
+        Iterator it = databaseIDMap.values().iterator();
+
+        while (it.hasNext()) {
+            Database db = (Database) it.next();
+
+Your answer: << 3 >>. 
+
+
+    private void moveUnit(KeyEvent e) {
+        if (!parent.isMapboardActionsEnabled()) {
+            return;
+        }
+        
+        switch (e.getKeyCode()) {
+        case KeyEvent.VK_ESCAPE:
+            // main menu
+            break;
+        case KeyEvent.VK_NUMPAD1:
+        case KeyEvent.VK_END:
+            inGameController.moveActiveUnit(Map.SW);
+
+Your answer: << 2 >>. 
+
+
+
+		if ( clas == null )
+			throw new ClassNotFoundException(
+				""Class: "" + value+ "" not found in namespace"");
+
+		asClass = clas;
+		return asClass;
+
+Your answer: << 3 >>. 
+
+
+
+        
+        btPanel.add(cancel);
+
+        getRootPane().setDefaultButton(ok);
+        
+        panel.add(btPanel, BorderLayout.SOUTH);
+
+Your answer: << 3 >>. 
+
+
+	 * @param expected expected value
+	 * @param actual actual value
+	 */
+	static public void assertEquals(String message, Object expected, Object actual) {
+		if (expected == null && actual == null)
+			return;
+		if (expected != null && isEquals(expected, actual))
+			return;
+		else if (expected instanceof String && actual instanceof String) {
+			String cleanMessage= message == null ? """" : message;
+
+Your answer: << 1 >>. 
+
+
+    Object removeName(String name) throws HsqlException {
+
+        Object owner = nameList.remove(name);
+
+        if (owner == null) {
+
+            // should contain name
+            throw Trace.error(Trace.GENERAL_ERROR);
+        }
+
+        return owner;
+
+Your answer: << 3 >>. 
+
+
+
+        int stepSize = Math.min((option.getMaximumValue() - option.getMinimumValue()) / 10, 1000);
+        spinner = new JSpinner(new SpinnerNumberModel(option.getValue(), option.getMinimumValue(),
+                option.getMaximumValue(), Math.max(1, stepSize)));
+        spinner.setToolTipText(option.getShortDescription());
+
+Your answer: << 1 >>. 
+
+
+		if ( parent != null )
+			setStrictJava( parent.getStrictJava() );
+		this.sourceFileInfo = sourceFileInfo;
+
+		BshClassManager bcm = BshClassManager.createClassManager( this );
+
+Your answer: << 3 >>. 
+
+
+        
+        mDevices = new Vector<DeviceIf>();
+        
+        DeviceFileHandling reader = new DeviceFileHandling();
+
+        for (int i = 0; i < num; i++) {
+            String classname = (String) in.readObject();
+
+Your answer: << 3 >>. 
+
+
+	/**
+	 * Do not use. Testing purposes only.
+	 */
+	public Result runMain(String... args) {
+		System.out.println(""JUnit version "" + Version.id());
+		List<Class<?>>. classes= new ArrayList<Class<?>>.();
+		List<Failure> missingClasses= new ArrayList<Failure>();
+
+Your answer: << 1 >>. 
+
+
+    /**
+     * temp constraint constructor
+     */
+    Constraint(HsqlName name, int[] mainCols, Table refTable, int[] refCols,
+               int type, int deleteAction, int updateAction) {
+
+        core              = new ConstraintCore();
+        constName         = name;
+        constType         = type;
+
+Your answer: << 2 >>. 
+
+
+        int eventId = active? ON : OFF;
+        ActionEvent blinkEvent = new ActionEvent(this,eventId,""blink"");
+        
+        fireActionEvent(blinkEvent);
+
+Your answer: << 4 >>. 
+
+
+		else if ( isPrimitive( returnType ) ) 
+		{
+			int opcode = IRETURN;
+			String type;
+			String meth;
+
+Your answer: << 4 >>. 
+
+
+    /**
+     * Returns the PluginPanel
+     * @return Panel
+     */
+    public JPanel createSettingsPanel() {
+      mPanel = new CapturePluginPanel(mOwner, mCloneData);
+      mPanel.setBorder(Borders.createEmptyBorder(Sizes.DLUY5,Sizes.DLUX5,Sizes.DLUY5,Sizes.DLUX5));
+      mPanel.setSelectedTab(mCurrentPanel);
+
+Your answer: << 1 >>. 
+
+
+	protected void printFailures(Result result) {
+		if (result.getFailureCount() == 0)
+			return;
+		if (result.getFailureCount() == 1)
+			getWriter().println(""There was "" + result.getFailureCount() + "" failure:"");
+		else
+			getWriter().println(""There were "" + result.getFailureCount() + "" failures:"");
+
+Your answer: << 4 >>. 
+
+
+    public static long getNormalisedTime(long t) {
+
+        synchronized (tempCalDefault) {
+            setTimeInMillis(tempCalDefault, t);
+            resetToTime(tempCalDefault);
+
+            return getTimeInMillis(tempCalDefault);
+
+Your answer: << 2 >>. 
+
+
+
+            public boolean check(Unit u, PathNode p) {
+                if (p.getTile().getSettlement() != null && p.getTile().getSettlement().getOwner() == player
+                        && p.getTile().getSettlement() != inSettlement) {
+                    Settlement s = p.getTile().getSettlement();
+                    int turns = p.getTurns();
+                    destinations.add(new ChoiceItem(s.toString() + "" ("" + turns + "")"", s));
+
+Your answer: << 1 >>. 
+
+
+
+     if ((bufpos + 1) >= len)
+        System.arraycopy(buffer, bufpos - len + 1, ret, 0, len);
+     else
+     {
+        System.arraycopy(buffer, bufsize - (len - bufpos - 1), ret, 0,
+                                                          len - bufpos - 1);
+        System.arraycopy(buffer, 0, ret, len - bufpos - 1, bufpos + 1);
+
+Your answer: << 2 >>. 
+
+
+    /**
+     * Compute the proper position for a centered window
+     */
+    private Point comuteDisplayPointCentre(Dimension dim) {
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        int x = (screen.width - dim.width) / 2;
+        int y = (screen.height - dim.height) / 2;
+
+Your answer: << 2 >>. 
+
+
+	public void filter(Filter filter) throws NoTestsRemainException {
+		for (Iterator<Runner> iter= fRunners.iterator(); iter.hasNext();) {
+			Runner runner= iter.next();
+			if (filter.shouldRun(runner.getDescription()))
+				filter.apply(runner);
+			else
+				iter.remove();
+
+Your answer: << 2 >>. 
+
+
+        boolean    hasReturnValue;
+
+        outlen = parameters.length;
+        offset = 0;
+
+Your answer: << 5 >>. 
+
+
+    /**
+     * Sets the currently chosen <code>MapTransform</code>.
+     * @param mt The transform that should be applied to a
+     *      <code>Tile</code> that is clicked on the map.
+     */
+    public void setMapTransform(MapTransform mt) {
+        currentMapTransform = mt;
+        MapControlsAction mca = (MapControlsAction) freeColClient.getActionManager().getFreeColAction(MapControlsAction.ID);
+        if (mca.getMapControls() != null) {
+            mca.getMapControls().update(mt);
+
+Your answer: << 2 >>. 
+
+
+			
+			if (iterateOverMe instanceof String)
+				return createEnumeration(((String)iterateOverMe).toCharArray());
+			
+			if (iterateOverMe instanceof StringBuffer)
+				return createEnumeration(
+					iterateOverMe.toString().toCharArray());
+
+			throw new IllegalArgumentException(
+				""Cannot enumerate object of type ""+iterateOverMe.getClass());
+
+Your answer: << 2 >>. 
+
+
+  /**
+   * Constructs a new Date object, initialized with the current date.
+   */
+  public Date() {
+    Calendar mCalendar = Calendar.getInstance();
+    mYear = mCalendar.get(Calendar.YEAR);
+    mMonth = mCalendar.get(Calendar.MONTH) + 1;
+
+Your answer: << 3 >>. 
+
+
+		/**
+		 * @param contextLength the maximum length for <code>expected</code> and <code>actual</code>. When contextLength 
+		 * is exceeded, the Strings are shortened
+		 * @param expected the expected string value
+		 * @param actual the actual string value
+		 */
+		public ComparisonCompactor(int contextLength, String expected, String actual) {
+			fContextLength= contextLength;
+			fExpected= expected;
+			fActual= actual;
+
+Your answer: << 3 >>. 
+
+
+
+            case CompiledStatement.DELETE :
+                return executeDeleteStatement(cs);
+
+            case CompiledStatement.CALL :
+                return executeCallStatement(cs);
+
+            case CompiledStatement.DDL :
+                return executeDDLStatement(cs);
+
+Your answer: << 4 >>. 
+
+
+    /**
+     * Creates a new <code>DisbandUnitAction</code>.
+     * 
+     * @param freeColClient The main controller object for the client.
+     */
+    DisbandUnitAction(FreeColClient freeColClient) {
+        super(freeColClient, ""unit.state.8"", null, KeyStroke.getKeyStroke('D', 0));
+        putValue(BUTTON_IMAGE, freeColClient.getImageLibrary().getUnitButtonImageIcon(ImageLibrary.UNIT_BUTTON_DISBAND,
+                0));
+        putValue(BUTTON_ROLLOVER_IMAGE, freeColClient.getImageLibrary().getUnitButtonImageIcon(
+                ImageLibrary.UNIT_BUTTON_DISBAND, 1));
+
+Your answer: << 1 >>. 
+
+
+			Class clas = object.getClass();
+			Field field = Reflect.resolveJavaField( 
+				clas, name, false/*onlyStatic*/ );
+			if ( field != null )
+				return new Variable( 
+					name, field.getType(), new LHS( object, field ) );
+
+Your answer: << 2 >>. 
+
+
+    
+    for(AbstractPluginProgramFormating config : mConfigs)
+      if(config != null && config.isValid())
+        list.add(new ProgramReceiveTarget(this, config.getName(), config.getId()));
+    
+    if(list.isEmpty())
+      list.add(new ProgramReceiveTarget(this, DEFAULT_CONFIG.getName(), DEFAULT_CONFIG.getId()));
+    
+    return list.toArray(new ProgramReceiveTarget[list.size()]);
+
+Your answer: << 2 >>. 
+
+
+	Class<? extends Throwable> expectedException(Method method) {
+		Test annotation= method.getAnnotation(Test.class);
+		if (annotation.expected() == None.class)
+			return null;
+		else
+			return annotation.expected();
+
+Your answer: << 2 >>. 
+
+
+            row[1] = ns.getCatalogName(row[0]);
+            row[2] = schema.equals(defschema) ? Boolean.TRUE
+                                              : Boolean.FALSE;
+
+            t.insertSys(row);
+
+Your answer: << 3 >>. 
+
+
+    /**
+     * Handles an ""deliverGift""-request.
+     * 
+     * @param element The element (root element in a DOM-parsed XML tree) that
+     *            holds all the information.
+     */
+    private Element deliverGift(Element element) {
+        Element unitElement = Message.getChildElement(element, Unit.getXMLElementTagName());
+
+        Unit unit = (Unit) getGame().getFreeColGameObject(unitElement.getAttribute(""ID""));
+        unit.readFromXMLElement(unitElement);
+
+Your answer: << 2 >>. 
+
+
+      switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
+      case EQ:
+        t = jj_consume_token(EQ);
+        break;
+      case NE:
+        t = jj_consume_token(NE);
+
+Your answer: << 1 >>. 
+
+
+  public synchronized void removeProgram(Program program) {
+    PluginTreeNode node = findProgramTreeNode(program, false);
+    if (node != null) {
+      mChildNodes.remove(node);
+      if (mMarker != null) {
+        program.unmark(mMarker);
+
+Your answer: << 2 >>. 
+
+
+		private TestClassRunnerForParameters(Class<?> klass, Object[] parameters, int i) {
+			super(klass);
+			fParameters= parameters;
+			fParameterSetNumber= i;
+
+Your answer: << 4 >>. 
+
+
+        void link(IndexRowIterator other) {
+
+            other.next = next;
+            other.last = this;
+            next.last  = other;
+
+Your answer: << 5 >>. 
+
+
+        final String heightText = Messages.message(""height"");
+        
+        final JTextField inputWidth = new JTextField(Integer.toString(DEFAULT_WIDTH), COLUMNS);
+        final JTextField inputHeight = new JTextField(Integer.toString(DEFAULT_HEIGHT), COLUMNS);
+
+Your answer: << 4 >>. 
+
+
+	/**
+		Get the top level namespace or this namespace if we are the top.
+		Note: this method should probably return type bsh.This to be consistent
+		with getThis();
+	*/
+    public This getGlobal( Interpreter declaringInterpreter )
+    {
+		if ( parent != null )
+			return parent.getGlobal( declaringInterpreter );
+		else
+			return getThis( declaringInterpreter );
+
+Your answer: << 4 >>. 
+
+
+    /**
+     * Read Settings
+     * @param stream
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
+    public void readData(ObjectInputStream stream) throws IOException, ClassNotFoundException {
+      int version = stream.readInt();
+      mNumber = stream.readInt();
+      mName = stream.readUTF();
+
+Your answer: << 3 >>. 
+
+
+	/**
+	 * Constructs a comparison failure.
+	 * @param message the identifying message or null
+	 * @param expected the expected string value
+	 * @param actual the actual string value
+	 */
+	public ComparisonFailure (String message, String expected, String actual) {
+		super (message);
+		fExpected= expected;
+		fActual= actual;
+
+Your answer: << 2 >>. 
+
+
+    public void close() {
+
+        if (isClosed) {
+            return;
+        }
+
+        isClosed = true;
+
+        try {
+            resultOut.setResultType(ResultConstants.SQLDISCONNECT);
+
+Your answer: << 3 >>. 
+
+
+        public void actionPerformed(ActionEvent evt) {
+            if (!hasFocus()) {
+                stopBlinking();
+            }
+
+            if (blinkOn) {
+                setOpaque(false);
+                blinkOn = false;
+
+Your answer: << 4 >>. 
+
+
+	private static String getBaseName( String className ) 
+	{
+		int i = className.indexOf(""$"");
+		if ( i == -1 )
+			return className;
+
+		return className.substring(i+1);
+
+Your answer: << 4 >>. 
+
+
+
+    panel.add(UiUtilities.createHelpTextArea(mLocalizer.msg(""help"",""No endtime defined"")), cc.xy(1,1));
+    
+    mTimePanel = new TimeDateChooserPanel(date);
+    panel.add(mTimePanel, cc.xy(1,3));
+
+Your answer: << 1 >>. 
+
+
+		try {
+			suiteMethod= klass.getMethod(""suite"");
+			if (! Modifier.isStatic(suiteMethod.getModifiers())) {
+				throw new Exception(klass.getName() + "".suite() must be static"");
+			}
+			suite= (Test) suiteMethod.invoke(null); // static method
+
+Your answer: << 1 >>. 
+
+
+
+            // ----------------------------------------------------------------
+            // required
+            // ----------------------------------------------------------------
+            addColumn(t, ""PROCEDURE_CAT"", Types.VARCHAR);
+            addColumn(t, ""PROCEDURE_SCHEM"", Types.VARCHAR);
+            addColumn(t, ""PROCEDURE_NAME"", Types.VARCHAR, false);    // not null
+
+Your answer: << 3 >>. 
+
+
+
+        if (missionChip == null) {
+            GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice()
+                    .getDefaultConfiguration();
+            loadMissionChip(gc, color, expertMission);
+
+            if (expertMission) {
+                missionChip = expertMissionChips.get(color);
+
+Your answer: << 2 >>. 
+
+
+	/**
+		Swap in the value as the new top of the stack and return the old
+		value.
+	*/
+	public NameSpace swap( NameSpace newTop ) {
+		NameSpace oldTop = (NameSpace)(stack.elementAt(0));
+		stack.setElementAt( newTop, 0 );
+		return oldTop;
+
+Your answer: << 3 >>. 
+
+
+      
+      String classname = (String) in.readObject();
+      String devname = (String)in.readObject();
+      
+      DeviceIf dev = DriverFactory.getInstance().createDevice(classname, devname);
+
+Your answer: << 4 >>. 
+
+
+			String simpleName= runnerClass.getSimpleName();
+			InitializationError error= new InitializationError(String.format(
+					CONSTRUCTOR_ERROR_FORMAT, simpleName, simpleName));
+			return Request.errorReport(fTestClass, error).getRunner();
+
+Your answer: << 1 >>. 
+
+
+    public boolean isReadOnly() throws HsqlException {
+
+        Object info = getAttribute(Session.INFO_CONNECTION_READONLY);
+
+        isReadOnly = ((Boolean) info).booleanValue();
+
+        return isReadOnly;
+
+Your answer: << 3 >>. 
+
+
+ 
+        boolean response = warehouseDialog.getResponseBoolean();
+        remove(warehouseDialog);
+        return response;
+
+Your answer: << 3 >>. 
+
+
+			else if ( returnType.equals(""F"") )
+				opcode = FRETURN;
+			else if ( returnType.equals(""J"") )  //long
+				opcode = LRETURN;
+
+			cv.visitInsn(opcode);
+
+Your answer: << 4 >>. 
+
+
+    String channelId;
+    
+    if (version==1) {
+      dataServiceId = (String)in.readObject();
+      channelId=""""+in.readInt();
+
+Your answer: << 3 >>. 
+
+
+	@Override
+	public Description getDescription() {
+		Description spec= Description.createSuiteDescription(getName());
+		List<Method> testMethods= fTestMethods;
+		for (Method method : testMethods)
+				spec.addChild(methodDescription(method));
+
+Your answer: << 2 >>. 
+
+
+
+            while (classNames.hasNext()) {
+                clsName         = (String) classNames.next();
+                clsCat          = ns.getCatalogName(clsName);
+                clsSchem        = ns.getSchemaName(clsName);
+
+Your answer: << 2 >>. 
+
+
+
+        String[] texts = new String[messages.length];
+        ImageIcon[] images = new ImageIcon[messages.length];
+        for (int i = 0; i < messages.length; i++) {
+            String ID = messages[i].getMessageID();
+
+Your answer: << 1 >>. 
+
+
+
+      mProgramTable.changeSelection(row, 0, false, false);
+
+      Program p = (Program) mProgramTableModel.getValueAt(row, 1);
+
+      JPopupMenu menu = devplugin.Plugin.getPluginManager().createPluginContextMenu(p, CapturePlugin.getInstance());
+
+Your answer: << 2 >>. 
+
+
+  /**
+   * Add one zero if neccessary
+   * @param number
+   * @return
+   */
+  private CharSequence addZero(int number) {
+    StringBuilder builder = new StringBuilder();
+    
+    if (number < 10) {
+      builder.append('0');
+    }
+    
+    builder.append(Integer.toString(number));
+
+Your answer: << 3 >>. 
+
+
+	@Override
+	public void run(RunNotifier notifier) {
+		TestResult result= new TestResult();
+		result.addListener(createAdaptingListener(notifier));
+		fTest.run(result);
+
+Your answer: << 3 >>. 
+
+
+        t.checkColumnsMatch(tc.core.mainColArray, tc.core.refTable,
+                            tc.core.refColArray);
+        session.commit();
+
+        TableWorks tableWorks = new TableWorks(session, t);
+
+Your answer: << 3 >>. 
+
+
+        @Override
+        public void mousePressed(MouseEvent e) {
+            if (f.getDesktopPane() == null || f.getDesktopPane().getDesktopManager() == null) {
+                return;
+            }
+            loc = SwingUtilities.convertPoint((Component) e.getSource(), e.getX(), e.getY(), null);
+            f.getDesktopPane().getDesktopManager().beginDraggingFrame(f);
+
+Your answer: << 2 >>. 
+
+
+	/**
+		Translate bsh.Modifiers into ASM modifier bitflags.
+	*/
+	static int getASMModifiers( Modifiers modifiers ) 
+	{
+		int mods = 0;
+		if ( modifiers == null )
+			return mods;
+
+		if ( modifiers.hasModifier(""public"") )
+			mods += ACC_PUBLIC;
+
+Your answer: << 3 >>. 
+
+
+    public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+
+        JLabel label = (JLabel) super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+        
+        String str;
+        
+        if (value instanceof DeviceIf) {
+            DeviceIf device = (DeviceIf)value; 
+
+Your answer: << 3 >>. 
+
+
+		public String compact(String message) {
+			if (fExpected == null || fActual == null || areStringsEqual())
+				return Assert.format(message, fExpected, fActual);
+
+			findCommonPrefix();
+			findCommonSuffix();
+
+Your answer: << 4 >>. 
+
+
+
+        classNames = classNameSet.iterator();
+
+        while (classNames.hasNext()) {
+            className = (String) classNames.next();
+            methods   = iterateRoutineMethods(className, andAliases);
+
+Your answer: << 4 >>. 
+
+
+    /**
+     * Generates a color chip image and stores it in memory.
+     * 
+     * @param gc The GraphicsConfiguration is needed to create images that are
+     *            compatible with the local environment.
+     * @param c The color of the color chip to create.
+     */
+    private void loadColorChip(GraphicsConfiguration gc, Color c) {
+        BufferedImage tempImage = gc.createCompatibleImage(11, 17);
+        Graphics g = tempImage.getGraphics();
+        if (c.equals(Color.BLACK)) {
+            g.setColor(Color.WHITE);
+
+Your answer: << 2 >>. 
+
+
+      
+      out.writeObject(device.getDriver().getClass().getName());
+      out.writeObject(device.getName());
+      
+      device.writeData(out);
+
+Your answer: << 3 >>. 
+
+
+        
+        File data = new File(Plugin.getPluginManager().getTvBrowserSettings().getTvBrowserUserHome()  + File.separator + 
+                ""CaptureDevices"" + File.separator + mCount + "".dat"");
+        
+        ObjectOutputStream stream = new ObjectOutputStream(new FileOutputStream(data));
+        
+        dev.writeData(stream);
+
+Your answer: << 2 >>. 
+
+
+	private static Class<?>[] getAnnotatedClasses(Class<?> klass) throws InitializationError {
+		SuiteClasses annotation= klass.getAnnotation(SuiteClasses.class);
+		if (annotation == null)
+			throw new InitializationError(String.format(""class '%s' must have a SuiteClasses annotation"", klass.getName()));
+		return annotation.value();
+
+Your answer: << 1 >>. 
+
+
+
+        for (int j = 0; j < fieldcount; j++) {
+            int i = Column.compare(session.database.collation, a[cols[j]],
+                                   b[cols[j]], coltypes[cols[j]]);
+
+            if (i != 0) {
+                return i;
+            }
+        }
+
+        return 0;
+
+Your answer: << 3 >>. 
+
+
+    /**
+     * Closes all panels, changes the background and shows the main menu.
+     */
+    public void returnToTitle() {
+        // TODO: check if the GUI object knows that we're not
+        // inGame. (Retrieve value of GUI::inGame.)  If GUI thinks
+        // we're still in the game then log an error because at this
+        // point the GUI should have been informed.
+        closeMenus();
+        removeInGameComponents();
+        showMainPanel();
+
+Your answer: << 4 >>. 
+
+
+	/**
+		subsequent imports override earlier ones
+	*/
+    public void	importPackage(String name)
+    {
+		if(importedPackages == null)
+			importedPackages = new Vector();
+
+		// If it exists, remove it and add it at the end (avoid memory leak)
+		if ( importedPackages.contains( name ) )
+			importedPackages.remove( name );
+
+		importedPackages.addElement(name);
+
+Your answer: << 4 >>. 
+
+
+        
+        if(dataServiceId.compareTo(cmpDataServiceId) != 0) {
+          return false;
+        }
+        
+        String country = getCountry();
+        String cmpCountry = cmp.getCountry();
+
+Your answer: << 4 >>. 
+
+
+	public void filter(Filter filter) throws NoTestsRemainException {
+		for (Iterator<Method> iter= fTestMethods.iterator(); iter.hasNext();) {
+			Method method= iter.next();
+			if (!filter.shouldRun(methodDescription(method)))
+				iter.remove();
+		}
+		if (fTestMethods.isEmpty())
+			throw new NoTestsRemainException();
+
+Your answer: << 2 >>. 
+
+
+        /* fredt - in FK constraints column lists for iColMain and iColRef have
+           identical sets to visible columns of iMain and iRef respectively
+           but the order of columns can be different and must be preserved
+         */
+        core.mainColArray = mainCols;
+        core.colLen       = core.mainColArray.length;
+        core.refColArray  = refCols;
+
+Your answer: << 4 >>. 
+
+
+    /**
+    * Adds a message to the list of messages that need to be displayed on the GUI.
+    * @param message The message to add.
+    */
+    public synchronized void addMessage(GUIMessage message) {
+        if (getMessageCount() == MESSAGE_COUNT) {
+            messages.remove(0);
+        }
+        messages.add(message);
+
+        freeColClient.getCanvas().repaint(0, 0, getWidth(), getHeight());
+
+Your answer: << 3 >>. 
+
+
+private static final boolean jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)
+{
+   switch(hiByte)
+   {
+      case 0:
+         return ((jjbitVec0[i2] & l2) != 0L);
+      default : 
+         if ((jjbitVec1[i1] & l1) != 0L)
+            return true;
+         return false;
+
+Your answer: << 2 >>. 
+
+
+    private static Date correctTimeZone(final Date date) {
+       Date ret=date;
+       if(java.util.TimeZone.getDefault().useDaylightTime()){
+            if(java.util.TimeZone.getDefault().inDaylightTime(date))
+                ret.setTime(date.getTime()+1*60*60*1000);
+        }
+        return ret;
+
+Your answer: << 1 >>. 
+
+
+	@Override
+	public String getMessage() {
+		StringBuilder builder= new StringBuilder();
+		if (fMessage != null)
+			builder.append(fMessage);
+		builder.append(""arrays first differed at element "");
+
+Your answer: << 2 >>. 
+
+
+    String getStateString() {
+
+        int state = getState();
+
+        switch (state) {
+
+            case DATABASE_CLOSING :
+                return ""DATABASE_CLOSING"";
+
+            case DATABASE_ONLINE :
+                return ""DATABASE_ONLINE"";
+
+Your answer: << 5 >>. 
+
+
+    public boolean displayTileCursor(Tile tile, int canvasX, int canvasY) {
+        if (currentMode == ViewMode.VIEW_TERRAIN_MODE) {
+
+            Position selectedTilePos = gui.getSelectedTile();
+            if (selectedTilePos == null)
+                return false;
+
+            if (selectedTilePos.getX() == tile.getX() && selectedTilePos.getY() == tile.getY()) {
+                TerrainCursor cursor = gui.getCursor();
+
+Your answer: << 3 >>. 
+
+
+private final int jjMoveStringLiteralDfa18_0(long old1, long active1, long old2, long active2)
+{
+   if (((active1 &= old1) | (active2 &= old2)) == 0L)
+      return jjStartNfa_0(16, 0L, old1, old2); 
+   try { curChar = input_stream.readChar(); }
+   catch(java.io.IOException e) {
+      jjStopStringLiteralDfa_0(17, 0L, active1, active2);
+
+Your answer: << 1 >>. 
+
+
+    /**
+     * Get the List of all available Channels
+     * 
+     * @return All available Channels
+     */
+    public ElgatoChannel[] getAvailableChannels() {
+        ArrayList<ElgatoChannel> list = new ArrayList<ElgatoChannel>();
+
+        String res = null;
+        try {
+            res = mAppleScript.executeScript(CHANNELLIST);
+
+Your answer: << 2 >>. 
+
+
+		private Method getParametersMethod() throws Exception {
+			for (Method each : fKlass.getMethods()) {
+				if (Modifier.isStatic(each.getModifiers())) {
+					Annotation[] annotations= each.getAnnotations();
+					for (Annotation annotation : annotations) {
+						if (annotation.annotationType() == Parameters.class)
+							return each;
+					}
+				}
+			}
+			throw new Exception(""No public static parameters method on class ""
+					+ getName());
+
+Your answer: << 1 >>. 
+
+
+
+        Node r = x.getRight();
+
+        if (r != null) {
+            x = r;
+
+            Node l = x.getLeft();
+
+Your answer: << 5 >>. 
+
+
+        InGameInputHandler inGameInputHandler = freeColClient.getInGameInputHandler();
+
+        freeColClient.getClient().setMessageHandler(inGameInputHandler);
+        gui.setInGame(true);
+
+Your answer: << 3 >>. 
+
+
+    /**
+     * Applies this action.
+     * 
+     * @param e The <code>ActionEvent</code>.
+     */
+    public void actionPerformed(ActionEvent e) {
+        final Game game = freeColClient.getGame();
+        final Map map = game.getMap();
+
+        Parameters p = showParametersDialog();
+
+Your answer: << 4 >>. 
+
+
+    public ActionMenu getButtonAction() {
+        AbstractAction action = new AbstractAction() {
+
+            public void actionPerformed(ActionEvent evt) {
+                showDialog();
+            }
+        };
+        action.putValue(Action.NAME, mLocalizer.msg(""CapturePlugin"", ""Capture Plugin""));
+        action.putValue(Action.SMALL_ICON, createImageIcon(""mimetypes"", ""video-x-generic"", 16));
+
+Your answer: << 3 >>. 
+
+
+			Description description= Description.createSuiteDescription(name);
+			int n= ts.testCount();
+			for (int i= 0; i < n; i++)
+				description.addChild(makeDescription(ts.testAt(i)));
+
+Your answer: << 2 >>. 
+
+
+
+        if (expression.exprType != VALUE && expression.exprType != COLUMN
+                && expression.exprType != FUNCTION
+                && expression.exprType != ALTERNATIVE
+                && expression.exprType != CASEWHEN
+                && expression.exprType != CONVERT) {
+            StringBuffer temp = new StringBuffer();
+
+            ddl = temp.append('(').append(ddl).append(')').toString();
+        }
+
+        return ddl;
+
+Your answer: << 3 >>. 
+
+
+    private synchronized void purgeOldMessagesFromMessagesToIgnore(int thisTurn) {
+        List<String> keysToRemove = new ArrayList<String>();
+        for (Entry<String, Integer> entry : messagesToIgnore.entrySet()) {
+            if (entry.getValue().intValue() < thisTurn - 1) {
+                if (logger.isLoggable(Level.FINER)) {
+                    logger.finer(""Removing old model message with key "" + entry.getKey() + "" from ignored messages."");
+                }
+                keysToRemove.add(entry.getKey());
+
+Your answer: << 1 >>. 
+",98,Buse10

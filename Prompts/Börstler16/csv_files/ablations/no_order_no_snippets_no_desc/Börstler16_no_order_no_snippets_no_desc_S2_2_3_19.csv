@@ -1,0 +1,17 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << value != null && value instanceof NotificationComposite >>.
+Your answer for B: << notifications >>.
+Your answer for C: << nComposite.getNotifications >>.
+Your answer for D: << notifications.addAll(nStore.getNotifications()) >>.
+Your Answer: << 4.0 >>.
+",1,Börstler16

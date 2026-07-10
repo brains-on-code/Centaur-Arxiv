@@ -1,0 +1,34 @@
+text,participant,experiment
+"
+
+You see a code snippet.
+
+Your answers: 
+ << a: -1 -2 0 0.0 >>.
+ << b: c >>.
+ << d >>.
+
+
+
+You see a code snippet.
+
+Your answers: 
+ << a: 2 2 0 0 >>.
+ << c: 2 0 2 0 >>.
+ << c: 2 0 2 1 >>.
+ << d: 2 >>.
+ << d: 2 0 0 2 >>.
+ << c: 2 0 0 3 >>.
+ << X >>.
+
+
+
+You see a code snippet.
+
+Your answers: 
+ << a: 0 azy 1 >>.
+ << b: 1 azy 1 >>.
+ << a: 0 bzy 1 >>.
+ << b: 1 bzy 1 >>.
+ << c >>.
+",1,Gopstein17b

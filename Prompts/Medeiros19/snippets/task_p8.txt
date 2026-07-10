@@ -1,0 +1,5 @@
+LHS:
+"abcdef"+3
+
+RHS:
+&"abcdef"[3]

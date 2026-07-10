@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+		else if ( isPrimitive( returnType ) ) 
+		{
+			int opcode = IRETURN;
+			String type;
+			String meth;
+
+Your answer: << 4 >>. 
+",21,Buse10

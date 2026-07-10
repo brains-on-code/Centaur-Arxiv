@@ -1,0 +1,585 @@
+text,participant,experiment
+"
+
+
+
+You see a code snippet.
+
+
+Your answer: << %s abcdef >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1,2 1,2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << %c g >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << %d 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 0 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 126 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << abcdef abcdef >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << s >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 9 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 126 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 9 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 1-v2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 11 0 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 4 8 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 0 7 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 7 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 21 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << v >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 4 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << _ >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 6 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 4 8 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 6 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 13 >>.
+
+
+
+You see a code snippet.
+Your answer: << 21 >>.
+
+
+
+You see a code snippet.
+Your answer: << abcdef >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 4 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 9 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << false >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << ? >>.
+
+
+
+You see a code snippet.
+Your answer: << 3 4,6 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 3 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 0 9 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << qwert >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 5 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 2 1 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << true >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 0 >>.
+
+
+
+You see a code snippet.
+
+
+Your answer: << 0 4 >>.
+",1,Gopstein17a

@@ -1,0 +1,10 @@
+Participants were shown short JavaScript code snippets and had to identify the printed output.
+
+The final prompt dataset uses the broad answer and experimenter tables from backup0408_all.sql. Both tables are filtered to the participant IDs contained in the repository correct.csv file.
+
+task_inventory.csv is generated from the existing snippet filenames. Whole-run prompts follow the serialnumber order from the filtered answer table. Participant answers are taken from useranswer and inserted into << >>.
+
+The raw database rightanswer is preserved in task_answers.csv as db_rightanswer_raw. Correctness from the broad database is preserved as exact_correct.
+
+Summary:
+{'sql_file': 'backup0408_all.sql', 'answer_table': 'answer', 'experimenter_table': 'experimenter', 'correct_csv': 'C:\\Users\\Mirha Sidheek\\Documents\\litreview\\Ajami18\\Supplemental_files\\resultsAnalysis\\correct.csv', 'correct_csv_id_column': 'Unnamed: 0', 'correct_csv_unique_ids': 222, 'experimenter_id_column': 'id', 'filtered_experimenter_rows': 220, 'filtered_experimenter_unique_ids': 220, 'filtered_answer_rows': 2304, 'filtered_answer_unique_subjects': 220, 'filtered_skip_count': 24, 'filtered_exact_correct_count': 1665, 'filtered_exact_wrong_count': 639, 'filtered_serial_min': np.int64(0), 'filtered_serial_max': np.int64(14), 'filtered_min_answers_per_subject': 1, 'filtered_max_answers_per_subject': 15, 'filtered_avg_answers_per_subject': np.float64(10.473), 'ids_in_correct_not_in_filtered_answer_count': 2, 'ids_in_filtered_experimenter_not_in_filtered_answer_count': 0, 'snippet_files_detected': 40, 'answer_rows_without_matching_snippet': 0}

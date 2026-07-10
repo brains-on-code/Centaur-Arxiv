@@ -1,0 +1,393 @@
+text,participant,experiment
+"
+
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest);     
+ 
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    log(troubleTicket.toString()); 
+    
+    /* Update context and mail trouble ticket. */ 
+    aRequest.getSession().getServletContext(). 
+        setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+} 
+Your Answer: << 5.0 >>.
+
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest);     
+ 
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    A:______________________________; 
+
+    /* Update context and mail trouble ticket. */ 
+    aRequest.getSession().B:_____________________. 
+        setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket); 
+    troubleTicket.mailToWebmaster(); 
+} 
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your Answer: << 5.0 >>.
+
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+    
+    if (projectSpace != null) {  
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+        NotificationList notifications; 
+        
+        if (property != null) { 
+            Value value = property.getValue(); 
+            if (value != null && value instanceof NotificationComposite) { 
+                NotificationComposite nComposite = value; 
+                notifications = nComposite.getNotifications(); 
+                
+                if (nStore.isAcknowledged()) { 
+                    notifications.removeAll(nStore.getNotifications()); 
+                } else { 
+                    notifications.addAll(nStore.getNotifications()); 
+                } 
+            }  
+        } else { 
+            
+            if (!nStore.isAcknowledged()) { 
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+                notifications = nComposite.getNotifications();
+                 
+                notifications.addAll(nStore.getNotifications()); 
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+} 
+
+Your Answer: << 5.0 >>.
+
+/** 
+ * Apply the transmitted notifications (“nStore”) to the project so that 
+ * acknowledged notifications are deleted and other ones added. 
+ */ 
+public void apply(Project project, NotificationStore nStore) 
+{ 
+    ProjectSpace projectSpace = project.eContainer(); 
+    
+    if (projectSpace != null) {  
+        PropertyManager manager = projectSpace.getPropertyManager(); 
+        StoreProperty property = 
+            manager.getLocalProperty(NOTIFICATION_COMPOSITE); 
+        NotificationList notifications; 
+        
+        if (A:________________) { 
+            Value value = property.getValue(); 
+
+            if (value != null && value instanceof NotificationComposite) { 
+                NotificationComposite nComposite = value; 
+                 B:____________ = C:___________________________; 
+                
+                if (nStore.isAcknowledged()) { 
+                    notifications.removeAll(nStore.getNotifications()); 
+                } else { 
+                    D:______________________________________________
+                } 
+            }  
+        } else { 
+            
+            if (!nStore.isAcknowledged()) { 
+                NotificationComposite nComposite = 
+                    Factory.createNotificationComposite(); 
+                notifications = nComposite.getNotifications();
+                 
+                notifications.addAll(nStore.getNotifications()); 
+                manager.setLocalProperty(NOTIFICATION_COMPOSITE, nComposite); 
+            } 
+        } 
+    } 
+} 
+
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 5.0 >>.
+
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table.  
+ */ 
+protected Table copyUTable(UTable uTable) 
+{ 
+    /* Create a new table with the same size and color as uTable. */ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    table.setBorderColor(new Color ( 
+        uTable.getBoxModel().getBorderColor().getRed(), 
+        uTable.getBoxModel().getBorderColor().getGreen(), 
+        uTable.getBoxModel().getBorderColor().getBlue())); 
+
+    /* Go through all entries of uTable and copy image information. */  
+    Cell cell; 
+    for (UTableCell uCell : uTable.getEntries()) { 
+
+        UParagraph paragraph = uCell.getContent(); 
+
+        /* Check if there is image information to copy. */ 
+        if (paragraph.getChildren().size() > 0 && 
+            paragraph.getChildren().get(0) instanceof UImage) { 
+            
+            UImage image = paragraph.getChildren().get(0); 
+            
+            /* Copy the last segment of the image. False and true */ 
+            /* are transformed to “no” and “yes”, respectively.   */ 
+            if (image.getPath().lastSegment().startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            
+            } else { 
+                if (image.getPath().lastSegment().startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(image.getPath().lastSegment()); 
+                } 
+            } 
+
+            /* Copy background color of uCell. */ 
+            if (uCell.getBoxModel().getBackgroundColor() != null) { 
+                cell.setBackgroundColor(uCell.getBoxModel().getBackgroundColor()); 
+            } 
+        } 
+        table.addCell(cell); 
+    } 
+    return table; 
+} 
+Your Answer: << 5.0 >>.
+
+/** 
+ * The images of a unified table are copied to a simplified “yes/no” table.  
+ */ 
+protected Table copyUTable(UTable uTable) 
+{ 
+    /* Create a new table with the same size and color as uTable. */ 
+    Table table = new Table(uTable.getColumnsCount()); 
+    table.setBorderColor(new Color ( 
+        uTable.getBoxModel().getBorderColor().getRed(), 
+        uTable.getBoxModel().getBorderColor().getGreen(), 
+        uTable.getBoxModel().getBorderColor().getBlue())); 
+
+    /* Go through all entries of uTable and copy image information. */  
+    Cell cell; 
+    for (UTableCell uCell : uTable.getEntries()) { 
+
+        UParagraph paragraph = uCell.getContent(); 
+
+        /* Check if there is image information to copy. */ 
+        if (paragraph.getChildren().size() > 0 && 
+            paragraph.getChildren().get(0) instanceof UImage) { 
+            
+            UImage image = paragraph.getChildren().get(0); 
+            
+            /* Copy the last segment of the image. False and true */ 
+            /* are transformed to “no” and “yes”, respectively.   */ 
+            if (image.getPath().lastSegment().startsWith(""false"")) { 
+                cell = new Cell(""no""); 
+            
+            } else { 
+                if (image.getPath().lastSegment().startsWith(""true"")) { 
+                    cell = new Cell(""yes""); 
+                } else { 
+                    cell = new Cell(image.getPath().lastSegment()); 
+                } 
+            } 
+
+            /* Copy background color of uCell. */ 
+            if (A:_______________________________________ != null) { 
+                cell.setBackgroundColor(B:_____________________________________); 
+            } 
+        } 
+        C:__________________; 
+    } 
+    return table; 
+} 
+Your answer for A: << uCell >>.
+Your answer for B: << new Color() >>.
+Your answer for C: << table.add(paragraph) >>.
+Your Answer: << 5.0 >>.
+
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    builder.append(moveNumber).append(move.isWhitesMove() ? "". "" : ""... ""). 
+        append(move.toString());  
+    
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {"").append(comment.getText()).append(""}"");  
+    } 
+    
+    for (Nag nag : move.getNags()) {  
+        builder.append("" "").append(nag.getNagString());  
+    } 
+
+    builder.append("" {"").append(move.getTimeTakenForMove().getText()).append(""}""); 
+    
+    return result;  
+}
+Your Answer: << 4.0 >>.
+
+/** 
+ * Generates a string (“builder”) for a given chess move in PGN (Portable 
+ * Game Notation). This includes the move number and all NAG annotations. 
+ */ 
+public static boolean getMove(StringBuilder builder, Move move) {  
+    boolean result = false; 
+    int moveNumber = move.getFullMoveCount(); 
+    
+    builder.append(moveNumber).A:_________________________ ? "". "" : ""... ""). 
+        append(move.toString());  
+    
+    for (SublineNode subline : move.getSublines()) {  
+        result = true;  
+        builder.append("" ("");  
+        appendSubline(builder, subline);  
+        builder.append("")"");  
+    } 
+    
+    for (Comment comment : move.getComments()) {  
+        builder.append("" {"").append(comment.getText()).append(""}"");  
+    } 
+    
+    for (B:_______________________) {  
+        builder.append("" "").append(nag.getNagString());  
+    } 
+
+    builder.append("" {"").append(move.getTimeTakenForMove().getText()).append(""}""); 
+    
+    return result;  
+}
+Your answer for A: << builder.Whites() >>.
+Your answer for B: << Nag nag : move.getNag() >>.
+Your Answer: << 4.0 >>.
+
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds bounds = control.getBounds(); 
+    int maxWidth = bounds.width - 5; 
+
+    /* Set start and end points for the center of the text. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* Take away more and more characters in the center of textValue */ 
+    /* and replace them by a single ellipsis character until it is   */ 
+    /* short enough.                                                 */ 
+    while (start >= 0 && end < length) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When the text fits, we stop and return the shortened string. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+Your Answer: << 4.0 >>.
+
+/** 
+ * Shortens the given text textValue so that its width in pixels does  
+ * not exceed the width of the given control. To do that, shortenText 
+ * overrides as many as necessary characters in the center of the original 
+ * text with an ellipsis character (constant ELLIPSIS = ""...""). 
+ */ 
+public static String shortenText(String textValue, Control control) 
+{ 
+    GraphicsContext gc = new GraphicsContext(control); 
+    Extent extent = gc.textExtent(textValue); 
+    int maxExtent = extent.x; 
+    Bounds A:_____ = B:__________________; 
+    int maxWidth = C:_______________; 
+
+    /* Set start and end points for the center of the text. */  
+    int length = textValue.length(); 
+    int start = length/2; 
+    int end = length/2 + 1; 
+
+    /* Take away more and more characters in the center of textValue */ 
+    /* and replace them by a single ellipsis character until it is   */ 
+    /* short enough.                                                 */ 
+    while (D:_________________________) { 
+        String s1 = textValue.substring(0, start); 
+        String s2 = textValue.substring(end, length); 
+        String s = s1 + ELLIPSIS + s2; 
+
+        extent = gc.textExtent(s); 
+        int l = extent.x; 
+        
+        /* When the text fits, we stop and return the shortened string. */ 
+        if (l < maxWidth) { 
+            gc.dispose(); 
+            return s; 
+        } 
+        start--; 
+        end++; 
+    } 
+}
+Your answer for A: << ? >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << ? >>.
+Your Answer: << 5.0 >>.
+",17,Börstler16

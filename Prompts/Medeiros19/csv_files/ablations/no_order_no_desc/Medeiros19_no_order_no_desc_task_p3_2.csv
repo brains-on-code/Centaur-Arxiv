@@ -1,0 +1,15 @@
+text,snippet,experiment
+"
+ 
+
+
+x && f();
+
+
+if (x) {
+  f();
+}
+
+
+Your answer: << 2 >>.
+",task_p3,Medeiros19

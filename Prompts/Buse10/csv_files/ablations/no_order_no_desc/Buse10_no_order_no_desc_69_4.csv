@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+        t.checkColumnsMatch(tc.core.mainColArray, tc.core.refTable,
+                            tc.core.refColArray);
+        session.commit();
+
+        TableWorks tableWorks = new TableWorks(session, t);
+
+Your answer: << 5 >>. 
+",69,Buse10

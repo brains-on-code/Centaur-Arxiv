@@ -1,0 +1,69 @@
+text,snippet,experiment
+"This study is concerned with program reading and comprehension.
+Your task is to carefully read some code snippets so that you could explain them to colleagues or fellow students. 
+You will then be asked to answer questions about a code snippet. 
+We will record the time you need to read the code snippets and answer the questions. 
+Your answers and timing will only be used to study the readability and comprehensibility of code and not to assess your performance.
+In total, we show you five Java code snippets. 
+The differences to C++ are minimal. 
+The whole exercise will take about 45 minutes.
+If you are unable to answer a question or parts of a question please answer with ? instead.
+
+You are shown the Snippet:
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest); 
+    
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    log(troubleTicket.toString()); 
+    
+    /* Update context and mail trouble ticket. */ 
+    HttpSession session = aRequest.getSession(); 
+    ServletContext context = session.getServletContext(); 
+    context.setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket);   
+    troubleTicket.mailToWebmaster(); 
+}
+You are asked to rate this snippets readability.
+Your Answer: << 4.0 >>.
+
+You are shown the following cloze test:
+/** 
+ * Informs the webmaster of an unexpected problem (Exception “ex”) 
+ * with the deployed application (indicated by “aRequest”). 
+ */ 
+public void logAndEmailSeriousProblem(Throwable ex, HttpServletRequest aRequest) 
+{ 
+    /* Define local variable. */ 
+    TroubleTicket troubleTicket = new TroubleTicket(ex, aRequest); 
+    
+    /* Log message. */ 
+    fLogger.severe(""TOP LEVEL CATCHING Throwable.""); 
+    fLogger.severe(troubleTicket.toString()); 
+    
+    /* Log message again. */ 
+    log(""SERIOUS PROBLEM OCCURRED.""); 
+    A:_____________________________; 
+    
+    /* Update context and mail trouble ticket. */ 
+    HttpSession session = aRequest.getSession(); 
+    B:_____________________ = session.C:_________________; 
+    context.setAttribute(MOST_RECENT_TROUBLE_TICKET, troubleTicket);   
+    troubleTicket.mailToWebmaster(); 
+}
+You are asked to give the answer for each of the blanks in the cloze test:
+Your answer for A: << log(troubleTicket.toString()); >>.
+Your answer for B: << newContext context >>.
+Your answer for C: << getContext() >>.
+You are asked to rate this snippets readability again.
+Your Answer: << 4.0 >>.
+",S1_2_2,Börstler16

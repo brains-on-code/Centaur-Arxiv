@@ -1,0 +1,19 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << uTable.setBoxmodel() >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << Color >>.
+Your answer for E: << Color >>.
+Your answer for F: << ? >>.
+Your Answer: << 3.0 >>.
+",1,Börstler16

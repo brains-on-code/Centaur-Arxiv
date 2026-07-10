@@ -1,0 +1,19 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+    /**
+     * Compute the proper position for a centered window
+     */
+    private Point comuteDisplayPointCentre(Dimension dim) {
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        int x = (screen.width - dim.width) / 2;
+        int y = (screen.height - dim.height) / 2;
+
+Readability Rating: << 2 >>. 
+",27,Buse10

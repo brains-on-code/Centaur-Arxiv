@@ -1,0 +1,6 @@
+LHS:
+variable1 = --variable2;
+
+RHS:
+variable2 = variable2 - 1;
+variable1 = variable2;

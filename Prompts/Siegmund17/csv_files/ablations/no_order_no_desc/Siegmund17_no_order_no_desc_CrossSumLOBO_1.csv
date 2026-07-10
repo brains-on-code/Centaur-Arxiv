@@ -1,0 +1,32 @@
+text,snippet,experiment
+"
+
+
+
+
+    public int CrossSum(int number) {
+        int crossSum = 0;
+
+        while (number != 0) {
+            crossSum += number % 10;
+            number /= 10;
+        }
+
+        return crossSum;
+    }
+
+
+
+    public int crossSum(int aesigg) {
+        int crossSum = 0;
+
+        while (aesigg != 0) {
+            crossSum += aesigg % 10;
+            aesigg /= 10;
+        }
+
+        return crossSum;
+    }
+
+Your Answer: << Y >>.
+",CrossSumLOBO,Siegmund17

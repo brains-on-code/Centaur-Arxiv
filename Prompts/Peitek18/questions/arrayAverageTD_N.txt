@@ -1,0 +1,1 @@
+What is the output of beebtBurebzr([5,2,3,6])?

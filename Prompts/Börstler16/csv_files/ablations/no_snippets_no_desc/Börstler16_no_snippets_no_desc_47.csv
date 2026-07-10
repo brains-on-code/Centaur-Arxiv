@@ -1,0 +1,68 @@
+text,participant,experiment
+"
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << log(troubleTicket.toString()) >>.
+Your answer for B: << troubleTicket >>.
+Your Answer: << 3.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 4.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << properties!=NULL >>.
+Your answer for B: << ? >>.
+Your answer for C: << ? >>.
+Your answer for D: << notifications.addAll(nStore.getNotifications()) >>.
+Your Answer: << 4.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << cell.getPath.lastSegment() >>.
+Your answer for B: << uTable.getBoxModel().getColor() >>.
+Your answer for C: << ? >>.
+Your Answer: << 1.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 2.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << wasWhitesMove() >>.
+Your answer for B: << ? >>.
+Your Answer: << 2.0 >>.
+
+
+You see a code snippet.
+
+Your Answer: << 3.0 >>.
+
+
+You see a cloze test of the prior snippet.
+
+Your answer for A: << max >>.
+Your answer for B: << textExtent(width) >>.
+Your answer for C: << l >>.
+Your answer for D: << length>maxWidth >>.
+Your Answer: << 2.0 >>.
+",1,Börstler16

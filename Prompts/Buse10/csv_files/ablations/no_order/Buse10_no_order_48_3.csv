@@ -1,0 +1,22 @@
+text,snippet,experiment
+"You will be shown a series of Java code snippets, which you should rate based on your estimation of readability.
+Readability is your judgement about how easy a block of code is to understand.
+For each snippet you should respond by rating its readability on a scale of 1 to 5.
+1 indicates very bad readability and 5 indicates very good readability. 
+Alternatively, you can type 6 to skip if you do not want to answer for the current snippet.
+
+
+You see the snippet:
+	/**
+	 * Constructs a comparison failure.
+	 * @param message the identifying message or null
+	 * @param expected the expected string value
+	 * @param actual the actual string value
+	 */
+	public ComparisonFailure (String message, String expected, String actual) {
+		super (message);
+		fExpected= expected;
+		fActual= actual;
+
+Readability Rating: << 2 >>. 
+",48,Buse10

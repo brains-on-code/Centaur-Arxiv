@@ -1,0 +1,283 @@
+text,participant,experiment
+"You will be shown a series of pairs of C code patterns which you shoud rate regarding their influence in terms of understanding the code. 
+For each question you will be presented with a code pattern at the Left-Hand Side (LHS) and an alternative at the Right-Hand Side (RHS). 
+You should rank the impact regarding understanding the code on a scale of 1 to 5, with 1 representing a totally positive effect of using LHS and 5 representing a totally negative effect of using LHS.
+You should give your answer by typing the corresponding number. 
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+if (x)
+  if (y)
+    f();
+  else
+    g();
+
+RHS:
+if (x)
+  if (y) {
+    f();
+  } else {
+    g();
+  }
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 4 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+if ((x = f()) == 0){
+  // do something
+}
+
+RHS:
+x = f();
+if (x == 0){
+  // do something
+}
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 4 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+x && f();
+
+RHS:
+if (x) {
+  f();
+}
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 5 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+x = f() ? 2 : 3;
+
+RHS:
+if (f()){
+  x = 2;
+} else {
+  x = 3;
+}
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 2 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+x || y && z;
+
+RHS:
+x || (y && z)
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 4 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+x = (y += 1, y);
+
+RHS:
+y += 1;
+x = y;
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 5 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+int[] a;
+…
+printf(""%d"", 1[a]);
+
+RHS:
+int[] a;
+…
+printf(""%d"", a[1]);
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 5 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+""abcdef""+3
+
+RHS:
+&""abcdef""[3]
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 4 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+int x = 10, y = 20;
+
+RHS:
+int x = 10;
+
+int y = 20;
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 3 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+x = y = 20;
+
+RHS:
+x = 20;
+
+y = 20;
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 2 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS:
+variable1 = variable2++;
+
+RHS:
+variable1 = variable2;
+variable2 = variable2  + 1
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 1 >>.
+
+
+You see the left-hand side code pattern and the right-hand side alternative:
+
+LHS: 
+variable1 = --variable2;
+
+RHS:
+variable2 = variable2 - 1;
+variable1 = variable2;
+
+
+You see the question: ""How negative or positive is the impact of using LHS instead of RHS on code understanding?""
+
+Answer options:
+1. Totally positive
+2. Positive
+3. Neither negative or positive
+4. Negative
+5. Totally negative
+
+Your answer: << 4 >>.
+",97,Medeiros19

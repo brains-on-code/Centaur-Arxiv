@@ -1,0 +1,22 @@
+Study: Gopstein17b / Atoms of Confusion 2016 Program Study
+
+This study used two variations of four C programs, giving eight files: a.c through h.c.
+Odd-lettered programs a, c, e, and g contain atoms of confusion.
+Even-lettered programs b, d, f, and h have had the atoms removed.
+
+Program pairs:
+- a/b
+- c/d
+- e/f
+- g/h
+
+Each participant saw four programs. They did not see both versions of the same pair.
+The Order column in results.csv gives the four programs shown to each participant in presentation order.
+The A-H columns in results.csv contain the participant-written output for each answered program.
+Participant answers are read from the horizontal A-H columns according to the Order column.
+Participant answers are preserved exactly from results.csv
+
+grades.csv contains score and timing metadata per participant and question.
+fault_rates.csv contains aggregated element-level fault/check information and is preserved as supplemental material.
+
+Eventhough study says 43 participants were included, the data of only 42 participants is found

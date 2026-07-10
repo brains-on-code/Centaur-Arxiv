@@ -1,0 +1,1192 @@
+text,participant,experiment
+"You will be shown a series of C code snippets, which you should try to comprehend. 
+For each snippet please type the standard output of the program, emitted by the printf function. 
+If you are unsure about an answer or part of an answer you can instead respond with ?.
+If you believe that a snippet produces no output or that its full output cannot be sensibly determined respond with _.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+   V1++;
+   printf(""%d\n"",V1);
+}
+
+Your answer: << 10 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 7; 
+   if (V1 = 8) 
+      printf(""true\n""); 
+   else
+      printf(""false\n""); 
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   float V1 = 1.99;
+
+   int V2 = V1;
+ 
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = ""zxcvb""[4];
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << zxcvb >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 0;
+   if (V1++ == 0) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1;
+   int V2 = 11;
+   int V3 = 0;
+
+   while (V1 != V2) {
+      ++V1;
+      if (!V1) break;
+
+      V3++;
+   }
+
+   printf(""%d %d %d\n"", V1, V2, V3);
+}
+
+Your answer: << 11 11 10 >>.
+
+
+You see the snippet:
+
+void main() {
+  int V1 = 1;
+
+  V1 = 2;
+
+  printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1[] = {3, 1, 4, 6};
+   int *V2 = &V1[1];
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 3 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 7;
+
+   int V2 = 1;
+   while (V2 < 3) { V2++; } V1++;
+ 
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 9 3 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1;
+   for (int V2 = 0; V2 < 2; V2++) {
+      V1 = (V2 < 1);
+      if (V1) {
+         V1 = V2 + 5;
+      } else {
+         V1 = V1 + 2;
+      }
+   }
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4 = V1 == 3 ? V2 : V3;
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 3 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 2;
+   int V2 = --V1 + 3;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 1;
+
+   if (V1) {
+      V2 = 2;
+   }
+      V2 = V2 * 3;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+
+   V1 = 0;
+
+   if (V1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = -1;
+
+   unsigned int V2 = V1;
+
+   int V3;
+   if (V2 > 0) {
+      V3 = 4;
+   } else {
+      V3 = 5;
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1, V2 = 2;
+   if (V1 > V2)
+   V2 = 1;
+   V1 = 2;
+   printf(""%d %d\n"",V1, V2);
+}
+
+Your answer: << 1 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3;
+  
+   V1 *= 2;
+
+   int V2 = (V1 += 1);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   if ( 1 && (! 0) ) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 5;
+
+   if (V1 != -5) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1;
+   V1 = 4;
+
+   int V2 = 1
+   #define M1 1
+   +
+   #define M2 2
+   V1;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 2;
+   char V2 = ""asdfg""[V1];
+
+   printf(""%c\n"", V2);
+}
+
+Your answer: << asdfg[2] >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+
+   if (0) V1++; V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   if (""V1"" != '\0')
+      printf(""true\n"");
+   else
+      printf(""false\n"");
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V3 = 0;
+
+   for (int V1 = 0; V1 < 2; V1++) {
+      for (int V2 = 0; V2 < 2; V2++) {
+         V3 = 4 * V1 + V2;
+         V1 = V2;
+      }
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 8 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 2;
+   if (--V1 == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1;
+   int V2 = 5;
+
+   V1 == V2 && ++V1 || ++V2;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 013;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 13 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 9;
+
+   while (!(V1 = 3)) {
+      V2--;
+      V1++;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 7 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 2 * V1;
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+      V1++;
+   printf(""%d\n"",V1);
+}
+
+Your answer: << 9 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 5;
+
+   if (V1) {
+      V2 = 2;
+   }
+   V2 = V2 * 2;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4;
+   if (V1 == 3){
+      V4 = V2;
+   }
+   else{
+      V4 = V3;
+   }
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+
+   if (V1 < 2 || 6 < V1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1[] = {3, 2, 9, 4};
+   int *V2 = &V1[1];
+   V2 = &V2[2];
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3;
+   int V2 = (V1 *= 2, V1 += 1);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 6 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 0;
+   if (V1 == 0) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   V1++;
+   printf(""%d"", V1);
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+#define M1(V1, V2) (V1) * (V2)
+
+void main(){
+   int V3 = M1(1 + 2, 3 + 4);
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 21 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 6, V2;
+   V2 = 9 - V1;
+   --V1;
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 5 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1, V2 = 2;
+   #define M1 2
+   #define M2 1
+
+   printf(""%d %d\n"", M1, M2);
+}
+
+Your answer: << 2 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 6;
+
+   if (V1 == V2) {
+      ++V1;
+   } else {
+      ++V2;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 2 7 >>.
+
+
+You see the snippet:
+
+void main()
+{
+   int V1 = 7;
+   if ((V1 = 8) != 0)
+      printf(""true"");
+   else
+      printf(""false"");
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1;
+
+   if (0) {
+      V1 = 3;
+   }
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3 * 2;
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 104;
+   printf(""%c\n"", V1);
+}
+
+Your answer: << 104 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+
+   if (V1 = 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   if ((2 && 0) || 5) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V3 = 0;
+
+   for (int V1 = 0; V1 < 2; V1++) {
+      for (int V2 = 0; V1 < 2; V1++) {
+        V3 = 4 * V1 + V2;
+      }
+   }
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 8 >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 2[""qwert""];
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << qwert >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+   V2 = 4;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 5, V2 = 2;
+   if (V1 < V2)
+      V1 = 2;
+   V2 = 5;
+   printf(""%d %d\n"",V1, V2);
+}
+
+Your answer: << 5 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+
+   if (0) { V1++; } V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 2 >>.
+
+
+You see the snippet:
+
+void main(){
+   int V1 = (2 + 1) * (3 + 4);
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 21 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4 = (V1 == 2 ? (V3 == 2 ? 1 : 2) : (V2 == 2 ? 3 : 4));
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   #define M1 1
+   #define M2 2
+
+   int V1;
+   V1 = 4;
+
+   int V2 = 1 + V1;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 5 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1[] = {4, 7, 2, 3};
+   int *V2 = V1 + 1;
+   V2 = V2 + 2;
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 19 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   printf(""%f\n"", 2.5 * V1);
+}
+
+Your answer: << 5 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 7;
+
+   V1 = 4;
+
+   while (!4) {
+      V2--;
+      V1++;
+   }
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 1 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3;
+   int V2 = 5;
+   int V3 = 0;
+
+   while (V1 != V2 && ++V1) {
+      V3++;
+   }
+
+   printf(""%d %d %d\n"", V1, V2, V3);
+}
+
+Your answer: << 3 5 1 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 2;
+   V1--;
+   if (V1 == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 23;
+ 
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 23 >>.
+
+
+You see the snippet:
+
+void main() {
+   if (! 0 && 2) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 3;
+   char V2 = V1[""zxcvb""];
+
+   printf(""%c\n"", V2);
+}
+
+Your answer: << 3[zxcvb] >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 2;
+   if (V1 == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   V1--;
+   printf(""%d"", V1);
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3;
+   int V2 = (V1 += 1, V1 *= 2);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+#include  &lt;limits.h&gt;
+void main() {
+   int V1 = -1;
+
+   unsigned int V2;
+   if (V1 >= 0) {
+      V2 = V1;
+   } else {
+      V2 = UINT_MAX + (V1 + 1);
+   }
+
+   int V3;
+   if (V2 >= 0) {
+      V3 = 4;
+   } else {
+      V3 = 5;
+   }  
+
+   printf(""%d\n"", V3);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+
+   if ((V1 - 2) * (6 - V1) > 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 2;
+   int V2 = 3;
+   int V3 = 1;
+
+   int V4;
+   if (V1 == 2) {
+      if (V3 == 2) {
+         V4 = 1;
+      } else {
+         V4 = 2;
+      }
+   } else {
+      if (V2 == 2) {
+         V4 = 3;
+      } else {
+         V4 = 4;
+      }
+   }
+
+   printf(""%d\n"", V4);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1;
+
+   V1 = 3;
+   V1 = 2;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 1 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1;
+   for (int V2 = 0; V2 < 2; V2++) {
+      int V3 = (V2 < 1);
+      if (V3) {
+         V1 = V2 + 4;
+      } else {
+         V1 = V3 + 4;
+      }
+   }
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+      V2 = 4;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+
+
+You see the snippet:
+
+void main() {
+   if (""V1"")
+      printf(""true"");
+   else
+      printf(""false"");
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 4;
+
+   int V2 = 0;
+   while (V2 < 3) V2++; V1++;
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 6 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1[] = {4, 2, 7, 5};
+   int *V2 = V1 + 1;
+   printf(""%d\n"", *V2);
+}
+
+Your answer: << 5, 3, 8, 6 >>.
+
+
+You see the snippet:
+
+void main() {
+   if (0 && 1 || 2) {
+      printf(""true"");
+   } else {
+      printf(""false"");
+   }
+}
+
+Your answer: << false >>.
+
+
+You see the snippet:
+
+void main() {
+   char V1 = 'g';
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << g >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 1, V2 = 2;
+
+   if (V1 < V2) {
+      #define M1 1
+      #define M2 2
+   } else {
+      #define M1 2
+      #define M2 1
+   }
+
+   printf(""%d %d\n"", M1, M2);
+}
+
+Your answer: << 1 2 >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 3;
+  
+   V1 += 1;
+
+   int V2 = (V1 *= 2);
+
+   printf(""%d %d\n"", V1, V2);
+}
+
+Your answer: << 4 8 >>.
+
+
+You see the snippet:
+
+#include &lt;math.h&gt;
+void main() {
+   float V1 = 2.87;
+
+   int V2 = trunc(V1);
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 3 >>.
+
+
+You see the snippet:
+
+void main() { 
+   int V1 = 2;
+   if (V1-- == 1) {
+      printf(""true "");
+   }
+   else {
+      printf(""false "");
+   }
+   printf(""%d"", V1);
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   int V1 = 5;
+
+   if (V1 + 5 != 0) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}
+
+Your answer: << true >>.
+
+
+You see the snippet:
+
+void main() {
+   printf(""%f\n"", 2 * 4.5);
+}
+
+Your answer: << 9 >>.
+",5,Gopstein17a

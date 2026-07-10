@@ -1,0 +1,41 @@
+text,snippet,experiment
+"You will be asked to look at four examples of source code taken from different small computer programs. For each sample, step through the program as if you were the computer, executing each instruction.
+Please record the standard output of the program, emitted by the printf function.
+Each program compiles and runs without error. 
+Please try to trace each program until it terminates. 
+If, for whatever reason, you feel you have to give up on a question, please make a note in the program output by pressing the _ key.
+If you are unable to determine an individual value, please make a note in the program output by pressing the ? key.
+If you believe that full outputs cannot be sensibly determined, please make a note in the program output by pressing the X key.
+
+
+You see the code snippet:
+
+#include <stdio.h>
+double V4;
+int V5;
+
+int F1(int V1, int V2, int V3) {
+  printf(""a: %d %d %d %f\n"", V1, V2, V3, V4);
+  return printf(
+      ""b: %c\n"",
+      (V1-- + 1 && V1 + 4 && F1(V1, -1, V1), V1 && V2)
+          ? (F1(-1, ++V2, V3),
+             ((V5 = (int)(V4 = (int)(V2 + 1) /
+                               (1 - (int)V3 * 2 - (int)V3 * (int)V3),
+                          V4 * V4 >= 1 && ((2 % 3) / 4 - 2 + (V4 / 2)) < 1),
+               printf(""c: %d %d %d %f %d\n"", V1, V2, V3, V4, V5), V5)[""ab""]))
+          : 'c');
+}
+
+int main() {
+  F1(-1, -2, 0);
+  printf(""d\n"");
+}
+
+Your answer: 
+ << a: -1 -2 0 0 >>.
+ << a: -2 -1 -2 0 >>.
+ << b: -1 -1 >>.
+ << _ >>.
+
+",task_e,Gopstein17b

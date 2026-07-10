@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 4;
+
+   int V2 = V1 == 3 ? 2 : 1;
+
+   printf(""%d\n"", V2);
+}
+
+Your answer: << 4 >>.
+",task_49,Gopstein17a

@@ -1,0 +1,11 @@
+text,snippet,experiment
+"
+
+      
+      out.writeObject(device.getDriver().getClass().getName());
+      out.writeObject(device.getName());
+      
+      device.writeData(out);
+
+Your answer: << 5 >>. 
+",76,Buse10

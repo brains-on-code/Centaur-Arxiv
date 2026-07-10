@@ -1,0 +1,12 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   char V1 = 'g';
+
+   printf(""%c\n"", V1);
+}
+
+Your answer: << g >>.
+",task_104,Gopstein17a

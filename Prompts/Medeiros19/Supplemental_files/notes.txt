@@ -1,0 +1,4 @@
+The script reads the developer survey from survey-results.xlsx and the manually prepared from the survey,pdfsnippet files from the snippets folder.
+
+Expected snippet files are named task_p1.txt, task_p2.txt, and so on. The task name is used to find the matching answer column in the survey file, so task_p1 maps to P1, task_p2 maps to P2, etc.
+

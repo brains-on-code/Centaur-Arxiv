@@ -1,0 +1,2 @@
+You will be shown a series of Java code snippets, which you should try to comprehend. 
+For each snippet you should respond by typing the output of the program.

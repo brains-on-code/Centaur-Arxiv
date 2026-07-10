@@ -1,0 +1,13 @@
+text,snippet,experiment
+"
+
+    public static long getNormalisedTime(long t) {
+
+        synchronized (tempCalDefault) {
+            setTimeInMillis(tempCalDefault, t);
+            resetToTime(tempCalDefault);
+
+            return getTimeInMillis(tempCalDefault);
+
+Your answer: << 4 >>. 
+",24,Buse10

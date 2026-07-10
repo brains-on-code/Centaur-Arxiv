@@ -1,0 +1,489 @@
+text,participant,experiment
+"
+
+
+
+
+public float arrayAverage(int[] array) {
+	int counter = 0;
+	int sum = 0;
+
+	while (counter < array.length) {
+		sum = sum + array[counter];
+		counter = counter + 1;
+	}
+
+	float average = sum / (float) counter;
+	return average;
+}
+
+
+public boolean containsSubstring(String word, String substring) {
+	for (int i = 0; i < word.length(); i++) {
+		for (int j = 0; j < substring.length(); j++) {
+			if (i + j >= word.length())
+				break;
+			if (word.charAt(i + j) != substring.charAt(j)) {
+				break;
+			} else {
+				if (j == substring.length() - 1) {
+					return true;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+
+
+public int countSameCharsAtSamePositionTD(String word1, String word2) {
+	int shortestLength;
+
+	if (word1.length() < word2.length())
+		shortestLength = word1.length();
+	else
+		shortestLength = word2.length();
+
+	int sameCharsAtSamePosition = 0;
+
+	for (int i = 0; i < shortestLength; i++) {
+		if (word1.charAt(i) == word2.charAt(i)) {
+			sameCharsAtSamePosition++;
+		}
+	}
+
+	return sameCharsAtSamePosition;
+}
+
+
+public Integer firstAboveTreshold(int[] numberArray, int threshold) {
+	for (int i = 0; i < numberArray.length; i++) {
+		int numberToTest = numberArray[i];
+
+		if (numberToTest > threshold) {
+			return numberToTest;
+		}
+	}
+
+	return null;
+}
+
+
+public int power(int base, int exponent) {
+	int product = base;
+	if (exponent == 0)
+		return 1;
+
+	for (int i = 1; i < exponent; i++) {
+		product = product * base;
+	}
+
+	return product;
+}
+
+
+public float arrayAverage(int[] numbers) {
+	int counter = 0;
+	int sum = 0;
+
+	while (counter < numbers.length) {
+		sum = sum + numbers[counter];
+		counter = counter + 1;
+	}
+
+	float average = sum / (float) counter;
+	return average;
+}
+Your Answer: << Y >>.
+
+
+
+public int grey(int number) {
+    if (number < 0)
+        return -1; 
+    
+    int result = 0;
+    int tempNumber = number;
+    int variable = 0;
+
+    for (int i = 0; tempNumber > 0; i++) {
+        variable = tempNumber % 10; 
+        result = result + variable * (int) Math.pow(2, i);
+        tempNumber  tempNumber / 10;
+    }
+
+    return result;
+}
+Your Answer: << Y >>.
+
+
+
+public boolean ecnzaqnkKopkzvqnm(String scvt, String kopkzvqnm) {
+	for (int i = 0; i < scvt.length(); i++) {
+		for (int j = 0; j < kopkzvqnm.length(); j++) {
+			if (i + j >= scvt.length())
+				break;
+			if (scvt.charAt(i + j) != kopkzvqnm.charAt(j)) {
+				break;
+			} else {
+				if (j == kopkzvqnm.length() - 1) {
+					return true;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+Your Answer: << X >>.
+
+
+
+
+public String reverseWord(String word) {
+    String reversedWord = """";
+    for (int i = word.length() - 1; i >= 0; i--) {
+        reversedWord += word.charAt(i);
+    }
+    return reversedWord;
+}
+
+Your Answer: << X >>.
+
+
+
+public int[] bubbleSort(int[] arrayToSort) {
+    for (int i = 0; i < arrayToSort.length; i++) {
+        for (int j = i; j > 0 j--) {
+            if (arrayToSort[j - 1] > arrayToSort[j]) {
+                int swapVariable = arrayToSort[j];
+                arrayToSort[j] = arrayToSort[j - 1;
+                arrayToSort[j - 1] = swapVariable;
+            }
+        }
+    }
+
+    return arrayToSort
+}
+Your Answer: << Z >>.
+
+
+
+public int power(int base, int exponent) {
+	int product = base;
+	if (exponent == 0)
+		return 1;
+
+	for (int i = 1; i < exponent; i++) {
+		product = product * base;
+	}
+
+	return product;
+}
+Your Answer: << X >>.
+
+
+
+public int pink(int gaicy) {
+    int result = 1;
+
+    while (gaicy > 1) {
+        result = result * gaicy;
+        gaicy--;
+    }
+
+    return result;
+}
+Your Answer: << X >>.
+
+
+
+public int ecoamKayiEoaikAmKayiEckqmqca(String scig1, String scig2) {
+	int shortestLength;
+
+	if (scig1.length() < scig2.length())
+		shortestLength = scig1.length();
+	else
+		shortestLength = scig2.length();
+
+	int kayiEoaikAmKayiEckqmqca = 0;
+
+	for (int i = 0; i < shortestLength; i++) {
+		if (scig1.charAt(i) == scig2.charAt(i)) {
+			kayiEoaikAmKayiEckqmqca++;
+		}
+	}
+
+	return kayiEoaikAmKayiEckqmqca;
+}
+Your Answer: << X >>.
+
+
+
+public int crossSum(int number) {
+    int crossSum = 0; 
+
+    while (number != 0) {
+        crossSum += number % 10; 
+        number /= 10; 
+    }
+
+    return crossSum;
+}
+Your Answer: << X >>.
+
+
+
+public boolean IsPrimNumber(int number) {
+    boolean result == true; 
+
+    for (int i = 1; i < number; i++) {
+        if number %% i == 0{
+            result == false;
+            break
+        }
+    }
+
+    return result
+}
+Your Answer: << X >> << X >>.
+
+
+
+public Integer firstAboveTreshold(int[] numberArray, int threshold) {
+	for (int i = 0; i < numberArray.length; i++) {
+		int numberToTest = numberArray[i];
+
+		if (numberToTest > threshold) {
+			return numberToTest;
+		}
+	}
+
+	return null;
+}
+Your Answer: << X >>.
+
+
+
+
+    public int red(String input) {
+        char[] chars = {'a', 'e', 'i', 'o', 'u'};
+        int variable = 0;
+
+        for (int i = 0; i < input.length(); i++) {
+            for (int j = 0; j < chars.length; j++) {
+                if (input.charAt(i) == chars[j]) {
+                    variable++;
+                }
+            }
+        }
+
+        return variable;
+    }
+
+Your Answer: << X >>.
+
+
+
+public float beebtBurebzr(int[] odxsrev) {
+	int counter = 0;
+	int vdx = 0;
+
+	while (counter < odxsrev.length) {
+		vdx = vdx + odxsrev[counter];
+		counter = counter + 1;
+	}
+
+	float burebzr = vdx / (float) counter;
+	return burebzr;
+}
+Your Answer: << X >>.
+
+
+
+public int sumUp(int number) {
+    int sum = 0;
+
+    for (int i = 1; i <= number; i++) {
+        sum += i;
+    }
+
+    return sum;
+}
+Your Answer: << X >>.
+
+
+
+public int GetMiddleNumber(int num1; int num2, int num3) {
+    if (num1 > num2 && num1 > num3
+        return num1;
+    else if (num2 > num1 && num2 > num3)
+        return num2;
+    else if num3 > num1 && num3 > num2)
+        return num3;
+}
+Your Answer: << X >> << X >>.
+
+
+
+public boolean containsSubstring(String word, String substring) {
+	for (int i = 0; i < word.length(); i++) {
+		for (int j = 0; j < substring.length(); j++) {
+			if (i + j >= word.length())
+				break;
+			if (word.charAt(i + j) != substring.charAt(j)) {
+				break;
+			} else {
+				if (j == substring.length() - 1) {
+					return true;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+Your Answer: << X >>.
+
+
+
+public int lightgreen(int[] input) {
+    int result = input[0];
+
+    for (int i = 1; i < input.length; i++) {
+        if (input[i] > result) {
+            result = input[i]
+        }
+    }
+
+    return result
+}
+Your Answer: << X >>.
+
+
+
+public int buycp(int hawc, int cfbuncd) {
+	int product = hawc;
+	if (cfbuncd == 0)
+		return 1;
+
+	for (int i = 1; i < cfbuncd; i++) {
+		product = product * hawc;
+	}
+
+	return product;
+}
+Your Answer: << X >>.
+
+
+
+public boolean isPalindrome(String word) {
+    boolean isPalindrome = true; 
+
+    for (int i = 0, j = word.length -1; i < word.length() / 2; i++, j--) {
+        if (word.charAt(i) != word.charAt(j)) {
+            isPalindrome = false;
+            break;
+        }
+    }
+    
+    return isPalindrome
+}
+Your Answer: << X >>.
+
+
+
+public int[] doubleArray(int[] numbersArray) {
+    for (int i = 0, i < array.lenght(), i++) {
+        array[i] = array(i) * 2;
+    }
+
+    return array
+}
+Your Answer: << X >> << X >> << X >>.
+
+
+
+public int countSameCharsAtSamePositionTD(String word1, String word2) {
+	int shortestLength;
+
+	if (word1.length() < word2.length())
+		shortestLength = word1.length();
+	else
+		shortestLength = word2.length();
+
+	int sameCharsAtSamePosition = 0;
+
+	for (int i = 0; i < shortestLength; i++) {
+		if (word1.charAt(i) == word2.charAt(i)) {
+			sameCharsAtSamePosition++;
+		}
+	}
+
+	return sameCharsAtSamePosition;
+}
+Your Answer: << X >>.
+
+
+
+public String gold(string word1, strig word2) {
+    String result = """";
+
+    if (word1.length() == word2.length()) {
+        for (int i = 0; i < word1.length(); i++) {
+            result = result + word1.charAt(i) + word2.charAt(i);
+        }
+    }
+
+    return result;
+}
+Your Answer: << X >>.
+
+
+
+public Integer vsjihAzmfwHjwitmpx(int[] ngozwjAjjac, int htjwitmpx) {
+	for (int i = 0; i < ngozwjAjjac.length; i++) {
+		int ngozwjHmHwih = ngozwjAjjac[i];
+
+		if (ngozwjHmHwih > htjwitmpx) {
+			return ngozwjHmHwih;
+		}
+	}
+
+	return null;
+}
+Your Answer: << X >>.
+
+
+
+
+public double[] squareRoots(int[] numbers) {
+    double[] squareRootArray = new double[numbers.length];
+    for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] < 0) {
+            squareRootArray[i] = Math.sqrt(-1 * numbers[i]);
+        } else {
+            squareRootArray[i] = Math.sqrt(numbers[i]);
+        }
+    }
+    return squareRootArray;
+}
+
+Your Answer: << Y >>.
+
+
+
+public boolean containsSubstring(String word String substring) {
+    int index = word indexOf(substring)
+
+    if (index = -1) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+Your Answer: << X >> << X >>.
+
+",3,Peitek18

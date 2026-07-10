@@ -1,0 +1,15 @@
+text,snippet,experiment
+"
+ 
+
+
+int x = 10, y = 20;
+
+
+int x = 10;
+
+int y = 20;
+
+
+Your answer: << 1 >>.
+",task_p9,Medeiros19

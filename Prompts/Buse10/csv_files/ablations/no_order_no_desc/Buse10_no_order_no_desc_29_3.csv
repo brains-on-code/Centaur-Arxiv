@@ -1,0 +1,10 @@
+text,snippet,experiment
+"
+
+        boolean    hasReturnValue;
+
+        outlen = parameters.length;
+        offset = 0;
+
+Your answer: << 4 >>. 
+",29,Buse10

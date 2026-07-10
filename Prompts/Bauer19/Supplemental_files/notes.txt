@@ -1,0 +1,12 @@
+Study: Bauer19
+
+The paper analysis used the 22-participant randomized dataset, so I used:
+Supplemental_files/Results.csv - this is from the GitHub repo
+
+Participant answers were taken from the Result column.
+Participant IDs were taken from the SubjectID column.
+Task order was taken from the Number column.
+Snippet names were taken from the Snippet column.
+Indentation condition was taken from the Indentation column.
+
+Because the experiment manipulated indentation levels,  treated each Snippet + Indentation combination as a separate task, e.g. Do_indent0, Do_indent2, Do_indent4, Do_indent8.FORCE_READABLE_INDENTATION was set to False.

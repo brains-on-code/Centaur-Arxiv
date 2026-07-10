@@ -1,0 +1,14 @@
+text,snippet,experiment
+"
+
+
+void main() {
+   int V1 = 3;
+
+   for (int V2 = 0; V2 < 3; V2++) V1++; V1++;
+
+   printf(""%d\n"", V1);
+}
+
+Your answer: << 4 >>.
+",task_113,Gopstein17a

@@ -1,0 +1,26 @@
+text,snippet,experiment
+"You participate in a game as part of research in software engineering with the aim to measure the comprehension of different code snippets. 
+Note that the goal is to characterize the different code snippets, not to evaluate the programmers!
+During the game you will be given code snippets of varying difficulty drawn randomly from a pool. 
+There is a time limit for each question.
+Try to answer every question as quickly as possible (and of course correclty, but please think it out and do not guess!).
+Remember that your score depends on how fast and how correctly you answered. 
+The total time is expected to be about 15 minutes. 
+To answer a question type out the output of the code. 
+Assume that print() prints the output without spaces or new line.
+
+You see the code snippet:
+
+var x = 51;
+var a = [[0,10] , [20,30] , [40,50] , [60,70]];
+var tmp = ""1"";
+for (var i=0 ; i<a.length ; i++) {
+	if (x>a[i][0] && x<a[i][1]) {
+		tmp = ""2"";
+		break;
+	}
+}
+print(tmp);
+
+Your answer: <<Answer>>.
+",task_12,Ajami18
